@@ -1,4 +1,4 @@
-const UPDATE_TIME = "2026-07-02 17:42";
+const UPDATE_TIME = "2026-07-02 19:17";
 const THS_HOT = [
   {
     "name": "创新药",
@@ -21,26 +21,6 @@ const THS_HOT = [
     "code": "886110"
   },
   {
-    "name": "共封装光学(CPO)",
-    "rise": -5.1,
-    "rate": 0,
-    "tag": "",
-    "hotTag": "连续240天上榜",
-    "rankChg": 0,
-    "etfName": "创业板人工智能ETF",
-    "code": "886033"
-  },
-  {
-    "name": "存储芯片",
-    "rise": -5.67,
-    "rate": 0,
-    "tag": "3家涨停",
-    "hotTag": "连续193天上榜",
-    "rankChg": 0,
-    "etfName": "科创芯片ETF",
-    "code": "886042"
-  },
-  {
     "name": "人形机器人",
     "rise": -0.64,
     "rate": 0,
@@ -49,6 +29,26 @@ const THS_HOT = [
     "rankChg": 0,
     "etfName": "机器人ETF",
     "code": "886069"
+  },
+  {
+    "name": "存储芯片",
+    "rise": -5.67,
+    "rate": 0,
+    "tag": "3家涨停",
+    "hotTag": "连续193天上榜",
+    "rankChg": 0,
+    "etfName": "芯片ETF",
+    "code": "886042"
+  },
+  {
+    "name": "共封装光学(CPO)",
+    "rise": -5.1,
+    "rate": 0,
+    "tag": "",
+    "hotTag": "连续240天上榜",
+    "rankChg": 0,
+    "etfName": "创业板人工智能ETF",
+    "code": "886033"
   },
   {
     "name": "机器人概念",
@@ -77,7 +77,7 @@ const THS_HOT = [
     "tag": "7家涨停",
     "hotTag": "10天9次上榜",
     "rankChg": 0,
-    "etfName": "化工行业ETF",
+    "etfName": "化工ETF",
     "code": "885551"
   },
   {
@@ -96,7 +96,7 @@ const THS_HOT = [
     "rate": 0,
     "tag": "63家涨停",
     "hotTag": "连续78天上榜",
-    "rankChg": 1,
+    "rankChg": 0,
     "etfName": "",
     "code": "885699"
   },
@@ -106,7 +106,7 @@ const THS_HOT = [
     "rate": 0,
     "tag": "2家涨停",
     "hotTag": "连续63天上榜",
-    "rankChg": -1,
+    "rankChg": 0,
     "etfName": "消费电子ETF",
     "code": "885959"
   },
@@ -127,7 +127,7 @@ const THS_HOT = [
     "tag": "3家涨停",
     "hotTag": "10天9次上榜",
     "rankChg": 0,
-    "etfName": "畜牧养殖ETF",
+    "etfName": "养殖ETF",
     "code": "885573"
   },
   {
@@ -137,7 +137,7 @@ const THS_HOT = [
     "tag": "16家涨停",
     "hotTag": "连续64天上榜",
     "rankChg": 0,
-    "etfName": "半导体ETF",
+    "etfName": "芯片ETF",
     "code": "885756"
   },
   {
@@ -161,16 +161,6 @@ const THS_HOT = [
     "code": "885864"
   },
   {
-    "name": "AI应用",
-    "rise": -1.12,
-    "rate": 0,
-    "tag": "5家涨停",
-    "hotTag": "10天9次上榜",
-    "rankChg": 0,
-    "etfName": "软件ETF",
-    "code": "886108"
-  },
-  {
     "name": "算力租赁",
     "rise": -2.04,
     "rate": 0,
@@ -181,6 +171,26 @@ const THS_HOT = [
     "code": "886050"
   },
   {
+    "name": "AI应用",
+    "rise": -1.12,
+    "rate": 0,
+    "tag": "5家涨停",
+    "hotTag": "10天9次上榜",
+    "rankChg": 1,
+    "etfName": "创业板软件ETF",
+    "code": "886108"
+  },
+  {
+    "name": "海南自贸区",
+    "rise": 2.72,
+    "rate": 0,
+    "tag": "7家涨停",
+    "hotTag": "",
+    "rankChg": -1,
+    "etfName": "旅游ETF",
+    "code": "885894"
+  },
+  {
     "name": "稀土永磁",
     "rise": 1.01,
     "rate": 0,
@@ -189,16 +199,6 @@ const THS_HOT = [
     "rankChg": 0,
     "etfName": "稀土ETF",
     "code": "885343"
-  },
-  {
-    "name": "海南自贸区",
-    "rise": 2.72,
-    "rate": 0,
-    "tag": "7家涨停",
-    "hotTag": "",
-    "rankChg": 0,
-    "etfName": "旅游ETF",
-    "code": "885894"
   }
 ];
 const THS_EVENTS = [
