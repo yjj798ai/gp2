@@ -1,128 +1,18 @@
-const UPDATE_TIME = "2026-08-27 23:30";
+const UPDATE_TIME = "2026-08-28 08:40";
 const THS_HOT = [
   {
-    "name": "英伟达概念",
-    "rise": 3.95,
-    "rate": 0,
-    "tag": "3家涨停",
-    "hotTag": "",
-    "rankChg": 0,
-    "etfName": "科创创业人工智能ETF",
-    "code": "886048"
-  },
-  {
-    "name": "液冷服务器",
-    "rise": 3.15,
-    "rate": 0,
-    "tag": "6家涨停",
-    "hotTag": "10天8次上榜",
-    "rankChg": 0,
-    "etfName": "云计算ETF",
-    "code": "886044"
-  },
-  {
-    "name": "PCB概念",
-    "rise": 4.14,
-    "rate": 0,
-    "tag": "12家涨停",
-    "hotTag": "连续103天上榜",
-    "rankChg": 1,
-    "etfName": "消费电子ETF",
-    "code": "885959"
-  },
-  {
-    "name": "共封装光学(CPO)",
-    "rise": 4.47,
-    "rate": 0,
-    "tag": "8家涨停",
-    "hotTag": "连续280天上榜",
-    "rankChg": -1,
-    "etfName": "创业板人工智能ETF",
-    "code": "886033"
-  },
-  {
     "name": "创新药",
-    "rise": 1.03,
+    "rise": -1.09,
     "rate": 0,
-    "tag": "1家涨停",
+    "tag": "4家涨停",
     "hotTag": "连续110天上榜",
     "rankChg": 0,
     "etfName": "科创创新药ETF",
     "code": "886015"
   },
   {
-    "name": "网络安全",
-    "rise": 1.5,
-    "rate": 0,
-    "tag": "2家涨停",
-    "hotTag": "",
-    "rankChg": 0,
-    "etfName": "大数据ETF",
-    "code": "885459"
-  },
-  {
-    "name": "存储芯片",
-    "rise": 4.55,
-    "rate": 0,
-    "tag": "7家涨停",
-    "hotTag": "连续233天上榜",
-    "rankChg": 0,
-    "etfName": "芯片ETF",
-    "code": "886042"
-  },
-  {
-    "name": "光纤概念",
-    "rise": 4.09,
-    "rate": 0,
-    "tag": "7家涨停",
-    "hotTag": "连续109天上榜",
-    "rankChg": 0,
-    "etfName": "消费电子ETF",
-    "code": "886084"
-  },
-  {
-    "name": "AI应用",
-    "rise": 0.92,
-    "rate": 0,
-    "tag": "3家涨停",
-    "hotTag": "连续38天上榜",
-    "rankChg": 0,
-    "etfName": "软件ETF",
-    "code": "886108"
-  },
-  {
-    "name": "MLCC概念",
-    "rise": 4.1,
-    "rate": 0,
-    "tag": "1家涨停",
-    "hotTag": "连续20天上榜",
-    "rankChg": 0,
-    "etfName": "鹏华创新动力LOF",
-    "code": "886112"
-  },
-  {
-    "name": "数字货币",
-    "rise": 1.6,
-    "rate": 0,
-    "tag": "2家涨停",
-    "hotTag": "7天7次上榜",
-    "rankChg": 0,
-    "etfName": "金融科技ETF",
-    "code": "885866"
-  },
-  {
-    "name": "先进封装",
-    "rise": 4.29,
-    "rate": 0,
-    "tag": "6家涨停",
-    "hotTag": "",
-    "rankChg": 0,
-    "etfName": "芯片ETF",
-    "code": "886009"
-  },
-  {
     "name": "粮食概念",
-    "rise": 3.38,
+    "rise": 2.92,
     "rate": 0,
     "tag": "5家涨停",
     "hotTag": "10天10次上榜",
@@ -131,18 +21,28 @@ const THS_HOT = [
     "code": "885995"
   },
   {
-    "name": "芯片概念",
-    "rise": 3.1,
+    "name": "共封装光学(CPO)",
+    "rise": -1.14,
     "rate": 0,
-    "tag": "19家涨停",
-    "hotTag": "连续104天上榜",
+    "tag": "3家涨停",
+    "hotTag": "连续280天上榜",
     "rankChg": 0,
-    "etfName": "科创芯片ETF",
-    "code": "885756"
+    "etfName": "创业板人工智能ETF",
+    "code": "886033"
+  },
+  {
+    "name": "PCB概念",
+    "rise": -0.61,
+    "rate": 0,
+    "tag": "4家涨停",
+    "hotTag": "连续103天上榜",
+    "rankChg": 0,
+    "etfName": "消费电子ETF",
+    "code": "885959"
   },
   {
     "name": "黄金概念",
-    "rise": 0.99,
+    "rise": 1.46,
     "rate": 0,
     "tag": "3家涨停",
     "hotTag": "连续18天上榜",
@@ -151,130 +51,179 @@ const THS_HOT = [
     "code": "885530"
   },
   {
-    "name": "算力租赁",
-    "rise": 1.6,
+    "name": "AI应用",
+    "rise": 0.37,
     "rate": 0,
-    "tag": "3家涨停",
+    "tag": "9家涨停",
+    "hotTag": "连续38天上榜",
+    "rankChg": 0,
+    "etfName": "创业板软件ETF",
+    "code": "886108"
+  },
+  {
+    "name": "MLCC概念",
+    "rise": -0.44,
+    "rate": 0,
+    "tag": "1家涨停",
+    "hotTag": "连续20天上榜",
+    "rankChg": 0,
+    "etfName": "鹏华创新动力LOF",
+    "code": "886112"
+  },
+  {
+    "name": "转基因",
+    "rise": 2.93,
+    "rate": 0,
+    "tag": "2家涨停",
+    "hotTag": "10天9次上榜",
+    "rankChg": 0,
+    "etfName": "农牧渔ETF",
+    "code": "885877"
+  },
+  {
+    "name": "存储芯片",
+    "rise": -1.44,
+    "rate": 0,
+    "tag": "1家涨停",
+    "hotTag": "连续233天上榜",
+    "rankChg": 0,
+    "etfName": "芯片ETF",
+    "code": "886042"
+  },
+  {
+    "name": "英伟达概念",
+    "rise": -0.5,
+    "rate": 0,
+    "tag": "",
+    "hotTag": "",
+    "rankChg": 0,
+    "etfName": "智能汽车ETF",
+    "code": "886048"
+  },
+  {
+    "name": "液冷服务器",
+    "rise": -0.97,
+    "rate": 0,
+    "tag": "2家涨停",
+    "hotTag": "10天8次上榜",
+    "rankChg": 1,
+    "etfName": "云计算ETF",
+    "code": "886044"
+  },
+  {
+    "name": "光纤概念",
+    "rise": -1.06,
+    "rate": 0,
+    "tag": "",
+    "hotTag": "连续109天上榜",
+    "rankChg": -1,
+    "etfName": "消费电子ETF",
+    "code": "886084"
+  },
+  {
+    "name": "算力租赁",
+    "rise": -0.09,
+    "rate": 0,
+    "tag": "4家涨停",
     "hotTag": "连续144天上榜",
     "rankChg": 0,
     "etfName": "云计算ETF",
     "code": "886050"
   },
   {
-    "name": "国家大基金持股",
-    "rise": 4.63,
+    "name": "农业种植",
+    "rise": 2.24,
     "rate": 0,
-    "tag": "1家涨停",
-    "hotTag": "10天8次上榜",
+    "tag": "6家涨停",
+    "hotTag": "5天3次上榜",
     "rankChg": 0,
-    "etfName": "半导体ETF",
-    "code": "885893"
+    "etfName": "农业ETF",
+    "code": "885812"
+  },
+  {
+    "name": "供销社",
+    "rise": 3.05,
+    "rate": 0,
+    "tag": "2家涨停",
+    "hotTag": "首次上榜",
+    "rankChg": 0,
+    "etfName": "农业ETF",
+    "code": "886016"
+  },
+  {
+    "name": "化肥",
+    "rise": 3.02,
+    "rate": 0,
+    "tag": "6家涨停",
+    "hotTag": "首次上榜",
+    "rankChg": 0,
+    "etfName": "粮食ETF",
+    "code": "885967"
+  },
+  {
+    "name": "氟化工概念",
+    "rise": 0.74,
+    "rate": 0,
+    "tag": "3家涨停",
+    "hotTag": "首次上榜",
+    "rankChg": 0,
+    "etfName": "化工ETF",
+    "code": "885551"
   },
   {
     "name": "商业航天",
-    "rise": 2.24,
+    "rise": -0.12,
     "rate": 0,
-    "tag": "12家涨停",
+    "tag": "6家涨停",
     "hotTag": "连续209天上榜",
     "rankChg": 0,
     "etfName": "卫星ETF",
     "code": "886078"
   },
   {
-    "name": "云计算",
-    "rise": 1.52,
+    "name": "PEEK材料",
+    "rise": 1.48,
+    "rate": 0,
+    "tag": "2家涨停",
+    "hotTag": "首次上榜",
+    "rankChg": 0,
+    "etfName": "机器人ETF",
+    "code": "886063"
+  },
+  {
+    "name": "环氧丙烷",
+    "rise": 2.53,
     "rate": 0,
     "tag": "1家涨停",
     "hotTag": "",
     "rankChg": 0,
-    "etfName": "云计算ETF",
-    "code": "885362"
-  },
-  {
-    "name": "人工智能",
-    "rise": 1.04,
-    "rate": 0,
-    "tag": "8家涨停",
-    "hotTag": "10天8次上榜",
-    "rankChg": 0,
-    "etfName": "人工智能ETF",
-    "code": "885728"
+    "etfName": "化工ETF",
+    "code": "885903"
   }
 ];
 const THS_EVENTS = [
   {
-    "title": "英伟达财报来袭，Vera Rubin开始发货！",
+    "title": "黄金一度失守4590美元！两名美联储官员释放鹰派信号，市场聚焦主席沃什发言",
     "desc": "",
-    "heat": 827721,
-    "direction": "英伟达概念",
+    "heat": 530365,
+    "direction": "黄金",
     "themes": [
-      "英伟达概念",
-      "东数西算(算力)"
+      "贵金属",
+      "白银",
+      "黄金概念"
     ],
     "stocks": [
       {
-        "name": "赛微电子",
-        "code": "300456",
-        "chg": 20.012953
+        "name": "福达合金",
+        "code": "603045",
+        "chg": 9.994693
       }
     ]
   },
   {
-    "title": "PCB半年报\"量价齐升\"：高景气下的结构性分化",
+    "title": "“超强厄尔尼诺”“粮食概念”引关注！",
     "desc": "",
-    "heat": 606277,
-    "direction": "AI PCB",
-    "themes": [
-      "电子布",
-      "树脂",
-      "PCB铜箔",
-      "PCB设备",
-      "服务器PCB"
-    ],
-    "stocks": [
-      {
-        "name": "生益电子",
-        "code": "688183",
-        "chg": 14.316581
-      }
-    ]
-  },
-  {
-    "title": "国家统计局：1—7月份以算力芯片、存储芯片为代表的集成电路行业利润同比增长18.5倍",
-    "desc": "",
-    "heat": 601830,
-    "direction": "存储芯片",
-    "themes": [
-      "存储芯片"
-    ],
-    "stocks": [
-      {
-        "name": "大普微-UW",
-        "code": "301666",
-        "chg": 20.0
-      }
-    ]
-  },
-  {
-    "title": "200G高速迭代开启，CPO赛道迎来行情爆发",
-    "desc": "",
-    "heat": 595049,
-    "direction": "光模块/CPO",
-    "themes": [
-      "共封装光学(CPO)"
-    ],
-    "stocks": [
-      {
-        "name": "赛微电子",
-        "code": "300456",
-        "chg": 20.012953
-      }
-    ]
-  },
-  {
-    "title": "李强：全力夺取秋粮丰收 持续提升农业综合生产能力确保粮食安全",
-    "desc": "",
-    "heat": 394071,
+    "heat": 413666,
     "direction": "粮食",
     "themes": [
       "粮食概念",
@@ -285,215 +234,265 @@ const THS_EVENTS = [
     ],
     "stocks": [
       {
-        "name": "秋乐种业",
-        "code": "920087",
-        "chg": 14.690722
+        "name": "黑芝麻",
+        "code": "000716",
+        "chg": 10.097087
       }
     ]
   },
   {
-    "title": "上海发布战略性新兴产业发展“十五五”规划",
+    "title": "两部门印发文件：进一步加强知识产权数据资源开发利用",
     "desc": "",
-    "heat": 348847,
-    "direction": "高端科学仪器",
+    "heat": 148166,
+    "direction": "数据要素",
     "themes": [
-      "高端科学仪器"
+      "数据要素",
+      "数据安全"
     ],
     "stocks": [
       {
-        "name": "华盛昌",
-        "code": "002980",
-        "chg": 10.003234
+        "name": "麒麟信安",
+        "code": "688152",
+        "chg": 20.0
       }
     ]
   },
   {
-    "title": "宁德时代枧下窝矿复产进程，突生变数",
+    "title": "PTFE成英伟达Rubin Ultra正交背板主力选材",
     "desc": "",
-    "heat": 149548,
-    "direction": "锂矿",
+    "heat": 148090,
+    "direction": "PTFE材料",
     "themes": [
-      "锂矿/锂盐",
-      "宁德时代概念"
+      "PTFE材料"
     ],
     "stocks": [
       {
-        "name": "泛亚微透",
-        "code": "688386",
-        "chg": 12.613156
+        "name": "昊华科技",
+        "code": "600378",
+        "chg": 10.008254
       }
     ]
   },
   {
-    "title": "中国AI新星月之暗面谈判美国AI巨头，要分30%收入",
+    "title": "116 家公司发联名信，呼吁高度重视 AI 时代的网络安全",
     "desc": "",
-    "heat": 33075,
-    "direction": "Kimi",
+    "heat": 125466,
+    "direction": "网络安全",
     "themes": [
-      "Kimi"
+      "网络安全"
     ],
     "stocks": [
       {
-        "name": "易点天下",
-        "code": "301171",
-        "chg": 2.569343
+        "name": "麒麟信安",
+        "code": "688152",
+        "chg": 20.0
       }
     ]
   },
   {
-    "title": "日喀则市启动自然灾害救助一级应急响应",
+    "title": "消息称铠侠-闪迪计划建设北上市第三晶圆厂  项目投资额超 1 万亿日元",
     "desc": "",
-    "heat": 2322,
-    "direction": "基建工程",
+    "heat": 79106,
+    "direction": "存储芯片",
     "themes": [
-      "基建工程"
+      "存储芯片"
     ],
     "stocks": [
       {
-        "name": "节能铁汉",
-        "code": "300197",
-        "chg": 1.99005
+        "name": "麦捷科技",
+        "code": "300319",
+        "chg": 10.110585
+      }
+    ]
+  },
+  {
+    "title": "三星电机已调涨MLCC Q4报价，上调消费级X5R产品价格25%-30%",
+    "desc": "",
+    "heat": 68060,
+    "direction": "MLCC",
+    "themes": [
+      "MLCC概念"
+    ],
+    "stocks": [
+      {
+        "name": "深圳华强",
+        "code": "000062",
+        "chg": 10.004427
+      }
+    ]
+  },
+  {
+    "title": "氩气现货单日上涨6.45%至2475元/吨！",
+    "desc": "",
+    "heat": 3711,
+    "direction": "氩气",
+    "themes": [
+      "氩气"
+    ],
+    "stocks": [
+      {
+        "name": "杭氧股份",
+        "code": "002430",
+        "chg": 5.922921
+      }
+    ]
+  },
+  {
+    "title": "央视财经：国产算力芯片爆单 可能排期会排到一年之后",
+    "desc": "",
+    "heat": 1690,
+    "direction": "国产算力芯片",
+    "themes": [
+      "TPU",
+      "CPU",
+      "GPU"
+    ],
+    "stocks": [
+      {
+        "name": "科德教育",
+        "code": "300192",
+        "chg": 1.935484
       }
     ]
   }
 ];
 const XGT_HOT = [
   {
-    "name": "芯粒Chiplet",
-    "change": "+6.05%",
+    "name": "棉花",
+    "change": "+5.88%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "铜箔/覆铜板",
-    "change": "+5.64%",
-    "stock": "",
-    "stockChange": "",
-    "desc": ""
-  },
-  {
-    "name": "电子树脂",
-    "change": "+5.5%",
-    "stock": "",
-    "stockChange": "",
-    "desc": ""
-  },
-  {
-    "name": "CPU概念",
-    "change": "+5.35%",
-    "stock": "",
-    "stockChange": "",
-    "desc": ""
-  },
-  {
-    "name": "光电共封装CPO",
-    "change": "+5.15%",
-    "stock": "",
-    "stockChange": "",
-    "desc": ""
-  },
-  {
-    "name": "闪存",
-    "change": "+5.14%",
-    "stock": "",
-    "stockChange": "",
-    "desc": ""
-  },
-  {
-    "name": "陶瓷基板",
-    "change": "+5.12%",
-    "stock": "",
-    "stockChange": "",
-    "desc": ""
-  },
-  {
-    "name": "PTA",
-    "change": "+5.01%",
+    "name": "房产经纪",
+    "change": "+4.54%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
     "name": "白糖",
-    "change": "+5.01%",
+    "change": "+3.93%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "磷化铟",
-    "change": "+5.01%",
+    "name": "醋酸",
+    "change": "+3.9%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "内存",
-    "change": "+4.96%",
+    "name": "甲醇",
+    "change": "+3.83%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "光通信",
-    "change": "+4.92%",
+    "name": "制冷剂",
+    "change": "+3.53%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "PCB板",
-    "change": "+4.89%",
+    "name": "农业种植",
+    "change": "+3.5%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "赛马",
-    "change": "+4.83%",
+    "name": "染料",
+    "change": "+3.46%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "高带宽存储器HBM",
-    "change": "+4.81%",
+    "name": "林业",
+    "change": "+3.39%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "汽车芯片",
-    "change": "+4.76%",
+    "name": "转基因",
+    "change": "+3.26%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "纳米压印",
-    "change": "+4.71%",
+    "name": "化肥",
+    "change": "+3.11%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "玻纤",
-    "change": "+4.7%",
+    "name": "有色 · 锑",
+    "change": "+3.11%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "大基金概念",
-    "change": "+4.67%",
+    "name": "水产养殖",
+    "change": "+3.06%",
     "stock": "",
     "stockChange": "",
     "desc": ""
   },
   {
-    "name": "光纤概念",
-    "change": "+4.67%",
+    "name": "乙二醇",
+    "change": "+3.01%",
+    "stock": "",
+    "stockChange": "",
+    "desc": ""
+  },
+  {
+    "name": "PTA",
+    "change": "+2.97%",
+    "stock": "",
+    "stockChange": "",
+    "desc": ""
+  },
+  {
+    "name": "丁辛醇",
+    "change": "+2.96%",
+    "stock": "",
+    "stockChange": "",
+    "desc": ""
+  },
+  {
+    "name": "纯碱",
+    "change": "+2.94%",
+    "stock": "",
+    "stockChange": "",
+    "desc": ""
+  },
+  {
+    "name": "供销社",
+    "change": "+2.91%",
+    "stock": "",
+    "stockChange": "",
+    "desc": ""
+  },
+  {
+    "name": "大豆",
+    "change": "+2.87%",
+    "stock": "",
+    "stockChange": "",
+    "desc": ""
+  },
+  {
+    "name": "农垦",
+    "change": "+2.85%",
     "stock": "",
     "stockChange": "",
     "desc": ""
@@ -502,239 +501,52 @@ const XGT_HOT = [
 const PREV_RECOMMENDED = [];
 const CHEAP_STOCKS = [
   {
-    "code": "600103",
-    "name": "青山纸业",
-    "hot_rank": 5,
-    "hot_rank_chg": 5,
-    "stock_cnt": 5821,
-    "price": "3.82",
-    "change": "10.09",
-    "market_id": "17",
-    "circulate_market_value": "8451097000.00",
-    "change_type": "1",
-    "change_section": "3",
-    "change_days": "3",
-    "change_reason": "光模块",
-    "xgb_concepts": [
-      {
-        "name": "造纸",
-        "change_pct": 0.25
-      },
-      {
-        "name": "云计算数据中心",
-        "change_pct": 2.31
-      },
-      {
-        "name": "光通信",
-        "change_pct": 4.92
-      },
-      {
-        "name": "林业",
-        "change_pct": 2.38
-      },
-      {
-        "name": "军民融合",
-        "change_pct": 1.81
-      },
-      {
-        "name": "军工",
-        "change_pct": 1.75
-      },
-      {
-        "name": "人造肉",
-        "change_pct": 2.86
-      }
-    ]
-  },
-  {
-    "code": "600127",
-    "name": "金健米业",
-    "hot_rank": 9,
-    "hot_rank_chg": -2,
-    "stock_cnt": 5821,
-    "price": "10.78",
-    "change": "10.00",
-    "market_id": "17",
-    "circulate_market_value": "6918423100.00",
-    "change_type": "1",
-    "change_section": "9",
-    "change_days": "6",
-    "change_reason": "粮油食品",
-    "xgb_concepts": [
-      {
-        "name": "乳业（奶粉）",
-        "change_pct": 0.09
-      },
-      {
-        "name": "农业种植",
-        "change_pct": 4.54
-      },
-      {
-        "name": "强势人气股",
-        "change_pct": 3.32
-      },
-      {
-        "name": "湖南国企改革",
-        "change_pct": 1.55
-      },
-      {
-        "name": "乡村振兴",
-        "change_pct": 1.81
-      },
-      {
-        "name": "休闲食品",
-        "change_pct": 0.52
-      },
-      {
-        "name": "食品",
-        "change_pct": 0.93
-      },
-      {
-        "name": "食品安全",
-        "change_pct": 1.68
-      },
-      {
-        "name": "社区团购",
-        "change_pct": 1.65
-      },
-      {
-        "name": "大农业",
-        "change_pct": 1.66
-      },
-      {
-        "name": "预制菜",
-        "change_pct": 1.03
-      },
-      {
-        "name": "人造肉",
-        "change_pct": 2.86
-      },
-      {
-        "name": "国企改革",
-        "change_pct": 0.59
-      }
-    ]
-  },
-  {
     "code": "600613",
     "name": "神奇制药",
-    "hot_rank": 12,
-    "hot_rank_chg": -1,
-    "stock_cnt": 5821,
-    "price": "11.61",
-    "change": "10.05",
+    "hot_rank": 3,
+    "hot_rank_chg": 8,
+    "stock_cnt": 5799,
+    "price": "12.40",
+    "change": "6.80",
     "market_id": "17",
-    "circulate_market_value": "5564904900.00",
-    "change_type": "1",
-    "change_section": "11",
-    "change_days": "7",
-    "change_reason": "抗肿瘤",
+    "circulate_market_value": "5943567700.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
     "xgb_concepts": [
       {
         "name": "中药",
-        "change_pct": 1.15
+        "change_pct": -0.03
       },
       {
         "name": "强势人气股",
-        "change_pct": 3.32
+        "change_pct": 0.41
       },
       {
         "name": "医药商业",
-        "change_pct": 0.24
+        "change_pct": -0.08
       },
       {
         "name": "医药",
-        "change_pct": 1.06
+        "change_pct": -0.81
       },
       {
         "name": "流感",
-        "change_pct": 1.43
-      }
-    ]
-  },
-  {
-    "code": "002418",
-    "name": "康盛股份",
-    "hot_rank": 18,
-    "hot_rank_chg": 5,
-    "stock_cnt": 5821,
-    "price": "4.91",
-    "change": "10.09",
-    "market_id": "33",
-    "circulate_market_value": "5579724000.00",
-    "change_type": "1",
-    "change_section": "3",
-    "change_days": "3",
-    "change_reason": "液冷",
-    "xgb_concepts": [
-      {
-        "name": "无人驾驶",
-        "change_pct": 1.91
-      },
-      {
-        "name": "锂电池",
-        "change_pct": 1.3
-      },
-      {
-        "name": "石墨烯",
-        "change_pct": 1.6
-      },
-      {
-        "name": "新能源整车",
-        "change_pct": 0.62
-      },
-      {
-        "name": "云计算数据中心",
-        "change_pct": 2.31
-      },
-      {
-        "name": "汽车整车",
-        "change_pct": 0.19
-      },
-      {
-        "name": "新能源汽车",
-        "change_pct": 1.17
-      },
-      {
-        "name": "白色家电",
-        "change_pct": 0.9
-      },
-      {
-        "name": "家电",
-        "change_pct": 0.81
-      },
-      {
-        "name": "汽车热管理",
-        "change_pct": 1.64
-      },
-      {
-        "name": "热泵",
-        "change_pct": 2.83
-      },
-      {
-        "name": "轮边电机",
-        "change_pct": 0.32
-      },
-      {
-        "name": "超级电容",
-        "change_pct": 1.62
-      },
-      {
-        "name": "液冷服务器",
-        "change_pct": 3.55
+        "change_pct": -0.27
       }
     ]
   },
   {
     "code": "600664",
     "name": "哈药股份",
-    "hot_rank": 20,
-    "hot_rank_chg": -12,
-    "stock_cnt": 5821,
-    "price": "8.75",
-    "change": "6.97",
+    "hot_rank": 5,
+    "hot_rank_chg": 3,
+    "stock_cnt": 5799,
+    "price": "9.00",
+    "change": "2.86",
     "market_id": "17",
-    "circulate_market_value": "22036961000.00",
+    "circulate_market_value": "22666589000.00",
     "change_type": "",
     "change_section": "",
     "change_days": "",
@@ -742,455 +554,462 @@ const CHEAP_STOCKS = [
     "xgb_concepts": [
       {
         "name": "跨境电商",
-        "change_pct": 0.57
+        "change_pct": 0.95
+      },
+      {
+        "name": "密集调研",
+        "change_pct": -0.01
       },
       {
         "name": "工业大麻",
-        "change_pct": 1.43
+        "change_pct": 0.49
       },
       {
         "name": "中药",
-        "change_pct": 1.15
+        "change_pct": -0.03
       },
       {
         "name": "强势人气股",
-        "change_pct": 3.32
+        "change_pct": 0.41
       },
       {
         "name": "保健品",
-        "change_pct": 0.73
+        "change_pct": -0.4
       },
       {
         "name": "民营医院",
-        "change_pct": 0.68
+        "change_pct": -0.37
       },
       {
         "name": "医药",
-        "change_pct": 1.06
+        "change_pct": -0.81
       },
       {
         "name": "化学原料药",
-        "change_pct": 0.99
+        "change_pct": -0.69
       },
       {
         "name": "流感",
-        "change_pct": 1.43
+        "change_pct": -0.27
       },
       {
         "name": "振兴东北",
-        "change_pct": 0.35
+        "change_pct": 0.55
       },
       {
         "name": "食品",
-        "change_pct": 0.93
+        "change_pct": 0.98
+      }
+    ]
+  },
+  {
+    "code": "002418",
+    "name": "康盛股份",
+    "hot_rank": 6,
+    "hot_rank_chg": 17,
+    "stock_cnt": 5799,
+    "price": "4.90",
+    "change": "-0.20",
+    "market_id": "33",
+    "circulate_market_value": "5568360000.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "无人驾驶",
+        "change_pct": -0.4
+      },
+      {
+        "name": "锂电池",
+        "change_pct": -0.13
+      },
+      {
+        "name": "石墨烯",
+        "change_pct": 0.76
+      },
+      {
+        "name": "新能源整车",
+        "change_pct": 0.61
+      },
+      {
+        "name": "云计算数据中心",
+        "change_pct": -0.4
+      },
+      {
+        "name": "汽车整车",
+        "change_pct": 0.72
+      },
+      {
+        "name": "新能源汽车",
+        "change_pct": -0.24
+      },
+      {
+        "name": "白色家电",
+        "change_pct": 0.33
+      },
+      {
+        "name": "家电",
+        "change_pct": 0.16
+      },
+      {
+        "name": "汽车热管理",
+        "change_pct": -0.67
+      },
+      {
+        "name": "热泵",
+        "change_pct": -0.21
+      },
+      {
+        "name": "轮边电机",
+        "change_pct": 0.12
+      },
+      {
+        "name": "超级电容",
+        "change_pct": -0.54
+      },
+      {
+        "name": "液冷服务器",
+        "change_pct": -1.32
+      }
+    ]
+  },
+  {
+    "code": "600127",
+    "name": "金健米业",
+    "hot_rank": 8,
+    "hot_rank_chg": -1,
+    "stock_cnt": 5799,
+    "price": "11.77",
+    "change": "9.18",
+    "market_id": "17",
+    "circulate_market_value": "7553788500.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "乳业（奶粉）",
+        "change_pct": 1.77
+      },
+      {
+        "name": "农业种植",
+        "change_pct": 3.5
+      },
+      {
+        "name": "强势人气股",
+        "change_pct": 0.41
+      },
+      {
+        "name": "湖南国企改革",
+        "change_pct": 1.41
+      },
+      {
+        "name": "乡村振兴",
+        "change_pct": 1.53
+      },
+      {
+        "name": "休闲食品",
+        "change_pct": 1.5
+      },
+      {
+        "name": "食品",
+        "change_pct": 0.98
+      },
+      {
+        "name": "食品安全",
+        "change_pct": 0.07
+      },
+      {
+        "name": "社区团购",
+        "change_pct": 1.87
+      },
+      {
+        "name": "大农业",
+        "change_pct": 1.81
+      },
+      {
+        "name": "预制菜",
+        "change_pct": 1.62
+      },
+      {
+        "name": "人造肉",
+        "change_pct": 1.79
+      },
+      {
+        "name": "国企改革",
+        "change_pct": 0.79
+      }
+    ]
+  },
+  {
+    "code": "002354",
+    "name": "天娱数科",
+    "hot_rank": 9,
+    "hot_rank_chg": 147,
+    "stock_cnt": 5799,
+    "price": "7.85",
+    "change": "9.94",
+    "market_id": "33",
+    "circulate_market_value": "12771901200.00",
+    "change_type": "1",
+    "change_section": 1,
+    "change_days": 1,
+    "change_reason": "AI营销",
+    "xgb_concepts": [
+      {
+        "name": "跨境电商",
+        "change_pct": 0.95
+      },
+      {
+        "name": "电竞",
+        "change_pct": 0.29
+      },
+      {
+        "name": "手游",
+        "change_pct": 0.33
+      },
+      {
+        "name": "强势人气股",
+        "change_pct": 0.41
+      },
+      {
+        "name": "人工智能",
+        "change_pct": -0.03
+      },
+      {
+        "name": "游戏",
+        "change_pct": 0.24
+      },
+      {
+        "name": "独角兽",
+        "change_pct": 0.85
+      },
+      {
+        "name": "数字经济",
+        "change_pct": 0.38
+      },
+      {
+        "name": "腾讯概念股",
+        "change_pct": 0.15
+      },
+      {
+        "name": "快手概念股",
+        "change_pct": 0.59
+      },
+      {
+        "name": "元宇宙",
+        "change_pct": 0.27
+      },
+      {
+        "name": "虚拟数字人",
+        "change_pct": 0.27
+      },
+      {
+        "name": "东数西算/算力",
+        "change_pct": -0.11
+      },
+      {
+        "name": "web3.0",
+        "change_pct": 0.4
+      },
+      {
+        "name": "AIGC概念",
+        "change_pct": 0.54
+      },
+      {
+        "name": "数据要素",
+        "change_pct": 0.38
+      },
+      {
+        "name": "字节跳动概念股",
+        "change_pct": 0.52
+      },
+      {
+        "name": "AI营销",
+        "change_pct": 1.21
+      },
+      {
+        "name": "ChatGPT",
+        "change_pct": 1.06
+      },
+      {
+        "name": "智能眼镜/MR头显",
+        "change_pct": -0.5
+      },
+      {
+        "name": "AI大模型/智能体",
+        "change_pct": 0.25
+      },
+      {
+        "name": "人形机器人",
+        "change_pct": -0.91
+      },
+      {
+        "name": "短剧/互动影游",
+        "change_pct": 0.25
+      },
+      {
+        "name": "多模态",
+        "change_pct": 0.13
+      },
+      {
+        "name": "AI视频",
+        "change_pct": 0.39
+      },
+      {
+        "name": "IP经济/谷子经济",
+        "change_pct": 0.78
+      },
+      {
+        "name": "小红书概念股",
+        "change_pct": 0.59
+      }
+    ]
+  },
+  {
+    "code": "600103",
+    "name": "青山纸业",
+    "hot_rank": 10,
+    "hot_rank_chg": 0,
+    "stock_cnt": 5799,
+    "price": "3.85",
+    "change": "0.79",
+    "market_id": "17",
+    "circulate_market_value": "8517466800.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "造纸",
+        "change_pct": 0.82
+      },
+      {
+        "name": "云计算数据中心",
+        "change_pct": -0.4
+      },
+      {
+        "name": "光通信",
+        "change_pct": -1.16
+      },
+      {
+        "name": "林业",
+        "change_pct": 3.39
+      },
+      {
+        "name": "军民融合",
+        "change_pct": 0.02
+      },
+      {
+        "name": "军工",
+        "change_pct": 0.11
+      },
+      {
+        "name": "人造肉",
+        "change_pct": 1.79
       }
     ]
   },
   {
     "code": "000017",
     "name": "深中华A",
-    "hot_rank": 22,
-    "hot_rank_chg": 2,
-    "stock_cnt": 5821,
-    "price": "10.41",
-    "change": "10.04",
+    "hot_rank": 16,
+    "hot_rank_chg": 8,
+    "stock_cnt": 5799,
+    "price": "11.45",
+    "change": "9.99",
     "market_id": "33",
-    "circulate_market_value": "4588956500.00",
+    "circulate_market_value": "5047411300.00",
     "change_type": "1",
-    "change_section": "6",
-    "change_days": "6",
+    "change_section": "7",
+    "change_days": "7",
     "change_reason": "黄金珠宝",
     "xgb_concepts": [
       {
         "name": "深圳本地股",
-        "change_pct": 1.6
+        "change_pct": 1.37
       },
       {
         "name": "锂电池",
-        "change_pct": 1.3
+        "change_pct": -0.13
       },
       {
         "name": "强势人气股",
-        "change_pct": 3.32
+        "change_pct": 0.41
       },
       {
         "name": "新能源汽车",
-        "change_pct": 1.17
+        "change_pct": -0.24
       },
       {
         "name": "两轮车",
-        "change_pct": 0.69
+        "change_pct": -0.36
       },
       {
         "name": "珠宝饰品",
-        "change_pct": 0.71
+        "change_pct": 2.3
       }
     ]
   },
   {
-    "code": "000725",
-    "name": "京东方A",
-    "hot_rank": 31,
-    "hot_rank_chg": -4,
-    "stock_cnt": 5821,
-    "price": "5.94",
-    "change": "3.85",
+    "code": "002165",
+    "name": "红宝丽",
+    "hot_rank": 20,
+    "hot_rank_chg": 156,
+    "stock_cnt": 5799,
+    "price": "8.37",
+    "change": "9.99",
     "market_id": "33",
-    "circulate_market_value": "210080780000.00",
-    "change_type": "",
-    "change_section": "",
-    "change_days": "",
-    "change_reason": "",
-    "xgb_concepts": [
-      {
-        "name": "折叠屏",
-        "change_pct": 2.88
-      },
-      {
-        "name": "手机产业链",
-        "change_pct": 3.05
-      },
-      {
-        "name": "超高清视频",
-        "change_pct": 1.76
-      },
-      {
-        "name": "苹果产业链",
-        "change_pct": 3.01
-      },
-      {
-        "name": "电竞",
-        "change_pct": 0.17
-      },
-      {
-        "name": "半导体",
-        "change_pct": 4.42
-      },
-      {
-        "name": "人工智能",
-        "change_pct": 1.18
-      },
-      {
-        "name": "互联网医疗",
-        "change_pct": 0.56
-      },
-      {
-        "name": "VR&AR",
-        "change_pct": 2.21
-      },
-      {
-        "name": "OLED",
-        "change_pct": 2.95
-      },
-      {
-        "name": "京津冀",
-        "change_pct": 0.59
-      },
-      {
-        "name": "物联网",
-        "change_pct": 1.36
-      },
-      {
-        "name": "指纹识别",
-        "change_pct": 2.56
-      },
-      {
-        "name": "汽车零部件",
-        "change_pct": 0.88
-      },
-      {
-        "name": "白马股",
-        "change_pct": 0.4
-      },
-      {
-        "name": "智能制造",
-        "change_pct": 1.62
-      },
-      {
-        "name": "小米概念股",
-        "change_pct": 2.87
-      },
-      {
-        "name": "国产芯片",
-        "change_pct": 3.92
-      },
-      {
-        "name": "液晶面板/LCD",
-        "change_pct": 2.67
-      },
-      {
-        "name": "全息概念",
-        "change_pct": 0.84
-      },
-      {
-        "name": "理想汽车概念股",
-        "change_pct": 1.47
-      },
-      {
-        "name": "MicroLED",
-        "change_pct": 3.45
-      },
-      {
-        "name": "钙钛矿电池",
-        "change_pct": 0.64
-      },
-      {
-        "name": "智能手表",
-        "change_pct": 2.25
-      },
-      {
-        "name": "MiniLED",
-        "change_pct": 2.79
-      },
-      {
-        "name": "传感器",
-        "change_pct": 2.87
-      },
-      {
-        "name": "大硅片",
-        "change_pct": 4.38
-      },
-      {
-        "name": "AI PC",
-        "change_pct": 2.57
-      },
-      {
-        "name": "华为产业链",
-        "change_pct": 1.96
-      },
-      {
-        "name": "回购",
-        "change_pct": 0.86
-      },
-      {
-        "name": "光电共封装CPO",
-        "change_pct": 5.15
-      },
-      {
-        "name": "智能眼镜/MR头显",
-        "change_pct": 2.86
-      },
-      {
-        "name": "玻璃基板封装",
-        "change_pct": 3.91
-      }
-    ]
-  },
-  {
-    "code": "600371",
-    "name": "万向德农",
-    "hot_rank": 39,
-    "hot_rank_chg": 16,
-    "stock_cnt": 5821,
-    "price": "10.49",
-    "change": "9.96",
-    "market_id": "17",
-    "circulate_market_value": "3069143200.00",
-    "change_type": "1",
-    "change_section": "8",
-    "change_days": "5",
-    "change_reason": "转基因玉米",
-    "xgb_concepts": [
-      {
-        "name": "农业种植",
-        "change_pct": 4.54
-      },
-      {
-        "name": "强势人气股",
-        "change_pct": 3.32
-      },
-      {
-        "name": "转基因",
-        "change_pct": 4.21
-      },
-      {
-        "name": "乡村振兴",
-        "change_pct": 1.81
-      },
-      {
-        "name": "大农业",
-        "change_pct": 1.66
-      }
-    ]
-  },
-  {
-    "code": "000592",
-    "name": "平潭发展",
-    "hot_rank": 49,
-    "hot_rank_chg": 9,
-    "stock_cnt": 5821,
-    "price": "6.81",
-    "change": "10.02",
-    "market_id": "33",
-    "circulate_market_value": "13041779600.00",
+    "circulate_market_value": "6091396400.00",
     "change_type": "1",
     "change_section": 1,
     "change_days": 1,
-    "change_reason": "林业",
+    "change_reason": "环氧丙烷",
     "xgb_concepts": [
       {
-        "name": "福建自贸/海西概念",
-        "change_pct": 0.87
-      },
-      {
-        "name": "林业",
-        "change_pct": 2.38
-      },
-      {
-        "name": "碳中和",
-        "change_pct": 0.23
-      },
-      {
-        "name": "自贸区",
-        "change_pct": 0.27
-      }
-    ]
-  },
-  {
-    "code": "002081",
-    "name": "金螳螂",
-    "hot_rank": 50,
-    "hot_rank_chg": -17,
-    "stock_cnt": 5821,
-    "price": "5.69",
-    "change": "0.53",
-    "market_id": "33",
-    "circulate_market_value": "15093013000.00",
-    "change_type": "",
-    "change_section": "",
-    "change_days": "",
-    "change_reason": "",
-    "xgb_concepts": [
-      {
-        "name": "强势人气股",
-        "change_pct": 3.32
-      },
-      {
-        "name": "云计算数据中心",
-        "change_pct": 2.31
-      },
-      {
-        "name": "装修装饰",
-        "change_pct": 0.32
+        "name": "冷链",
+        "change_pct": 0.51
       },
       {
         "name": "装配式建筑",
-        "change_pct": -0.01
+        "change_pct": 1.05
       },
       {
-        "name": "航天",
-        "change_pct": 2.43
+        "name": "风电",
+        "change_pct": -0.44
+      },
+      {
+        "name": "环氧丙烷",
+        "change_pct": 2.52
+      },
+      {
+        "name": "乡村振兴",
+        "change_pct": 1.53
+      },
+      {
+        "name": "建筑节能",
+        "change_pct": 1.19
       },
       {
         "name": "旧改",
-        "change_pct": 0.17
-      }
-    ]
-  },
-  {
-    "code": "000712",
-    "name": "锦龙股份",
-    "hot_rank": 53,
-    "hot_rank_chg": 7,
-    "stock_cnt": 5821,
-    "price": "10.73",
-    "change": "10.05",
-    "market_id": "33",
-    "circulate_market_value": "9611227200.00",
-    "change_type": "1",
-    "change_section": "2",
-    "change_days": "2",
-    "change_reason": "证券业务",
-    "xgb_concepts": [
-      {
-        "name": "股权转让",
-        "change_pct": 1.17
-      },
-      {
-        "name": "期货概念",
-        "change_pct": 3.65
-      },
-      {
-        "name": "券商",
-        "change_pct": 1.66
-      },
-      {
-        "name": "大金融",
-        "change_pct": 0.12
-      },
-      {
-        "name": "东数西算/算力",
-        "change_pct": 1.85
-      }
-    ]
-  },
-  {
-    "code": "600479",
-    "name": "千金药业",
-    "hot_rank": 56,
-    "hot_rank_chg": 8,
-    "stock_cnt": 5821,
-    "price": "12.12",
-    "change": "9.98",
-    "market_id": "17",
-    "circulate_market_value": "5072306300.00",
-    "change_type": "1",
-    "change_section": "2",
-    "change_days": "2",
-    "change_reason": "业绩增长",
-    "xgb_concepts": [
-      {
-        "name": "社保重仓",
-        "change_pct": 0.98
-      },
-      {
-        "name": "中药",
-        "change_pct": 1.15
-      },
-      {
-        "name": "优化生育（三孩）",
-        "change_pct": 0.31
-      },
-      {
-        "name": "农业种植",
-        "change_pct": 4.54
-      },
-      {
-        "name": "人工智能",
-        "change_pct": 1.18
-      },
-      {
-        "name": "湖南国企改革",
-        "change_pct": 1.55
-      },
-      {
-        "name": "医药",
-        "change_pct": 1.06
-      },
-      {
-        "name": "流感",
-        "change_pct": 1.43
-      },
-      {
-        "name": "大农业",
-        "change_pct": 1.66
-      },
-      {
-        "name": "国企改革",
-        "change_pct": 0.59
+        "change_pct": 0.95
       }
     ]
   },
   {
     "code": "600186",
     "name": "莲花控股",
-    "hot_rank": 59,
-    "hot_rank_chg": -2,
-    "stock_cnt": 5821,
-    "price": "11.69",
-    "change": "3.00",
+    "hot_rank": 29,
+    "hot_rank_chg": 28,
+    "stock_cnt": 5799,
+    "price": "11.94",
+    "change": "2.14",
     "market_id": "17",
-    "circulate_market_value": "20915027000.00",
+    "circulate_market_value": "21362311000.00",
     "change_type": "",
     "change_section": "",
     "change_days": "",
@@ -1198,68 +1017,648 @@ const CHEAP_STOCKS = [
     "xgb_concepts": [
       {
         "name": "调味品",
-        "change_pct": 0.85
+        "change_pct": 1.93
       },
       {
         "name": "纯碱",
-        "change_pct": 0.44
+        "change_pct": 2.94
       },
       {
         "name": "食品",
-        "change_pct": 0.93
+        "change_pct": 0.98
       },
       {
         "name": "土壤修复",
-        "change_pct": 0.51
+        "change_pct": 0.61
       },
       {
         "name": "东数西算/算力",
-        "change_pct": 1.85
+        "change_pct": -0.11
       },
       {
         "name": "OpenClaw概念",
-        "change_pct": 1.87
+        "change_pct": 0.03
       },
       {
         "name": "DeepSeek概念股",
-        "change_pct": 1.53
+        "change_pct": 0.51
+      }
+    ]
+  },
+  {
+    "code": "601360",
+    "name": "三六零",
+    "hot_rank": 35,
+    "hot_rank_chg": 356,
+    "stock_cnt": 5799,
+    "price": "9.30",
+    "change": "6.65",
+    "market_id": "17",
+    "circulate_market_value": "65095888000.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "车联网/车路云",
+        "change_pct": 0.23
+      },
+      {
+        "name": "国产软件",
+        "change_pct": 0.41
+      },
+      {
+        "name": "手游",
+        "change_pct": 0.33
+      },
+      {
+        "name": "人工智能",
+        "change_pct": -0.03
+      },
+      {
+        "name": "网络安全",
+        "change_pct": 0.27
+      },
+      {
+        "name": "物联网",
+        "change_pct": -0.27
+      },
+      {
+        "name": "大数据",
+        "change_pct": 0.19
+      },
+      {
+        "name": "智慧城市",
+        "change_pct": 0.07
+      },
+      {
+        "name": "智慧安防",
+        "change_pct": 0.42
+      },
+      {
+        "name": "国产操作系统",
+        "change_pct": 0.92
+      },
+      {
+        "name": "东数西算/算力",
+        "change_pct": -0.11
+      },
+      {
+        "name": "华为海思",
+        "change_pct": -0.14
+      },
+      {
+        "name": "华为鸿蒙",
+        "change_pct": 0.47
+      },
+      {
+        "name": "AI营销",
+        "change_pct": 1.21
+      },
+      {
+        "name": "词元概念/Token",
+        "change_pct": 0.25
+      },
+      {
+        "name": "华为产业链",
+        "change_pct": -0.13
+      },
+      {
+        "name": "ChatGPT",
+        "change_pct": 1.06
+      },
+      {
+        "name": "AI大模型/智能体",
+        "change_pct": 0.25
+      },
+      {
+        "name": "多模态",
+        "change_pct": 0.13
+      },
+      {
+        "name": "DeepSeek概念股",
+        "change_pct": 0.51
+      },
+      {
+        "name": "区块链",
+        "change_pct": 0.26
+      }
+    ]
+  },
+  {
+    "code": "002081",
+    "name": "金螳螂",
+    "hot_rank": 36,
+    "hot_rank_chg": -3,
+    "stock_cnt": 5799,
+    "price": "5.60",
+    "change": "-1.58",
+    "market_id": "33",
+    "circulate_market_value": "14854283000.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "强势人气股",
+        "change_pct": 0.41
+      },
+      {
+        "name": "云计算数据中心",
+        "change_pct": -0.4
+      },
+      {
+        "name": "装修装饰",
+        "change_pct": 0.95
+      },
+      {
+        "name": "装配式建筑",
+        "change_pct": 1.05
+      },
+      {
+        "name": "航天",
+        "change_pct": -0.23
+      },
+      {
+        "name": "旧改",
+        "change_pct": 0.95
+      }
+    ]
+  },
+  {
+    "code": "000725",
+    "name": "京东方A",
+    "hot_rank": 39,
+    "hot_rank_chg": -12,
+    "stock_cnt": 5799,
+    "price": "5.92",
+    "change": "-0.34",
+    "market_id": "33",
+    "circulate_market_value": "209373430000.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "折叠屏",
+        "change_pct": -1.17
+      },
+      {
+        "name": "手机产业链",
+        "change_pct": -0.69
+      },
+      {
+        "name": "超高清视频",
+        "change_pct": -0.22
+      },
+      {
+        "name": "苹果产业链",
+        "change_pct": -1.1
+      },
+      {
+        "name": "电竞",
+        "change_pct": 0.29
+      },
+      {
+        "name": "半导体",
+        "change_pct": -1.46
+      },
+      {
+        "name": "人工智能",
+        "change_pct": -0.03
+      },
+      {
+        "name": "互联网医疗",
+        "change_pct": -0.15
+      },
+      {
+        "name": "VR&AR",
+        "change_pct": -0.36
+      },
+      {
+        "name": "OLED",
+        "change_pct": -0.39
+      },
+      {
+        "name": "京津冀",
+        "change_pct": 0.54
+      },
+      {
+        "name": "物联网",
+        "change_pct": -0.27
+      },
+      {
+        "name": "指纹识别",
+        "change_pct": -1.29
+      },
+      {
+        "name": "汽车零部件",
+        "change_pct": -0.27
+      },
+      {
+        "name": "白马股",
+        "change_pct": 0.14
+      },
+      {
+        "name": "智能制造",
+        "change_pct": -0.27
+      },
+      {
+        "name": "小米概念股",
+        "change_pct": -0.54
+      },
+      {
+        "name": "国产芯片",
+        "change_pct": -1.01
+      },
+      {
+        "name": "液晶面板/LCD",
+        "change_pct": -0.52
+      },
+      {
+        "name": "全息概念",
+        "change_pct": -0.21
+      },
+      {
+        "name": "理想汽车概念股",
+        "change_pct": -0.75
+      },
+      {
+        "name": "MicroLED",
+        "change_pct": -0.78
+      },
+      {
+        "name": "钙钛矿电池",
+        "change_pct": 0.46
+      },
+      {
+        "name": "智能手表",
+        "change_pct": -1.01
+      },
+      {
+        "name": "MiniLED",
+        "change_pct": -0.63
+      },
+      {
+        "name": "传感器",
+        "change_pct": -0.53
+      },
+      {
+        "name": "大硅片",
+        "change_pct": -2.42
+      },
+      {
+        "name": "AI PC",
+        "change_pct": -0.73
+      },
+      {
+        "name": "华为产业链",
+        "change_pct": -0.13
+      },
+      {
+        "name": "回购",
+        "change_pct": 0.06
+      },
+      {
+        "name": "光电共封装CPO",
+        "change_pct": -1.34
+      },
+      {
+        "name": "智能眼镜/MR头显",
+        "change_pct": -0.5
+      },
+      {
+        "name": "玻璃基板封装",
+        "change_pct": -0.86
+      }
+    ]
+  },
+  {
+    "code": "600162",
+    "name": "香江控股",
+    "hot_rank": 44,
+    "hot_rank_chg": 54,
+    "stock_cnt": 5799,
+    "price": "5.36",
+    "change": "10.06",
+    "market_id": "17",
+    "circulate_market_value": "17518828000.00",
+    "change_type": "1",
+    "change_section": "2",
+    "change_days": "2",
+    "change_reason": "中报减亏",
+    "xgb_concepts": [
+      {
+        "name": "房地产",
+        "change_pct": 1.33
+      },
+      {
+        "name": "养老产业",
+        "change_pct": 0.34
+      },
+      {
+        "name": "粤港澳大湾区",
+        "change_pct": 1.32
+      },
+      {
+        "name": "民营医院",
+        "change_pct": -0.37
+      },
+      {
+        "name": "地摊经济",
+        "change_pct": 1.06
+      }
+    ]
+  },
+  {
+    "code": "002131",
+    "name": "利欧股份",
+    "hot_rank": 56,
+    "hot_rank_chg": 60,
+    "stock_cnt": 5799,
+    "price": "4.60",
+    "change": "0.22",
+    "market_id": "33",
+    "circulate_market_value": "26932066000.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "高管增持",
+        "change_pct": 0.14
+      },
+      {
+        "name": "人工智能",
+        "change_pct": -0.03
+      },
+      {
+        "name": "云计算数据中心",
+        "change_pct": -0.4
+      },
+      {
+        "name": "水利",
+        "change_pct": 0.49
+      },
+      {
+        "name": "直播/短视频",
+        "change_pct": 0.39
+      },
+      {
+        "name": "大数据",
+        "change_pct": 0.19
+      },
+      {
+        "name": "园林",
+        "change_pct": 0.17
+      },
+      {
+        "name": "独角兽",
+        "change_pct": 0.85
+      },
+      {
+        "name": "小米概念股",
+        "change_pct": -0.54
+      },
+      {
+        "name": "数字经济",
+        "change_pct": 0.38
+      },
+      {
+        "name": "腾讯概念股",
+        "change_pct": 0.15
+      },
+      {
+        "name": "理想汽车概念股",
+        "change_pct": -0.75
+      },
+      {
+        "name": "第三代半导体",
+        "change_pct": -1.69
+      },
+      {
+        "name": "快手概念股",
+        "change_pct": 0.59
+      },
+      {
+        "name": "IGBT",
+        "change_pct": -0.59
+      },
+      {
+        "name": "虚拟数字人",
+        "change_pct": 0.27
+      },
+      {
+        "name": "AIGC概念",
+        "change_pct": 0.54
+      },
+      {
+        "name": "字节跳动概念股",
+        "change_pct": 0.52
+      },
+      {
+        "name": "氮化镓",
+        "change_pct": -1.38
+      },
+      {
+        "name": "AI营销",
+        "change_pct": 1.21
+      },
+      {
+        "name": "AI大模型/智能体",
+        "change_pct": 0.25
+      },
+      {
+        "name": "多模态",
+        "change_pct": 0.13
+      },
+      {
+        "name": "液冷服务器",
+        "change_pct": -1.32
+      },
+      {
+        "name": "小红书概念股",
+        "change_pct": 0.59
+      },
+      {
+        "name": "区块链",
+        "change_pct": 0.26
+      }
+    ]
+  },
+  {
+    "code": "000712",
+    "name": "锦龙股份",
+    "hot_rank": 57,
+    "hot_rank_chg": 3,
+    "stock_cnt": 5799,
+    "price": "11.80",
+    "change": "9.97",
+    "market_id": "33",
+    "circulate_market_value": "10569662700.00",
+    "change_type": "1",
+    "change_section": "3",
+    "change_days": "3",
+    "change_reason": "证券业务",
+    "xgb_concepts": [
+      {
+        "name": "股权转让",
+        "change_pct": 0.11
+      },
+      {
+        "name": "期货概念",
+        "change_pct": -0.69
+      },
+      {
+        "name": "券商",
+        "change_pct": -0.0
+      },
+      {
+        "name": "大金融",
+        "change_pct": -0.46
+      },
+      {
+        "name": "东数西算/算力",
+        "change_pct": -0.11
+      }
+    ]
+  },
+  {
+    "code": "003032",
+    "name": "传智教育",
+    "hot_rank": 61,
+    "hot_rank_chg": 53,
+    "stock_cnt": 5799,
+    "price": "10.44",
+    "change": "-0.10",
+    "market_id": "33",
+    "circulate_market_value": "2969988000.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "筹码集中",
+        "change_pct": 0.96
+      },
+      {
+        "name": "ST摘帽",
+        "change_pct": 0.32
+      },
+      {
+        "name": "强势人气股",
+        "change_pct": 0.41
+      },
+      {
+        "name": "教育",
+        "change_pct": 0.82
+      },
+      {
+        "name": "阿里巴巴概念股",
+        "change_pct": 0.32
+      },
+      {
+        "name": "职业教育",
+        "change_pct": 0.89
+      },
+      {
+        "name": "在线教育",
+        "change_pct": 0.44
+      },
+      {
+        "name": "华为鸿蒙",
+        "change_pct": 0.47
+      },
+      {
+        "name": "华为产业链",
+        "change_pct": -0.13
+      },
+      {
+        "name": "智谱AI",
+        "change_pct": 0.19
+      }
+    ]
+  },
+  {
+    "code": "603330",
+    "name": "天洋新材",
+    "hot_rank": 63,
+    "hot_rank_chg": 65,
+    "stock_cnt": 5799,
+    "price": "11.02",
+    "change": "1.38",
+    "market_id": "17",
+    "circulate_market_value": "4768063600.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "股权转让",
+        "change_pct": 0.11
+      },
+      {
+        "name": "强势人气股",
+        "change_pct": 0.41
+      },
+      {
+        "name": "光伏",
+        "change_pct": 0.3
+      },
+      {
+        "name": "无线耳机",
+        "change_pct": -0.38
+      },
+      {
+        "name": "华为产业链",
+        "change_pct": -0.13
+      },
+      {
+        "name": "光伏胶膜",
+        "change_pct": 1.47
       }
     ]
   },
   {
     "code": "000890",
     "name": "法尔胜",
-    "hot_rank": 62,
-    "hot_rank_chg": 12,
-    "stock_cnt": 5821,
-    "price": "8.78",
-    "change": "10.03",
+    "hot_rank": 65,
+    "hot_rank_chg": 9,
+    "stock_cnt": 5799,
+    "price": "8.60",
+    "change": "-2.05",
     "market_id": "33",
-    "circulate_market_value": "3683131400.00",
-    "change_type": "1",
-    "change_section": "2",
-    "change_days": "2",
-    "change_reason": "光纤参股",
+    "circulate_market_value": "3607623000.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
     "xgb_concepts": [
       {
         "name": "资产重组",
-        "change_pct": 1.92
+        "change_pct": 0.07
       },
       {
         "name": "股权转让",
-        "change_pct": 1.17
+        "change_pct": 0.11
       },
       {
         "name": "光通信",
-        "change_pct": 4.92
+        "change_pct": -1.16
       },
       {
         "name": "固废处理",
-        "change_pct": 0.36
+        "change_pct": 0.42
       },
       {
         "name": "环保",
-        "change_pct": 0.58
+        "change_pct": 0.38
       },
       {
         "name": "独角兽",
@@ -1267,110 +1666,20 @@ const CHEAP_STOCKS = [
       },
       {
         "name": "光纤概念",
-        "change_pct": 4.67
-      }
-    ]
-  },
-  {
-    "code": "002437",
-    "name": "誉衡药业",
-    "hot_rank": 66,
-    "hot_rank_chg": -25,
-    "stock_cnt": 5821,
-    "price": "4.42",
-    "change": "6.76",
-    "market_id": "33",
-    "circulate_market_value": "9293829300.00",
-    "change_type": "",
-    "change_section": "",
-    "change_days": "",
-    "change_reason": "",
-    "xgb_concepts": [
-      {
-        "name": "密集调研",
-        "change_pct": 1.39
-      },
-      {
-        "name": "中药",
-        "change_pct": 1.15
-      },
-      {
-        "name": "强势人气股",
-        "change_pct": 3.32
-      },
-      {
-        "name": "维生素",
-        "change_pct": 1.12
-      },
-      {
-        "name": "基因测序",
-        "change_pct": 0.31
-      },
-      {
-        "name": "民营医院",
-        "change_pct": 0.68
-      },
-      {
-        "name": "医药",
-        "change_pct": 1.06
-      },
-      {
-        "name": "化学原料药",
-        "change_pct": 0.99
-      },
-      {
-        "name": "PD-1抑制剂",
-        "change_pct": 1.03
-      }
-    ]
-  },
-  {
-    "code": "600095",
-    "name": "湘财股份",
-    "hot_rank": 70,
-    "hot_rank_chg": 3,
-    "stock_cnt": 5821,
-    "price": "9.54",
-    "change": "10.04",
-    "market_id": "17",
-    "circulate_market_value": "27276651000.00",
-    "change_type": "1",
-    "change_section": "2",
-    "change_days": "2",
-    "change_reason": "中报增长",
-    "xgb_concepts": [
-      {
-        "name": "资产重组",
-        "change_pct": 1.92
-      },
-      {
-        "name": "券商",
-        "change_pct": 1.66
-      },
-      {
-        "name": "金融科技",
-        "change_pct": 1.79
-      },
-      {
-        "name": "大金融",
-        "change_pct": 0.12
-      },
-      {
-        "name": "人造肉",
-        "change_pct": 2.86
+        "change_pct": -1.08
       }
     ]
   },
   {
     "code": "002716",
     "name": "湖南白银",
-    "hot_rank": 71,
-    "hot_rank_chg": -24,
-    "stock_cnt": 5821,
-    "price": "11.60",
-    "change": "2.47",
+    "hot_rank": 67,
+    "hot_rank_chg": -20,
+    "stock_cnt": 5799,
+    "price": "11.65",
+    "change": "0.43",
     "market_id": "33",
-    "circulate_market_value": "26940718000.00",
+    "circulate_market_value": "27056842000.00",
     "change_type": "",
     "change_section": "",
     "change_days": "",
@@ -1378,48 +1687,220 @@ const CHEAP_STOCKS = [
     "xgb_concepts": [
       {
         "name": "黄金",
-        "change_pct": 2.89
+        "change_pct": 1.2
       },
       {
         "name": "有色 · 铜",
-        "change_pct": 1.55
+        "change_pct": 0.46
       },
       {
         "name": "有色 · 锑",
-        "change_pct": 2.87
+        "change_pct": 3.11
       },
       {
         "name": "湖南国企改革",
-        "change_pct": 1.55
+        "change_pct": 1.41
       },
       {
         "name": "有色 · 锌",
-        "change_pct": 0.88
+        "change_pct": 1.67
       },
       {
         "name": "有色金属",
-        "change_pct": 1.48
+        "change_pct": 0.72
       },
       {
         "name": "国企改革",
-        "change_pct": 0.59
+        "change_pct": 0.79
       },
       {
         "name": "白银",
-        "change_pct": 1.24
+        "change_pct": 2.29
+      }
+    ]
+  },
+  {
+    "code": "002437",
+    "name": "誉衡药业",
+    "hot_rank": 68,
+    "hot_rank_chg": -27,
+    "stock_cnt": 5799,
+    "price": "4.86",
+    "change": "9.96",
+    "market_id": "33",
+    "circulate_market_value": "10219006900.00",
+    "change_type": "1",
+    "change_section": 1,
+    "change_days": 1,
+    "change_reason": "创新药",
+    "xgb_concepts": [
+      {
+        "name": "密集调研",
+        "change_pct": -0.01
+      },
+      {
+        "name": "中药",
+        "change_pct": -0.03
+      },
+      {
+        "name": "强势人气股",
+        "change_pct": 0.41
+      },
+      {
+        "name": "维生素",
+        "change_pct": -0.12
+      },
+      {
+        "name": "基因测序",
+        "change_pct": -1.13
+      },
+      {
+        "name": "民营医院",
+        "change_pct": -0.37
+      },
+      {
+        "name": "医药",
+        "change_pct": -0.81
+      },
+      {
+        "name": "化学原料药",
+        "change_pct": -0.69
+      },
+      {
+        "name": "PD-1抑制剂",
+        "change_pct": -0.02
+      }
+    ]
+  },
+  {
+    "code": "600371",
+    "name": "万向德农",
+    "hot_rank": 69,
+    "hot_rank_chg": -14,
+    "stock_cnt": 5799,
+    "price": "11.54",
+    "change": "10.01",
+    "market_id": "17",
+    "circulate_market_value": "3376350100.00",
+    "change_type": "1",
+    "change_section": "9",
+    "change_days": "6",
+    "change_reason": "转基因玉米",
+    "xgb_concepts": [
+      {
+        "name": "农业种植",
+        "change_pct": 3.5
+      },
+      {
+        "name": "强势人气股",
+        "change_pct": 0.41
+      },
+      {
+        "name": "转基因",
+        "change_pct": 3.26
+      },
+      {
+        "name": "乡村振兴",
+        "change_pct": 1.53
+      },
+      {
+        "name": "大农业",
+        "change_pct": 1.81
+      }
+    ]
+  },
+  {
+    "code": "002742",
+    "name": "冀衡医药",
+    "hot_rank": 70,
+    "hot_rank_chg": 22,
+    "stock_cnt": 5799,
+    "price": "6.24",
+    "change": "10.05",
+    "market_id": "33",
+    "circulate_market_value": "3269267800.00",
+    "change_type": "1",
+    "change_section": "4",
+    "change_days": "4",
+    "change_reason": "医药制造",
+    "xgb_concepts": [
+      {
+        "name": "一带一路",
+        "change_pct": 0.65
+      },
+      {
+        "name": "ST摘帽",
+        "change_pct": 0.32
+      },
+      {
+        "name": "强势人气股",
+        "change_pct": 0.41
+      },
+      {
+        "name": "医药",
+        "change_pct": -0.81
+      },
+      {
+        "name": "化学原料药",
+        "change_pct": -0.69
+      },
+      {
+        "name": "幽门螺杆菌概念",
+        "change_pct": 0.43
+      },
+      {
+        "name": "新冠病毒防治",
+        "change_pct": 0.17
+      },
+      {
+        "name": "减肥药",
+        "change_pct": -1.55
+      }
+    ]
+  },
+  {
+    "code": "000592",
+    "name": "平潭发展",
+    "hot_rank": 73,
+    "hot_rank_chg": -15,
+    "stock_cnt": 5799,
+    "price": "7.01",
+    "change": "2.94",
+    "market_id": "33",
+    "circulate_market_value": "13424798000.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "福建自贸/海西概念",
+        "change_pct": 1.59
+      },
+      {
+        "name": "林业",
+        "change_pct": 3.39
+      },
+      {
+        "name": "碳中和",
+        "change_pct": 0.7
+      },
+      {
+        "name": "自贸区",
+        "change_pct": 1.13
       }
     ]
   },
   {
     "code": "600110",
     "name": "诺德股份",
-    "hot_rank": 73,
-    "hot_rank_chg": -22,
-    "stock_cnt": 5821,
-    "price": "11.60",
-    "change": "-0.52",
+    "hot_rank": 74,
+    "hot_rank_chg": -23,
+    "stock_cnt": 5799,
+    "price": "10.94",
+    "change": "-5.69",
     "market_id": "17",
-    "circulate_market_value": "20128099000.00",
+    "circulate_market_value": "18982879000.00",
     "change_type": "",
     "change_section": "",
     "change_days": "",
@@ -1427,260 +1908,246 @@ const CHEAP_STOCKS = [
     "xgb_concepts": [
       {
         "name": "特斯拉",
-        "change_pct": 1.54
+        "change_pct": -0.37
       },
       {
         "name": "核电",
-        "change_pct": 1.25
+        "change_pct": -0.06
       },
       {
         "name": "锂电池",
-        "change_pct": 1.3
+        "change_pct": -0.13
       },
       {
         "name": "铜箔/覆铜板",
-        "change_pct": 5.64
+        "change_pct": -0.45
       },
       {
         "name": "PCB板",
-        "change_pct": 4.89
+        "change_pct": -1.25
       },
       {
         "name": "中科院系",
-        "change_pct": 1.03
+        "change_pct": -0.07
       },
       {
         "name": "新能源汽车",
-        "change_pct": 1.17
+        "change_pct": -0.24
       },
       {
         "name": "宁德时代概念股",
-        "change_pct": 0.81
+        "change_pct": -0.64
       },
       {
         "name": "固态电池",
-        "change_pct": 1.17
+        "change_pct": 0.01
       },
       {
         "name": "PET复合铜箔",
-        "change_pct": 3.66
+        "change_pct": -1.19
       }
     ]
   },
   {
-    "code": "600654",
-    "name": "中安科",
-    "hot_rank": 74,
-    "hot_rank_chg": 56,
-    "stock_cnt": 5821,
-    "price": "3.30",
-    "change": "10.00",
+    "code": "600095",
+    "name": "湘财股份",
+    "hot_rank": 77,
+    "hot_rank_chg": -4,
+    "stock_cnt": 5799,
+    "price": "9.55",
+    "change": "0.10",
     "market_id": "17",
-    "circulate_market_value": "7647525000.00",
+    "circulate_market_value": "27305243000.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": [
+      {
+        "name": "资产重组",
+        "change_pct": 0.07
+      },
+      {
+        "name": "券商",
+        "change_pct": -0.0
+      },
+      {
+        "name": "金融科技",
+        "change_pct": -0.46
+      },
+      {
+        "name": "大金融",
+        "change_pct": -0.46
+      },
+      {
+        "name": "人造肉",
+        "change_pct": 1.79
+      }
+    ]
+  },
+  {
+    "code": "002212",
+    "name": "天融信",
+    "hot_rank": 78,
+    "hot_rank_chg": 535,
+    "stock_cnt": 5799,
+    "price": "6.93",
+    "change": "10.00",
+    "market_id": "33",
+    "circulate_market_value": "8086228500.00",
     "change_type": "1",
     "change_section": 1,
     "change_days": 1,
-    "change_reason": "半年报增长",
+    "change_reason": "AI安全",
     "xgb_concepts": [
       {
-        "name": "高管增持",
-        "change_pct": 1.65
+        "name": "车联网/车路云",
+        "change_pct": 0.23
       },
       {
         "name": "国产软件",
-        "change_pct": 1.28
+        "change_pct": 0.41
+      },
+      {
+        "name": "一带一路",
+        "change_pct": 0.65
+      },
+      {
+        "name": "量子通信",
+        "change_pct": 0.63
       },
       {
         "name": "人工智能",
-        "change_pct": 1.18
+        "change_pct": -0.03
+      },
+      {
+        "name": "网络安全",
+        "change_pct": 0.27
       },
       {
         "name": "云计算数据中心",
-        "change_pct": 2.31
+        "change_pct": -0.4
       },
       {
-        "name": "智慧城市",
-        "change_pct": 0.91
+        "name": "物联网",
+        "change_pct": -0.27
       },
       {
-        "name": "智慧安防",
-        "change_pct": 1.56
+        "name": "大数据",
+        "change_pct": 0.19
       },
       {
-        "name": "东数西算/算力",
-        "change_pct": 1.85
-      },
-      {
-        "name": "消防",
-        "change_pct": 2.25
-      },
-      {
-        "name": "医疗信息化",
-        "change_pct": 0.74
-      },
-      {
-        "name": "传感器",
-        "change_pct": 2.87
-      },
-      {
-        "name": "华为产业链",
-        "change_pct": 1.96
-      }
-    ]
-  },
-  {
-    "code": "002742",
-    "name": "冀衡医药",
-    "hot_rank": 75,
-    "hot_rank_chg": 17,
-    "stock_cnt": 5821,
-    "price": "5.67",
-    "change": "10.10",
-    "market_id": "33",
-    "circulate_market_value": "2970632800.00",
-    "change_type": "1",
-    "change_section": "3",
-    "change_days": "3",
-    "change_reason": "医药制造",
-    "xgb_concepts": [
-      {
-        "name": "一带一路",
-        "change_pct": 0.61
-      },
-      {
-        "name": "ST摘帽",
-        "change_pct": 0.92
-      },
-      {
-        "name": "医药",
-        "change_pct": 1.06
-      },
-      {
-        "name": "化学原料药",
-        "change_pct": 0.99
-      },
-      {
-        "name": "幽门螺杆菌概念",
-        "change_pct": 1.11
-      },
-      {
-        "name": "新冠病毒防治",
-        "change_pct": 1.12
-      },
-      {
-        "name": "减肥药",
-        "change_pct": 1.68
-      }
-    ]
-  },
-  {
-    "code": "002084",
-    "name": "海鸥住工",
-    "hot_rank": 89,
-    "hot_rank_chg": 7,
-    "stock_cnt": 5821,
-    "price": "5.27",
-    "change": "10.02",
-    "market_id": "33",
-    "circulate_market_value": "3397223500.00",
-    "change_type": "1",
-    "change_section": "4",
-    "change_days": "4",
-    "change_reason": "控制权拟变更",
-    "xgb_concepts": [
-      {
-        "name": "一带一路",
-        "change_pct": 0.61
-      },
-      {
-        "name": "装修装饰",
-        "change_pct": 0.32
-      },
-      {
-        "name": "装配式建筑",
-        "change_pct": -0.01
-      },
-      {
-        "name": "家具家居",
-        "change_pct": -0.08
-      },
-      {
-        "name": "复牌股",
-        "change_pct": 1.21
-      },
-      {
-        "name": "智能制造",
-        "change_pct": 1.62
-      },
-      {
-        "name": "3D打印",
-        "change_pct": 2.39
-      },
-      {
-        "name": "独角兽",
+        "name": "破净股",
         "change_pct": 0.85
       },
       {
-        "name": "热泵",
-        "change_pct": 2.83
+        "name": "数字经济",
+        "change_pct": 0.38
       },
       {
-        "name": "旧改",
-        "change_pct": 0.17
+        "name": "国产芯片",
+        "change_pct": -1.01
+      },
+      {
+        "name": "阿里巴巴概念股",
+        "change_pct": 0.32
+      },
+      {
+        "name": "腾讯概念股",
+        "change_pct": 0.15
+      },
+      {
+        "name": "信创",
+        "change_pct": 0.37
+      },
+      {
+        "name": "华为昇腾",
+        "change_pct": 0.27
+      },
+      {
+        "name": "跨境支付",
+        "change_pct": -0.55
+      },
+      {
+        "name": "web3.0",
+        "change_pct": 0.4
+      },
+      {
+        "name": "数字人民币",
+        "change_pct": -0.31
+      },
+      {
+        "name": "智慧政务",
+        "change_pct": 0.43
+      },
+      {
+        "name": "华为鸿蒙",
+        "change_pct": 0.47
+      },
+      {
+        "name": "华为云·鲲鹏",
+        "change_pct": 0.98
+      },
+      {
+        "name": "卫星互联网",
+        "change_pct": -0.58
+      },
+      {
+        "name": "智慧灯杆",
+        "change_pct": 0.3
+      },
+      {
+        "name": "华为产业链",
+        "change_pct": -0.13
+      },
+      {
+        "name": "回购",
+        "change_pct": 0.06
+      },
+      {
+        "name": "AI大模型/智能体",
+        "change_pct": 0.25
+      },
+      {
+        "name": "智能电网",
+        "change_pct": -0.03
+      },
+      {
+        "name": "低空经济",
+        "change_pct": -0.05
+      },
+      {
+        "name": "量子计算",
+        "change_pct": 1.27
+      },
+      {
+        "name": "财税改革",
+        "change_pct": 1.88
+      },
+      {
+        "name": "DeepSeek概念股",
+        "change_pct": 0.51
       }
     ]
   },
   {
-    "code": "600540",
-    "name": "新赛股份",
+    "code": "600610",
+    "name": "中毅达",
     "hot_rank": 98,
-    "hot_rank_chg": 31,
-    "stock_cnt": 5821,
-    "price": "4.59",
-    "change": "10.07",
+    "hot_rank_chg": 74,
+    "stock_cnt": 5799,
+    "price": "9.43",
+    "change": "4.43",
     "market_id": "17",
-    "circulate_market_value": "2668520200.00",
-    "change_type": "1",
-    "change_section": 1,
-    "change_days": 1,
-    "change_reason": "业绩高增长",
-    "xgb_concepts": [
-      {
-        "name": "农业种植",
-        "change_pct": 4.54
-      },
-      {
-        "name": "新疆国企改革",
-        "change_pct": 1.24
-      },
-      {
-        "name": "农垦",
-        "change_pct": 2.98
-      },
-      {
-        "name": "棉花",
-        "change_pct": 4.28
-      },
-      {
-        "name": "新疆概念",
-        "change_pct": 1.0
-      },
-      {
-        "name": "风电",
-        "change_pct": 0.74
-      },
-      {
-        "name": "大农业",
-        "change_pct": 1.66
-      },
-      {
-        "name": "国企改革",
-        "change_pct": 0.59
-      }
-    ]
+    "circulate_market_value": "6683292800.00",
+    "change_type": "",
+    "change_section": "",
+    "change_days": "",
+    "change_reason": "",
+    "xgb_concepts": []
   }
 ];
 const RECOMMENDED = [];
-const ALL_STOCKS = [{"code": "600487", "name": "亨通光电", "hot_rank": 1, "hot_rank_chg": 0, "stock_cnt": 5821, "price": "71.30", "change": "9.98", "market_id": "17", "circulate_market_value": "174944980000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600378", "name": "昊华科技", "hot_rank": 2, "hot_rank_chg": 23, "stock_cnt": 5821, "price": "48.46", "change": "10.01", "market_id": "17", "circulate_market_value": "51976517000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "半年报增长"}, {"code": "603618", "name": "杭电股份", "hot_rank": 3, "hot_rank_chg": 1, "stock_cnt": 5821, "price": "35.11", "change": "9.99", "market_id": "17", "circulate_market_value": "24274198000.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "半年报高增"}, {"code": "002428", "name": "云南锗业", "hot_rank": 4, "hot_rank_chg": 8, "stock_cnt": 5821, "price": "101.36", "change": "8.44", "market_id": "33", "circulate_market_value": "66191691000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600103", "name": "青山纸业", "hot_rank": 5, "hot_rank_chg": 5, "stock_cnt": 5821, "price": "3.82", "change": "10.09", "market_id": "17", "circulate_market_value": "8451097000.00", "change_type": "1", "change_section": "3", "change_days": "3", "change_reason": "光模块", "xgb_concepts": [{"name": "造纸", "change_pct": 0.25}, {"name": "云计算数据中心", "change_pct": 2.31}, {"name": "光通信", "change_pct": 4.92}, {"name": "林业", "change_pct": 2.38}, {"name": "军民融合", "change_pct": 1.81}, {"name": "军工", "change_pct": 1.75}, {"name": "人造肉", "change_pct": 2.86}]}, {"code": "688836", "name": "宇树科技", "hot_rank": 6, "hot_rank_chg": -4, "stock_cnt": 5821, "price": "615.03", "change": "3.97", "market_id": "17", "circulate_market_value": "18504850000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "001309", "name": "德明利", "hot_rank": 7, "hot_rank_chg": 2, "stock_cnt": 5821, "price": "429.76", "change": "10.00", "market_id": "33", "circulate_market_value": "70922886000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "存储方案"}, {"code": "000636", "name": "风华高科", "hot_rank": 8, "hot_rank_chg": 9, "stock_cnt": 5821, "price": "54.11", "change": "6.08", "market_id": "33", "circulate_market_value": "62090682000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600127", "name": "金健米业", "hot_rank": 9, "hot_rank_chg": -2, "stock_cnt": 5821, "price": "10.78", "change": "10.00", "market_id": "17", "circulate_market_value": "6918423100.00", "change_type": "1", "change_section": "9", "change_days": "6", "change_reason": "粮油食品", "xgb_concepts": [{"name": "乳业（奶粉）", "change_pct": 0.09}, {"name": "农业种植", "change_pct": 4.54}, {"name": "强势人气股", "change_pct": 3.32}, {"name": "湖南国企改革", "change_pct": 1.55}, {"name": "乡村振兴", "change_pct": 1.81}, {"name": "休闲食品", "change_pct": 0.52}, {"name": "食品", "change_pct": 0.93}, {"name": "食品安全", "change_pct": 1.68}, {"name": "社区团购", "change_pct": 1.65}, {"name": "大农业", "change_pct": 1.66}, {"name": "预制菜", "change_pct": 1.03}, {"name": "人造肉", "change_pct": 2.86}, {"name": "国企改革", "change_pct": 0.59}]}, {"code": "600721", "name": "百花医药", "hot_rank": 10, "hot_rank_chg": -7, "stock_cnt": 5821, "price": "16.68", "change": "10.03", "market_id": "17", "circulate_market_value": "6414254600.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "CRO"}, {"code": "003040", "name": "楚天龙", "hot_rank": 11, "hot_rank_chg": -5, "stock_cnt": 5821, "price": "18.73", "change": "9.98", "market_id": "33", "circulate_market_value": "8556805300.00", "change_type": "1", "change_section": "5", "change_days": "5", "change_reason": "数字人民币"}, {"code": "600613", "name": "神奇制药", "hot_rank": 12, "hot_rank_chg": -1, "stock_cnt": 5821, "price": "11.61", "change": "10.05", "market_id": "17", "circulate_market_value": "5564904900.00", "change_type": "1", "change_section": "11", "change_days": "7", "change_reason": "抗肿瘤", "xgb_concepts": [{"name": "中药", "change_pct": 1.15}, {"name": "强势人气股", "change_pct": 3.32}, {"name": "医药商业", "change_pct": 0.24}, {"name": "医药", "change_pct": 1.06}, {"name": "流感", "change_pct": 1.43}]}, {"code": "002491", "name": "通鼎互联", "hot_rank": 13, "hot_rank_chg": -8, "stock_cnt": 5821, "price": "23.64", "change": "5.16", "market_id": "33", "circulate_market_value": "27811722000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002837", "name": "英维克", "hot_rank": 14, "hot_rank_chg": 6, "stock_cnt": 5821, "price": "65.97", "change": "6.28", "market_id": "33", "circulate_market_value": "74759849000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600183", "name": "生益科技", "hot_rank": 15, "hot_rank_chg": 1, "stock_cnt": 5821, "price": "140.97", "change": "8.43", "market_id": "17", "circulate_market_value": "339984240000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600522", "name": "中天科技", "hot_rank": 16, "hot_rank_chg": -2, "stock_cnt": 5821, "price": "36.08", "change": "7.99", "market_id": "17", "circulate_market_value": "123139223000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "601799", "name": "星宇股份", "hot_rank": 17, "hot_rank_chg": 51, "stock_cnt": 5821, "price": "81.86", "change": "-5.20", "market_id": "17", "circulate_market_value": "23385717000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002418", "name": "康盛股份", "hot_rank": 18, "hot_rank_chg": 5, "stock_cnt": 5821, "price": "4.91", "change": "10.09", "market_id": "33", "circulate_market_value": "5579724000.00", "change_type": "1", "change_section": "3", "change_days": "3", "change_reason": "液冷", "xgb_concepts": [{"name": "无人驾驶", "change_pct": 1.91}, {"name": "锂电池", "change_pct": 1.3}, {"name": "石墨烯", "change_pct": 1.6}, {"name": "新能源整车", "change_pct": 0.62}, {"name": "云计算数据中心", "change_pct": 2.31}, {"name": "汽车整车", "change_pct": 0.19}, {"name": "新能源汽车", "change_pct": 1.17}, {"name": "白色家电", "change_pct": 0.9}, {"name": "家电", "change_pct": 0.81}, {"name": "汽车热管理", "change_pct": 1.64}, {"name": "热泵", "change_pct": 2.83}, {"name": "轮边电机", "change_pct": 0.32}, {"name": "超级电容", "change_pct": 1.62}, {"name": "液冷服务器", "change_pct": 3.55}]}, {"code": "002636", "name": "金安国纪", "hot_rank": 19, "hot_rank_chg": -1, "stock_cnt": 5821, "price": "69.41", "change": "10.00", "market_id": "33", "circulate_market_value": "50338555000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "覆铜板"}, {"code": "600664", "name": "哈药股份", "hot_rank": 20, "hot_rank_chg": -12, "stock_cnt": 5821, "price": "8.75", "change": "6.97", "market_id": "17", "circulate_market_value": "22036961000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "跨境电商", "change_pct": 0.57}, {"name": "工业大麻", "change_pct": 1.43}, {"name": "中药", "change_pct": 1.15}, {"name": "强势人气股", "change_pct": 3.32}, {"name": "保健品", "change_pct": 0.73}, {"name": "民营医院", "change_pct": 0.68}, {"name": "医药", "change_pct": 1.06}, {"name": "化学原料药", "change_pct": 0.99}, {"name": "流感", "change_pct": 1.43}, {"name": "振兴东北", "change_pct": 0.35}, {"name": "食品", "change_pct": 0.93}]}, {"code": "300274", "name": "阳光电源", "hot_rank": 21, "hot_rank_chg": -2, "stock_cnt": 5821, "price": "98.84", "change": "-12.24", "market_id": "33", "circulate_market_value": "156911140000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000017", "name": "深中华A", "hot_rank": 22, "hot_rank_chg": 2, "stock_cnt": 5821, "price": "10.41", "change": "10.04", "market_id": "33", "circulate_market_value": "4588956500.00", "change_type": "1", "change_section": "6", "change_days": "6", "change_reason": "黄金珠宝", "xgb_concepts": [{"name": "深圳本地股", "change_pct": 1.6}, {"name": "锂电池", "change_pct": 1.3}, {"name": "强势人气股", "change_pct": 3.32}, {"name": "新能源汽车", "change_pct": 1.17}, {"name": "两轮车", "change_pct": 0.69}, {"name": "珠宝饰品", "change_pct": 0.71}]}, {"code": "002886", "name": "沃特股份", "hot_rank": 23, "hot_rank_chg": 33, "stock_cnt": 5821, "price": "24.00", "change": "9.99", "market_id": "33", "circulate_market_value": "5017875900.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "PTFE薄膜"}, {"code": "300136", "name": "信维通信", "hot_rank": 24, "hot_rank_chg": 57, "stock_cnt": 5821, "price": "62.07", "change": "4.11", "market_id": "33", "circulate_market_value": "51220179000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "688825", "name": "长鑫科技", "hot_rank": 25, "hot_rank_chg": -3, "stock_cnt": 5821, "price": "59.12", "change": "5.38", "market_id": "17", "circulate_market_value": "266219660000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "601869", "name": "长飞光纤", "hot_rank": 26, "hot_rank_chg": -13, "stock_cnt": 5821, "price": "426.82", "change": "10.00", "market_id": "17", "circulate_market_value": "173433320000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "光纤光缆"}, {"code": "002396", "name": "星网锐捷", "hot_rank": 27, "hot_rank_chg": 11, "stock_cnt": 5821, "price": "33.35", "change": "9.99", "market_id": "33", "circulate_market_value": "25259794000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "数据中心交换机"}, {"code": "601138", "name": "工业富联", "hot_rank": 28, "hot_rank_chg": -2, "stock_cnt": 5821, "price": "63.86", "change": "5.43", "market_id": "17", "circulate_market_value": "1267243730000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603002", "name": "宏昌电子", "hot_rank": 29, "hot_rank_chg": 48, "stock_cnt": 5821, "price": "16.91", "change": "10.02", "market_id": "17", "circulate_market_value": "19177268000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "高速覆铜板"}, {"code": "000725", "name": "京东方A", "hot_rank": 31, "hot_rank_chg": -4, "stock_cnt": 5821, "price": "5.94", "change": "3.85", "market_id": "33", "circulate_market_value": "210080780000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "折叠屏", "change_pct": 2.88}, {"name": "手机产业链", "change_pct": 3.05}, {"name": "超高清视频", "change_pct": 1.76}, {"name": "苹果产业链", "change_pct": 3.01}, {"name": "电竞", "change_pct": 0.17}, {"name": "半导体", "change_pct": 4.42}, {"name": "人工智能", "change_pct": 1.18}, {"name": "互联网医疗", "change_pct": 0.56}, {"name": "VR&AR", "change_pct": 2.21}, {"name": "OLED", "change_pct": 2.95}, {"name": "京津冀", "change_pct": 0.59}, {"name": "物联网", "change_pct": 1.36}, {"name": "指纹识别", "change_pct": 2.56}, {"name": "汽车零部件", "change_pct": 0.88}, {"name": "白马股", "change_pct": 0.4}, {"name": "智能制造", "change_pct": 1.62}, {"name": "小米概念股", "change_pct": 2.87}, {"name": "国产芯片", "change_pct": 3.92}, {"name": "液晶面板/LCD", "change_pct": 2.67}, {"name": "全息概念", "change_pct": 0.84}, {"name": "理想汽车概念股", "change_pct": 1.47}, {"name": "MicroLED", "change_pct": 3.45}, {"name": "钙钛矿电池", "change_pct": 0.64}, {"name": "智能手表", "change_pct": 2.25}, {"name": "MiniLED", "change_pct": 2.79}, {"name": "传感器", "change_pct": 2.87}, {"name": "大硅片", "change_pct": 4.38}, {"name": "AI PC", "change_pct": 2.57}, {"name": "华为产业链", "change_pct": 1.96}, {"name": "回购", "change_pct": 0.86}, {"name": "光电共封装CPO", "change_pct": 5.15}, {"name": "智能眼镜/MR头显", "change_pct": 2.86}, {"name": "玻璃基板封装", "change_pct": 3.91}]}, {"code": "603228", "name": "景旺电子", "hot_rank": 32, "hot_rank_chg": 10, "stock_cnt": 5821, "price": "96.74", "change": "7.31", "market_id": "17", "circulate_market_value": "94999710000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600172", "name": "黄河旋风", "hot_rank": 33, "hot_rank_chg": 1, "stock_cnt": 5821, "price": "14.61", "change": "5.11", "market_id": "17", "circulate_market_value": "18747532000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002412", "name": "汉森制药", "hot_rank": 34, "hot_rank_chg": -19, "stock_cnt": 5821, "price": "14.02", "change": "7.11", "market_id": "33", "circulate_market_value": "6979786900.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600176", "name": "中国巨石", "hot_rank": 35, "hot_rank_chg": -6, "stock_cnt": 5821, "price": "42.64", "change": "7.95", "market_id": "17", "circulate_market_value": "169348470000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600206", "name": "有研新材", "hot_rank": 36, "hot_rank_chg": -15, "stock_cnt": 5821, "price": "53.65", "change": "6.60", "market_id": "17", "circulate_market_value": "45417586000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603629", "name": "利通电子", "hot_rank": 37, "hot_rank_chg": -6, "stock_cnt": 5821, "price": "125.22", "change": "6.51", "market_id": "17", "circulate_market_value": "45169784000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "301591", "name": "肯特股份", "hot_rank": 38, "hot_rank_chg": 34, "stock_cnt": 5821, "price": "50.40", "change": "20.00", "market_id": "33", "circulate_market_value": "2252615300.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "PTFE"}, {"code": "600371", "name": "万向德农", "hot_rank": 39, "hot_rank_chg": 16, "stock_cnt": 5821, "price": "10.49", "change": "9.96", "market_id": "17", "circulate_market_value": "3069143200.00", "change_type": "1", "change_section": "8", "change_days": "5", "change_reason": "转基因玉米", "xgb_concepts": [{"name": "农业种植", "change_pct": 4.54}, {"name": "强势人气股", "change_pct": 3.32}, {"name": "转基因", "change_pct": 4.21}, {"name": "乡村振兴", "change_pct": 1.81}, {"name": "大农业", "change_pct": 1.66}]}, {"code": "300476", "name": "胜宏科技", "hot_rank": 40, "hot_rank_chg": 6, "stock_cnt": 5821, "price": "263.05", "change": "5.46", "market_id": "33", "circulate_market_value": "227589530000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300903", "name": "科翔股份", "hot_rank": 41, "hot_rank_chg": 65, "stock_cnt": 5821, "price": "90.72", "change": "14.01", "market_id": "33", "circulate_market_value": "31877170000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600869", "name": "远东股份", "hot_rank": 43, "hot_rank_chg": -15, "stock_cnt": 5821, "price": "17.95", "change": "3.64", "market_id": "17", "circulate_market_value": "39837382000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000938", "name": "紫光股份", "hot_rank": 44, "hot_rank_chg": -1, "stock_cnt": 5821, "price": "36.43", "change": "4.38", "market_id": "33", "circulate_market_value": "104192448000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "601208", "name": "东材科技", "hot_rank": 45, "hot_rank_chg": 44, "stock_cnt": 5821, "price": "49.10", "change": "9.99", "market_id": "17", "circulate_market_value": "49599983000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "高速树脂"}, {"code": "600460", "name": "士兰微", "hot_rank": 46, "hot_rank_chg": -9, "stock_cnt": 5821, "price": "34.88", "change": "5.47", "market_id": "17", "circulate_market_value": "58042826000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002466", "name": "天齐锂业", "hot_rank": 47, "hot_rank_chg": 38, "stock_cnt": 5821, "price": "48.23", "change": "1.41", "market_id": "33", "circulate_market_value": "71180796000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600667", "name": "太极实业", "hot_rank": 48, "hot_rank_chg": -13, "stock_cnt": 5821, "price": "20.14", "change": "2.60", "market_id": "17", "circulate_market_value": "42123659000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000592", "name": "平潭发展", "hot_rank": 49, "hot_rank_chg": 9, "stock_cnt": 5821, "price": "6.81", "change": "10.02", "market_id": "33", "circulate_market_value": "13041779600.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "林业", "xgb_concepts": [{"name": "福建自贸/海西概念", "change_pct": 0.87}, {"name": "林业", "change_pct": 2.38}, {"name": "碳中和", "change_pct": 0.23}, {"name": "自贸区", "change_pct": 0.27}]}, {"code": "002081", "name": "金螳螂", "hot_rank": 50, "hot_rank_chg": -17, "stock_cnt": 5821, "price": "5.69", "change": "0.53", "market_id": "33", "circulate_market_value": "15093013000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "强势人气股", "change_pct": 3.32}, {"name": "云计算数据中心", "change_pct": 2.31}, {"name": "装修装饰", "change_pct": 0.32}, {"name": "装配式建筑", "change_pct": -0.01}, {"name": "航天", "change_pct": 2.43}, {"name": "旧改", "change_pct": 0.17}]}, {"code": "300308", "name": "中际旭创", "hot_rank": 51, "hot_rank_chg": -12, "stock_cnt": 5821, "price": "866.12", "change": "1.79", "market_id": "33", "circulate_market_value": "961339740000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600584", "name": "长电科技", "hot_rank": 52, "hot_rank_chg": -12, "stock_cnt": 5821, "price": "76.54", "change": "3.97", "market_id": "17", "circulate_market_value": "136961790000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000712", "name": "锦龙股份", "hot_rank": 53, "hot_rank_chg": 7, "stock_cnt": 5821, "price": "10.73", "change": "10.05", "market_id": "33", "circulate_market_value": "9611227200.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "证券业务", "xgb_concepts": [{"name": "股权转让", "change_pct": 1.17}, {"name": "期货概念", "change_pct": 3.65}, {"name": "券商", "change_pct": 1.66}, {"name": "大金融", "change_pct": 0.12}, {"name": "东数西算/算力", "change_pct": 1.85}]}, {"code": "300456", "name": "赛微电子", "hot_rank": 54, "hot_rank_chg": 9, "stock_cnt": 5821, "price": "37.06", "change": "20.01", "market_id": "33", "circulate_market_value": "22145676000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "净利扭亏"}, {"code": "000977", "name": "浪潮信息", "hot_rank": 55, "hot_rank_chg": 10, "stock_cnt": 5821, "price": "78.27", "change": "6.07", "market_id": "33", "circulate_market_value": "114808925000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600479", "name": "千金药业", "hot_rank": 56, "hot_rank_chg": 8, "stock_cnt": 5821, "price": "12.12", "change": "9.98", "market_id": "17", "circulate_market_value": "5072306300.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "业绩增长", "xgb_concepts": [{"name": "社保重仓", "change_pct": 0.98}, {"name": "中药", "change_pct": 1.15}, {"name": "优化生育（三孩）", "change_pct": 0.31}, {"name": "农业种植", "change_pct": 4.54}, {"name": "人工智能", "change_pct": 1.18}, {"name": "湖南国企改革", "change_pct": 1.55}, {"name": "医药", "change_pct": 1.06}, {"name": "流感", "change_pct": 1.43}, {"name": "大农业", "change_pct": 1.66}, {"name": "国企改革", "change_pct": 0.59}]}, {"code": "603986", "name": "兆易创新", "hot_rank": 57, "hot_rank_chg": -21, "stock_cnt": 5821, "price": "411.20", "change": "4.76", "market_id": "17", "circulate_market_value": "275799380000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002463", "name": "沪电股份", "hot_rank": 58, "hot_rank_chg": 13, "stock_cnt": 5821, "price": "122.02", "change": "2.35", "market_id": "33", "circulate_market_value": "234626370000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600186", "name": "莲花控股", "hot_rank": 59, "hot_rank_chg": -2, "stock_cnt": 5821, "price": "11.69", "change": "3.00", "market_id": "17", "circulate_market_value": "20915027000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "调味品", "change_pct": 0.85}, {"name": "纯碱", "change_pct": 0.44}, {"name": "食品", "change_pct": 0.93}, {"name": "土壤修复", "change_pct": 0.51}, {"name": "东数西算/算力", "change_pct": 1.85}, {"name": "OpenClaw概念", "change_pct": 1.87}, {"name": "DeepSeek概念股", "change_pct": 1.53}]}, {"code": "002185", "name": "华天科技", "hot_rank": 60, "hot_rank_chg": 9, "stock_cnt": 5821, "price": "17.18", "change": "3.12", "market_id": "33", "circulate_market_value": "57141136000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600498", "name": "烽火通信", "hot_rank": 61, "hot_rank_chg": -16, "stock_cnt": 5821, "price": "42.71", "change": "7.93", "market_id": "17", "circulate_market_value": "54310952000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000890", "name": "法尔胜", "hot_rank": 62, "hot_rank_chg": 12, "stock_cnt": 5821, "price": "8.78", "change": "10.03", "market_id": "33", "circulate_market_value": "3683131400.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "光纤参股", "xgb_concepts": [{"name": "资产重组", "change_pct": 1.92}, {"name": "股权转让", "change_pct": 1.17}, {"name": "光通信", "change_pct": 4.92}, {"name": "固废处理", "change_pct": 0.36}, {"name": "环保", "change_pct": 0.58}, {"name": "独角兽", "change_pct": 0.85}, {"name": "光纤概念", "change_pct": 4.67}]}, {"code": "002407", "name": "多氟多", "hot_rank": 63, "hot_rank_chg": -10, "stock_cnt": 5821, "price": "35.12", "change": "3.14", "market_id": "33", "circulate_market_value": "37961851000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600330", "name": "天通股份", "hot_rank": 64, "hot_rank_chg": -3, "stock_cnt": 5821, "price": "29.15", "change": "10.00", "market_id": "17", "circulate_market_value": "35954613000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "光模块上游"}, {"code": "688300", "name": "联瑞新材", "hot_rank": 65, "hot_rank_chg": 30, "stock_cnt": 5821, "price": "186.24", "change": "20.00", "market_id": "17", "circulate_market_value": "44971222000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "先进粉体材料"}, {"code": "002437", "name": "誉衡药业", "hot_rank": 66, "hot_rank_chg": -25, "stock_cnt": 5821, "price": "4.42", "change": "6.76", "market_id": "33", "circulate_market_value": "9293829300.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "密集调研", "change_pct": 1.39}, {"name": "中药", "change_pct": 1.15}, {"name": "强势人气股", "change_pct": 3.32}, {"name": "维生素", "change_pct": 1.12}, {"name": "基因测序", "change_pct": 0.31}, {"name": "民营医院", "change_pct": 0.68}, {"name": "医药", "change_pct": 1.06}, {"name": "化学原料药", "change_pct": 0.99}, {"name": "PD-1抑制剂", "change_pct": 1.03}]}, {"code": "600105", "name": "永鼎股份", "hot_rank": 67, "hot_rank_chg": -15, "stock_cnt": 5821, "price": "41.00", "change": "4.75", "market_id": "17", "circulate_market_value": "59941787000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600160", "name": "巨化股份", "hot_rank": 68, "hot_rank_chg": 97, "stock_cnt": 5821, "price": "39.54", "change": "3.64", "market_id": "17", "circulate_market_value": "106747960000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300285", "name": "国瓷材料", "hot_rank": 69, "hot_rank_chg": 17, "stock_cnt": 5821, "price": "70.01", "change": "9.19", "market_id": "33", "circulate_market_value": "59723640000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600095", "name": "湘财股份", "hot_rank": 70, "hot_rank_chg": 3, "stock_cnt": 5821, "price": "9.54", "change": "10.04", "market_id": "17", "circulate_market_value": "27276651000.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "中报增长", "xgb_concepts": [{"name": "资产重组", "change_pct": 1.92}, {"name": "券商", "change_pct": 1.66}, {"name": "金融科技", "change_pct": 1.79}, {"name": "大金融", "change_pct": 0.12}, {"name": "人造肉", "change_pct": 2.86}]}, {"code": "002716", "name": "湖南白银", "hot_rank": 71, "hot_rank_chg": -24, "stock_cnt": 5821, "price": "11.60", "change": "2.47", "market_id": "33", "circulate_market_value": "26940718000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "黄金", "change_pct": 2.89}, {"name": "有色 · 铜", "change_pct": 1.55}, {"name": "有色 · 锑", "change_pct": 2.87}, {"name": "湖南国企改革", "change_pct": 1.55}, {"name": "有色 · 锌", "change_pct": 0.88}, {"name": "有色金属", "change_pct": 1.48}, {"name": "国企改革", "change_pct": 0.59}, {"name": "白银", "change_pct": 1.24}]}, {"code": "300475", "name": "香农芯创", "hot_rank": 72, "hot_rank_chg": 40, "stock_cnt": 5821, "price": "165.33", "change": "8.43", "market_id": "33", "circulate_market_value": "74150032000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600110", "name": "诺德股份", "hot_rank": 73, "hot_rank_chg": -22, "stock_cnt": 5821, "price": "11.60", "change": "-0.52", "market_id": "17", "circulate_market_value": "20128099000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "特斯拉", "change_pct": 1.54}, {"name": "核电", "change_pct": 1.25}, {"name": "锂电池", "change_pct": 1.3}, {"name": "铜箔/覆铜板", "change_pct": 5.64}, {"name": "PCB板", "change_pct": 4.89}, {"name": "中科院系", "change_pct": 1.03}, {"name": "新能源汽车", "change_pct": 1.17}, {"name": "宁德时代概念股", "change_pct": 0.81}, {"name": "固态电池", "change_pct": 1.17}, {"name": "PET复合铜箔", "change_pct": 3.66}]}, {"code": "600654", "name": "中安科", "hot_rank": 74, "hot_rank_chg": 56, "stock_cnt": 5821, "price": "3.30", "change": "10.00", "market_id": "17", "circulate_market_value": "7647525000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "半年报增长", "xgb_concepts": [{"name": "高管增持", "change_pct": 1.65}, {"name": "国产软件", "change_pct": 1.28}, {"name": "人工智能", "change_pct": 1.18}, {"name": "云计算数据中心", "change_pct": 2.31}, {"name": "智慧城市", "change_pct": 0.91}, {"name": "智慧安防", "change_pct": 1.56}, {"name": "东数西算/算力", "change_pct": 1.85}, {"name": "消防", "change_pct": 2.25}, {"name": "医疗信息化", "change_pct": 0.74}, {"name": "传感器", "change_pct": 2.87}, {"name": "华为产业链", "change_pct": 1.96}]}, {"code": "002742", "name": "冀衡医药", "hot_rank": 75, "hot_rank_chg": 17, "stock_cnt": 5821, "price": "5.67", "change": "10.10", "market_id": "33", "circulate_market_value": "2970632800.00", "change_type": "1", "change_section": "3", "change_days": "3", "change_reason": "医药制造", "xgb_concepts": [{"name": "一带一路", "change_pct": 0.61}, {"name": "ST摘帽", "change_pct": 0.92}, {"name": "医药", "change_pct": 1.06}, {"name": "化学原料药", "change_pct": 0.99}, {"name": "幽门螺杆菌概念", "change_pct": 1.11}, {"name": "新冠病毒防治", "change_pct": 1.12}, {"name": "减肥药", "change_pct": 1.68}]}, {"code": "002580", "name": "圣阳股份", "hot_rank": 76, "hot_rank_chg": 8, "stock_cnt": 5821, "price": "21.72", "change": "0.42", "market_id": "33", "circulate_market_value": "9824798700.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000657", "name": "中钨高新", "hot_rank": 77, "hot_rank_chg": -15, "stock_cnt": 5821, "price": "67.54", "change": "7.19", "market_id": "33", "circulate_market_value": "98166149000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600397", "name": "江钨装备", "hot_rank": 78, "hot_rank_chg": -29, "stock_cnt": 5821, "price": "19.03", "change": "10.00", "market_id": "17", "circulate_market_value": "18838937000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "钨钽铌资产注入"}, {"code": "001258", "name": "立新能源", "hot_rank": 79, "hot_rank_chg": -31, "stock_cnt": 5821, "price": "13.76", "change": "1.77", "market_id": "33", "circulate_market_value": "12842505300.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300642", "name": "透景生命", "hot_rank": 80, "hot_rank_chg": 30, "stock_cnt": 5821, "price": "17.30", "change": "0.35", "market_id": "33", "circulate_market_value": "2382306400.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002015", "name": "协鑫能科", "hot_rank": 81, "hot_rank_chg": -11, "stock_cnt": 5821, "price": "16.72", "change": "-2.45", "market_id": "33", "circulate_market_value": "27141988000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600367", "name": "红星发展", "hot_rank": 82, "hot_rank_chg": 12, "stock_cnt": 5821, "price": "40.50", "change": "3.40", "market_id": "17", "circulate_market_value": "13039913900.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "605179", "name": "一鸣食品", "hot_rank": 83, "hot_rank_chg": -39, "stock_cnt": 5821, "price": "31.52", "change": "0.38", "market_id": "17", "circulate_market_value": "12639520000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "301666", "name": "大普微", "hot_rank": 84, "hot_rank_chg": 9, "stock_cnt": 5821, "price": "469.20", "change": "20.00", "market_id": "33", "circulate_market_value": "12441468100.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "大额订单"}, {"code": "603580", "name": "艾艾精工", "hot_rank": 85, "hot_rank_chg": -19, "stock_cnt": 5821, "price": "80.52", "change": "10.00", "market_id": "17", "circulate_market_value": "10521806100.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "控制权拟变更"}, {"code": "002384", "name": "东山精密", "hot_rank": 86, "hot_rank_chg": -32, "stock_cnt": 5821, "price": "200.60", "change": "3.21", "market_id": "33", "circulate_market_value": "278096140000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603118", "name": "共进股份", "hot_rank": 87, "hot_rank_chg": -12, "stock_cnt": 5821, "price": "18.22", "change": "1.90", "market_id": "17", "circulate_market_value": "14344176000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002156", "name": "通富微电", "hot_rank": 88, "hot_rank_chg": -9, "stock_cnt": 5821, "price": "63.73", "change": "4.05", "market_id": "33", "circulate_market_value": "96707230000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002084", "name": "海鸥住工", "hot_rank": 89, "hot_rank_chg": 7, "stock_cnt": 5821, "price": "5.27", "change": "10.02", "market_id": "33", "circulate_market_value": "3397223500.00", "change_type": "1", "change_section": "4", "change_days": "4", "change_reason": "控制权拟变更", "xgb_concepts": [{"name": "一带一路", "change_pct": 0.61}, {"name": "装修装饰", "change_pct": 0.32}, {"name": "装配式建筑", "change_pct": -0.01}, {"name": "家具家居", "change_pct": -0.08}, {"name": "复牌股", "change_pct": 1.21}, {"name": "智能制造", "change_pct": 1.62}, {"name": "3D打印", "change_pct": 2.39}, {"name": "独角兽", "change_pct": 0.85}, {"name": "热泵", "change_pct": 2.83}, {"name": "旧改", "change_pct": 0.17}]}, {"code": "301520", "name": "万邦医药", "hot_rank": 90, "hot_rank_chg": 15, "stock_cnt": 5821, "price": "86.25", "change": "8.98", "market_id": "33", "circulate_market_value": "2820240700.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603011", "name": "合锻智能", "hot_rank": 91, "hot_rank_chg": -11, "stock_cnt": 5821, "price": "25.14", "change": "10.02", "market_id": "17", "circulate_market_value": "12429578900.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "PCB层压机"}, {"code": "300394", "name": "天孚通信", "hot_rank": 92, "hot_rank_chg": -9, "stock_cnt": 5821, "price": "267.16", "change": "5.36", "market_id": "33", "circulate_market_value": "290773750000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600272", "name": "开开实业", "hot_rank": 93, "hot_rank_chg": -43, "stock_cnt": 5821, "price": "21.70", "change": "2.84", "market_id": "17", "circulate_market_value": "3472000000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002475", "name": "立讯精密", "hot_rank": 94, "hot_rank_chg": -6, "stock_cnt": 5821, "price": "57.18", "change": "0.12", "market_id": "33", "circulate_market_value": "418847950000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002155", "name": "湖南黄金", "hot_rank": 95, "hot_rank_chg": -5, "stock_cnt": 5821, "price": "27.02", "change": "10.02", "market_id": "33", "circulate_market_value": "42218721000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "重大重组"}, {"code": "002855", "name": "捷荣技术", "hot_rank": 96, "hot_rank_chg": 17, "stock_cnt": 5821, "price": "13.31", "change": "10.00", "market_id": "33", "circulate_market_value": "3277284500.00", "change_type": "1", "change_section": "3", "change_days": "3", "change_reason": "折叠屏"}, {"code": "603221", "name": "爱丽家居", "hot_rank": 97, "hot_rank_chg": -38, "stock_cnt": 5821, "price": "28.65", "change": "9.35", "market_id": "17", "circulate_market_value": "6941035500.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600540", "name": "新赛股份", "hot_rank": 98, "hot_rank_chg": 31, "stock_cnt": 5821, "price": "4.59", "change": "10.07", "market_id": "17", "circulate_market_value": "2668520200.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "业绩高增长", "xgb_concepts": [{"name": "农业种植", "change_pct": 4.54}, {"name": "新疆国企改革", "change_pct": 1.24}, {"name": "农垦", "change_pct": 2.98}, {"name": "棉花", "change_pct": 4.28}, {"name": "新疆概念", "change_pct": 1.0}, {"name": "风电", "change_pct": 0.74}, {"name": "大农业", "change_pct": 1.66}, {"name": "国企改革", "change_pct": 0.59}]}, {"code": "002552", "name": "宝鼎科技", "hot_rank": 99, "hot_rank_chg": -23, "stock_cnt": 5821, "price": "56.00", "change": "7.90", "market_id": "33", "circulate_market_value": "20636184000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600641", "name": "先导基电", "hot_rank": 100, "hot_rank_chg": 23, "stock_cnt": 5821, "price": "34.00", "change": "10.00", "market_id": "17", "circulate_market_value": "31641417000.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "半导体设备"}];
-const LIMIT_UP_POOL = [{"code": "603093", "name": "南华期货", "price": 13.52, "change_pct": 10.01, "reason": "国内最有竞争力的期货公司之一", "plates": ["大金融"], "limit_up_days": 1, "turnover_ratio": 6.7, "first_limit_up": 1787808220, "break_limit_up_times": 0}, {"code": "000712", "name": "锦龙股份", "price": 10.73, "change_pct": 10.05, "reason": "公司主要经营业务为证券公司业务，持有中山证券67.78%股权", "plates": ["大金融"], "limit_up_days": 2, "turnover_ratio": 1.64, "first_limit_up": 1787793900, "break_limit_up_times": 0}, {"code": "002190", "name": "成飞集成", "price": 25.52, "change_pct": 10.0, "reason": "中国航空工业集团旗下上市公司，参与航天相关零部件制造", "plates": ["军工"], "limit_up_days": 1, "turnover_ratio": 6.27, "first_limit_up": 1787797665, "break_limit_up_times": 1}, {"code": "603137", "name": "恒尚节能", "price": 24.44, "change_pct": 9.99, "reason": "公司拟收购金胜电子，标的主要从事存储器，旗下KingSpec金胜维主要定位于消费级存储品牌；YANSEN元存主要定位于工业级存储品牌；OneBoom猛犸纪主要面向电竞及高性能消费场景", "plates": ["资产重组"], "limit_up_days": 1, "turnover_ratio": 10.33, "first_limit_up": 1787796669, "break_limit_up_times": 1}, {"code": "603237", "name": "五芳斋", "price": 15.88, "change_pct": 9.97, "reason": "公司是全国首批“中华老字号”企业，粽子行业龙头，上半年净利润同比增长2.85%", "plates": ["业绩增长"], "limit_up_days": 1, "turnover_ratio": 1.89, "first_limit_up": 1787794206, "break_limit_up_times": 0}, {"code": "000586", "name": "汇源通信", "price": 14.41, "change_pct": 10.0, "reason": "公司光纤、光缆及相关产品业务主要包括研发生产销售ADSS、OPGW特种光缆、预制光缆、气吹微缆、非金属光缆等", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 5.47, "first_limit_up": 1787795742, "break_limit_up_times": 0}, {"code": "000890", "name": "法尔胜", "price": 8.78, "change_pct": 10.03, "reason": "1、参股的普天法尔胜光通信有限公司主要产品为光纤预制棒、光纤、光缆，上述产品可以应用于在运营商基础网络通信及广播电视通信领域；\n2、公司成功推出了性能优良的熊猫型保偏光纤，产品成功应用于神州七号和天宫一号等国家重大特大型号任务中；\n3、公司深度参与特种电缆及电力基础设施建设，在“算电协同”及智能电网升级背景下，其电力传输与配套特种金属材料是储能电站及数据中心电力传输等底层刚需环节", "plates": ["光通信"], "limit_up_days": 2, "turnover_ratio": 3.61, "first_limit_up": 1787794209, "break_limit_up_times": 0}, {"code": "601233", "name": "桐昆股份", "price": 26, "change_pct": 9.98, "reason": "公司是国内产能、产量、销量最大的涤纶长丝企业，已形成了“外购PX--PTA--聚酯--纺丝--加弹”一条龙的生产、销售格局", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 2.82, "first_limit_up": 1787808129, "break_limit_up_times": 1}, {"code": "002418", "name": "康盛股份", "price": 4.91, "change_pct": 10.09, "reason": "公司研发设计的浸没式液冷产品主要应用于数据中心散热", "plates": ["液冷服务器"], "limit_up_days": 3, "turnover_ratio": 22.53, "first_limit_up": 1787794455, "break_limit_up_times": 3}, {"code": "002824", "name": "和胜股份", "price": 26.68, "change_pct": 10.02, "reason": "中国工业铝挤压材十强企业；公司已配套供应多个主流品牌的多款折叠屏手机，涉及的产品主要为高强度、高硬度、轻薄的铝合金中框、转轴及其它金属结构件", "plates": ["折叠屏"], "limit_up_days": 1, "turnover_ratio": 10.39, "first_limit_up": 1787800431, "break_limit_up_times": 0}, {"code": "002155", "name": "湖南黄金", "price": 27.02, "change_pct": 10.02, "reason": "公司拟购买黄金天岳及中南冶炼100%股权", "plates": ["资产重组", "黄金"], "limit_up_days": 1, "turnover_ratio": 0.91, "first_limit_up": 1787793900, "break_limit_up_times": 0}, {"code": "001309", "name": "德明利", "price": 429.76, "change_pct": 10.0, "reason": "公司目前已建立了完善的存储产品矩阵，包括移动存储、固态硬盘、嵌入式存储、内存条等", "plates": ["闪存"], "limit_up_days": 1, "turnover_ratio": 12.72, "first_limit_up": 1787812224, "break_limit_up_times": 1}, {"code": "002742", "name": "冀衡医药", "price": 5.67, "change_pct": 10.1, "reason": "公司摘星脱帽后正式更名，全资子公司辽源百康主要生产化学原料药，涵盖解热镇痛、抗菌、抗过敏、局部麻醉等大类", "plates": ["医药"], "limit_up_days": 3, "turnover_ratio": 1.9, "first_limit_up": 1787793900, "break_limit_up_times": 0}, {"code": "600721", "name": "百花医药", "price": 16.68, "change_pct": 10.03, "reason": "综合服务性CRO企业，控股股东、实际控制人拟变更为金华市国资委", "plates": ["医药"], "limit_up_days": 1, "turnover_ratio": 43.45, "first_limit_up": 1787794310, "break_limit_up_times": 19}, {"code": "002980", "name": "华盛昌", "price": 102.05, "change_pct": 10.0, "reason": "公司收购伽蓝特100%股权，后者专注光通信模块和光芯片测试", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 11.05, "first_limit_up": 1787795904, "break_limit_up_times": 1}, {"code": "603435", "name": "嘉德利", "price": 53.3, "change_pct": 10.01, "reason": "公司从事BOPP电工膜研产销，产品系薄膜电容器和复合集流体等电子电力领域的关键材料", "plates": ["被动元件"], "limit_up_days": 1, "turnover_ratio": 9.99, "first_limit_up": 1787797081, "break_limit_up_times": 1}, {"code": "002134", "name": "天津普林", "price": 22.63, "change_pct": 10.01, "reason": "专注于中小批量、高多层、厚铜板、光电板和HDI领域的PCB企业", "plates": ["PCB板"], "limit_up_days": 1, "turnover_ratio": 4.65, "first_limit_up": 1787797602, "break_limit_up_times": 0}, {"code": "301666", "name": "大普微", "price": 469.2, "change_pct": 20.0, "reason": "业内领先、国内极少数具备企业级SSD“主控芯片+固件算法+模组”全栈自研能力并实现批量出货的半导体存储产品提供商，签订5.15亿美元企业级PCIe SSD的销售订单", "plates": ["闪存"], "limit_up_days": 1, "turnover_ratio": 7.81, "first_limit_up": 1787794251, "break_limit_up_times": 0}, {"code": "301591", "name": "肯特股份", "price": 50.4, "change_pct": 20.0, "reason": "1、公司专注于高性能工程塑料制品及组配件的研产销，PTFE（聚四氟乙烯）等氟塑料是公司主要使用的高性能材料之一；\n2、公司研究PEEK各种配方、成型与深加工技术，为不同应用场景的客户提供包含且不限于PEEK材料的制品与应用解决方案", "plates": ["氟化工"], "limit_up_days": 1, "turnover_ratio": 36.73, "first_limit_up": 1787797188, "break_limit_up_times": 0}, {"code": "600108", "name": "亚盛集团", "price": 3.78, "change_pct": 9.88, "reason": "我国当前最大规模的农艺种植基地；公司主营啤酒花、苜蓿牧草、马铃薯、制种玉米、大麦、食葵、果蔬等作物规模化种植", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 7.7, "first_limit_up": 1787796515, "break_limit_up_times": 0}, {"code": "002852", "name": "道道全", "price": 8.89, "change_pct": 10.02, "reason": "公司主营食用植物油，有菜籽种植基地，主要种植高油酸菜籽品种，为公司的高油酸菜油提供原料资源", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 6.91, "first_limit_up": 1787807370, "break_limit_up_times": 1}, {"code": "600397", "name": "江钨装备", "price": 19.03, "change_pct": 10.0, "reason": "公司拟定增募资不超过19亿元，用于收购控股股东旗下江钨硬质合金、华茂钨材料及九江有色金属冶炼三家公司100%股权，拟注入钨制品及钽铌制品领域优质资产", "plates": ["资产重组"], "limit_up_days": 1, "turnover_ratio": 10.36, "first_limit_up": 1787797422, "break_limit_up_times": 0}, {"code": "688790", "name": "昂瑞微", "price": 114.1, "change_pct": 20.0, "reason": "公司主要从事射频前端芯片、射频SoC芯片及其他模拟芯片的研发、设计与销售\n", "plates": ["国产芯片"], "limit_up_days": 1, "turnover_ratio": 14.78, "first_limit_up": 1787797135, "break_limit_up_times": 0}, {"code": "600103", "name": "青山纸业", "price": 3.82, "change_pct": 10.09, "reason": "1、控股子公司恒宝通光主营光通信模块及组件产品的研产销，系国家级高新技术企业，产品主要应用于移动通信领域，为全球大型模拟半导体设备供应厂商Avago逾十年的供应商；\n2、综合性造纸上市公司，实控人福建省国资委；公司主要产品为“青山牌”系列伸性纸袋纸、牛皮包装纸、溶解浆等产品", "plates": ["光通信"], "limit_up_days": 3, "turnover_ratio": 6.1, "first_limit_up": 1787794233, "break_limit_up_times": 0}, {"code": "600683", "name": "京投发展", "price": 11.04, "change_pct": 9.96, "reason": "1、公司筹划收购西安奇芯光电股权，标的从事光电子器件制造；\n2、公司拟将房地产开发业务相关资产及负债转让至控股股东北京市基础设施投资有限公司，目前正开展审计、评估等工作", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 5.74, "first_limit_up": 1787795669, "break_limit_up_times": 1}, {"code": "300456", "name": "赛微电子", "price": 37.06, "change_pct": 20.01, "reason": "1、公司具备硅光子芯片MEMS工艺开发与晶圆制造能力，产品可用于CPO光交换、光通信场景；\n2、公司拟6000万收购芯东来股权，标的专注于光刻机领域", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 13.72, "first_limit_up": 1787796804, "break_limit_up_times": 4}, {"code": "600095", "name": "湘财股份", "price": 9.54, "change_pct": 10.03, "reason": "公司上半年净利润同比预增217.76%—344.86%，报告期内，国内资本市场稳步上行，市场成交量迭创新高，公司全资子公司湘财证券积极把握市场机会，优化资产配置，其中经纪、信用、投顾等财富管理及自营业务业绩增长显著，带动公司净利润较上年同期实现大幅增长", "plates": ["大金融"], "limit_up_days": 2, "turnover_ratio": 7.12, "first_limit_up": 1787794781, "break_limit_up_times": 15}, {"code": "600378", "name": "昊华科技", "price": 48.46, "change_pct": 10.01, "reason": "公司是国内氟化工龙头，受上游原材料成本上升等因素影响，公司PTFE产品销售价格有所上涨", "plates": ["氟化工"], "limit_up_days": 1, "turnover_ratio": 2.79, "first_limit_up": 1787794296, "break_limit_up_times": 2}, {"code": "603618", "name": "杭电股份", "price": 35.11, "change_pct": 9.99, "reason": "公司地处杭州，是国网杭州供电公司重要的电缆供应商和技术合作伙伴，具备光通信“光棒—光纤—光缆”一体化产业链，光缆产品通过参与电信运营商招投标实现销售", "plates": ["光通信"], "limit_up_days": 2, "turnover_ratio": 9.69, "first_limit_up": 1787794513, "break_limit_up_times": 1}, {"code": "002628", "name": "成都路桥", "price": 5.28, "change_pct": 10.0, "reason": "成都优质基建企业；2025年7月，公司与深圳市优必选、中国民航正式签署战略合作框架协议，就具身智能机器人及人工智能技术在民航和泛交通行业落地应用进行深入合作探索，全资子公司四川成路智汇科技和优必选等联合成立锦程智行(成都)，锦程智行已获取订单并投入机场使用", "plates": ["机器人"], "limit_up_days": 1, "turnover_ratio": 10.29, "first_limit_up": 1787806842, "break_limit_up_times": 5}, {"code": "002072", "name": "凯瑞德", "price": 8.9, "change_pct": 10.01, "reason": "公司以1.15亿元增资收购龙武矿业并获51%表决权", "plates": ["其他"], "limit_up_days": 2, "turnover_ratio": 11.21, "first_limit_up": 1787794467, "break_limit_up_times": 4}, {"code": "605288", "name": "凯迪股份", "price": 63.14, "change_pct": 10.0, "reason": "公司是线性驱动系统龙头，网传资料显示，公司招聘电机研发工程师，工作让内容包括负责机器人用伺服电机电磁方案分析及结构方案设计", "plates": ["机器人"], "limit_up_days": 1, "turnover_ratio": 3.06, "first_limit_up": 1787813268, "break_limit_up_times": 0}, {"code": "000592", "name": "平潭发展", "price": 6.81, "change_pct": 10.02, "reason": "A股唯一一家注册在平潭岛的上市公司，公司拥有90万亩林地，受益林业碳汇交易发展", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 15.33, "first_limit_up": 1787807562, "break_limit_up_times": 2}, {"code": "000951", "name": "中国重汽", "price": 22.39, "change_pct": 10.02, "reason": "公司为国内重卡龙头之一，上半年净利润同比增45.5%", "plates": ["业绩增长"], "limit_up_days": 1, "turnover_ratio": 2.65, "first_limit_up": 1787794347, "break_limit_up_times": 15}, {"code": "601208", "name": "东材科技", "price": 49.1, "change_pct": 9.99, "reason": "1、公司业务聚焦于电子级树脂材料，如双马树脂、活性酯等，是制造高频高速PCB的核心原材料；\n2、电子级树脂材料专家；公司与Chemax、种亿化学成立成都东凯芯半导体材料公司，重点开展高端光刻胶项目", "plates": ["氟化工"], "limit_up_days": 1, "turnover_ratio": 7.84, "first_limit_up": 1787806815, "break_limit_up_times": 2}, {"code": "002636", "name": "金安国纪", "price": 69.41, "change_pct": 10.0, "reason": "国内覆铜板龙头，同时生产电子级玻纤布", "plates": ["PCB板"], "limit_up_days": 1, "turnover_ratio": 7.16, "first_limit_up": 1787798118, "break_limit_up_times": 1}, {"code": "603688", "name": "石英股份", "price": 51.56, "change_pct": 10.01, "reason": "国内石英制品行业的龙头企业；公司在光通讯行业的主营产品一直以石英延长管、石英棒、石英套管为主，为光纤预制棒及光纤拉丝工艺提供部分石英材料", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 3.85, "first_limit_up": 1787811869, "break_limit_up_times": 0}, {"code": "603938", "name": "三孚股份", "price": 44.96, "change_pct": 10.01, "reason": "公司电子特气产品应用于存储芯片等领域", "plates": ["国产芯片"], "limit_up_days": 1, "turnover_ratio": 3.42, "first_limit_up": 1787794880, "break_limit_up_times": 1}, {"code": "600162", "name": "香江控股", "price": 4.87, "change_pct": 9.93, "reason": "公司签5年互联网数据中心业务协议，预计总金额7.96亿元", "plates": ["云计算数据中心"], "limit_up_days": 1, "turnover_ratio": 4.13, "first_limit_up": 1787796381, "break_limit_up_times": 0}, {"code": "603261", "name": "立航科技", "price": 58.73, "change_pct": 10.0, "reason": "1、我国军机地面保障设备主要供应商，在低空经济相关业务中涉及无人机相关业务；\n2、公司参与了核聚变激光点火装置神光III主机装置项目，是该项目片状放大器组件的设计制造单位之一", "plates": ["军工"], "limit_up_days": 1, "turnover_ratio": 2.27, "first_limit_up": 1787794542, "break_limit_up_times": 0}, {"code": "600345", "name": "长江通信", "price": 52.06, "change_pct": 9.99, "reason": "1、参股公司长飞光纤是世界领先的光纤预制棒、光纤及光缆供应商之一；\n2、低轨卫星通信是公司重点开拓的新行业之一，公司背靠中国信科，其在星地融合标准制定上发挥了突出的贡献，自R18开始首次实现中国在3GPPNTN的标准立项，目前已累计牵头16项，是全球牵头卫星NTN立项最多的公司", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 8.7, "first_limit_up": 1787812972, "break_limit_up_times": 0}, {"code": "002536", "name": "飞龙股份", "price": 54.23, "change_pct": 10.0, "reason": "1、公司针对机器人关节等部位日益增长的液冷散热需求，依托公司在电子泵、温控阀及集成模块等新能源热管理产品上的技术优势，积极布局机器人领域液冷市场；\n2、公司的数据中心液冷产品在芜湖飞龙、郑州飞龙已建有专门生产线；公司多个液冷项目正在进行中，公司电子水泵系列产品和温控阀系列产品已应用在服务器液冷领域，该领域部分项目已经量产", "plates": ["液冷服务器"], "limit_up_days": 1, "turnover_ratio": 11.43, "first_limit_up": 1787795991, "break_limit_up_times": 5}, {"code": "000962", "name": "东方钽业", "price": 57.55, "change_pct": 10.0, "reason": "1、国内最大的钽、铌产品生产基地；AI服务器对钽电容需求的爆发式增长，25H2至今全球钽电容龙头Kemet已经宣布了三次涨价，公司电容器级钽粉全球市占率25%，电容器用钽丝全球市占率50%+，4月以来公司已针对下游钽电容客户涨价50%+，涨价已经逐渐传递至公司端；\n2、公司涂层材料已配套商业航天火箭喷管，超导铌材及铌超导腔用于可控核聚变等国家大科学装置", "plates": ["被动元件"], "limit_up_days": 1, "turnover_ratio": 6.93, "first_limit_up": 1787799009, "break_limit_up_times": 1}, {"code": "002942", "name": "新农股份", "price": 19.01, "change_pct": 10.01, "reason": "农药全产业链生产企业；主营化学农药原药、制剂及精细化工中间体，主要产品为噻唑锌、吡唑醚菌酯、毒死蜱、三唑磷等原药及制剂，中间体有乙基氯化物等；噻唑锌为创制农药，毒死蜱原药市场占有率居国内前列", "plates": ["大农业"], "limit_up_days": 2, "turnover_ratio": 1.63, "first_limit_up": 1787793900, "break_limit_up_times": 0}, {"code": "603011", "name": "合锻智能", "price": 25.14, "change_pct": 10.02, "reason": "1、公司是PCB/CCL层压设备的国产龙头，核心产品是真空热压机/冷压机及自动化生产线；\n2、参股公司合肥汇智专注于粉末注射成形技术（PIM）的研发及应用，其中涉及的光模块业务，目前正在合作的企业有新易盛、联特科技等；\n3、公司高端成形机床已成熟应用于航空航天、军工领域并取得业务收入；\n4、公司与中国核工业二三建设有限公司合作，已承接核聚变真空室构件的研制工作", "plates": ["PCB板"], "limit_up_days": 1, "turnover_ratio": 10.52, "first_limit_up": 1787798568, "break_limit_up_times": 1}, {"code": "600654", "name": "中安科", "price": 3.3, "change_pct": 10.0, "reason": "公司及全资子公司灵算智云武汉投资有限公司已与宜兴兴阳产业投资有限公司签署协议共建宜兴市人工智能算力中心项目；上半年净利润同比增长1826%", "plates": ["云计算数据中心", "业绩增长"], "limit_up_days": 1, "turnover_ratio": 4.37, "first_limit_up": 1787794716, "break_limit_up_times": 0}, {"code": "002886", "name": "沃特股份", "price": 24, "change_pct": 9.99, "reason": "1、公司已有PCB用聚四氟乙烯（PTFE）材料、散热用液晶高分子（LCP）和聚醚醚酮（PEEK）材料、数据连接用LCP和高温尼龙（PPA）材料等方案；\n2、公司的聚芳醚酮产线正在建设中，其中包含PEEK产线", "plates": ["氟化工"], "limit_up_days": 1, "turnover_ratio": 15.71, "first_limit_up": 1787794473, "break_limit_up_times": 5}, {"code": "603269", "name": "海鸥股份", "price": 20.16, "change_pct": 9.98, "reason": "公司冷却塔已应用于数据算力中心", "plates": ["液冷服务器"], "limit_up_days": 1, "turnover_ratio": 6.17, "first_limit_up": 1787798526, "break_limit_up_times": 2}, {"code": "600969", "name": "郴电国际", "price": 10.45, "change_pct": 10.0, "reason": "公司为唐山中邦控股股东，消息称后者氩气报价大涨", "plates": ["工业气体"], "limit_up_days": 2, "turnover_ratio": 9.93, "first_limit_up": 1787796563, "break_limit_up_times": 1}, {"code": "000576", "name": "甘化科工", "price": 8, "change_pct": 10.04, "reason": "1、公司持有苏州锴威特半导体股份有限公司834.4816万股，占其总股本11.33%；\n2、控股子公司沈阳含能拥有军工相关资质，在钨合金预制破片领域具有相对稳定的竞争地位，与多家兵工厂建立了良好的合作关系，是部分常规炮弹及新型火箭弹预制破片的主要供应商", "plates": ["国产芯片"], "limit_up_days": 1, "turnover_ratio": 7.82, "first_limit_up": 1787794239, "break_limit_up_times": 4}, {"code": "603002", "name": "宏昌电子", "price": 16.91, "change_pct": 10.02, "reason": "公司开发了高频高速5G电路板用树脂，已完成下游CCL覆铜板客户实验室认证", "plates": ["PCB板"], "limit_up_days": 1, "turnover_ratio": 5.17, "first_limit_up": 1787795521, "break_limit_up_times": 0}, {"code": "600330", "name": "天通股份", "price": 29.15, "change_pct": 10.0, "reason": "公司生产的铌酸锂晶体材料是铌酸锂电光调制芯片及器件的上游关键原材料；公司已自主量产6英寸铌酸锂/钽酸锂晶体及黑化抛光晶片", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 10.62, "first_limit_up": 1787799225, "break_limit_up_times": 3}, {"code": "600540", "name": "新赛股份", "price": 4.59, "change_pct": 10.07, "reason": "公司农业主要产品为棉籽、葵花籽、菜籽及其他油料作物，立足于新疆棉花产业，聚焦棉业全产业链", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 1.52, "first_limit_up": 1787793900, "break_limit_up_times": 0}, {"code": "002953", "name": "日丰股份", "price": 11.88, "change_pct": 10.0, "reason": "公司拟投资约7亿元建设年产300吨光纤预制棒、1000万芯公里光纤项目", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 6.71, "first_limit_up": 1787795442, "break_limit_up_times": 0}, {"code": "002855", "name": "捷荣技术", "price": 13.31, "change_pct": 10.0, "reason": "华为Mate XT 2新一代三折叠官宣2026年9月7日首发，公司的客户代工厂家向华为品牌产品提供公司的产品精密结构件", "plates": ["折叠屏"], "limit_up_days": 3, "turnover_ratio": 0.58, "first_limit_up": 1787793900, "break_limit_up_times": 0}, {"code": "600613", "name": "神奇制药", "price": 11.61, "change_pct": 10.05, "reason": "公司拥有中国驰名商标“神奇”品牌，其中枇杷止咳颗粒、强力枇杷露等较为知名", "plates": ["医药"], "limit_up_days": 1, "turnover_ratio": 12.18, "first_limit_up": 1787793900, "break_limit_up_times": 1}, {"code": "600730", "name": "*ST高科", "price": 10.37, "change_pct": 9.97, "reason": "公司收到法院出具的《民事裁定书》，裁定撤销此前对公司及两家子公司作出的行为保全措施", "plates": ["ST股"], "limit_up_days": 1, "turnover_ratio": 2.44, "first_limit_up": 1787807987, "break_limit_up_times": 2}, {"code": "000017", "name": "深中华A", "price": 10.41, "change_pct": 10.04, "reason": "公司主要业务为自行车、锂电池材料和珠宝黄金业务", "plates": ["黄金"], "limit_up_days": 6, "turnover_ratio": 13.51, "first_limit_up": 1787794344, "break_limit_up_times": 3}, {"code": "688300", "name": "联瑞新材", "price": 186.24, "change_pct": 20.0, "reason": "公司配套供应HBM封装材料GMC所用球硅和Low α球铝", "plates": ["国产芯片"], "limit_up_days": 1, "turnover_ratio": 9.04, "first_limit_up": 1787798959, "break_limit_up_times": 2}, {"code": "002515", "name": "金字火腿", "price": 8.58, "change_pct": 10.0, "reason": "1、全资子公司拟不超过3亿元取得中晟微电子不超过20%股权，后者专注于高速光模块核心电芯片的研发设计；\n2、公司主营火腿及特色肉制品，重点发展香肠、腊肉、咸肉等，同时加快休闲食品市场布局", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 14.42, "first_limit_up": 1787799894, "break_limit_up_times": 13}, {"code": "002396", "name": "星网锐捷", "price": 33.35, "change_pct": 9.99, "reason": "国内领先的ICT应用方案提供商；控股子公司锐捷网络是国内少数几家具备高端数据中心交换机研发能力的企业，推出了应用CPO技术的数据中心交换机", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 13.51, "first_limit_up": 1787812599, "break_limit_up_times": 0}, {"code": "600359", "name": "新农开发", "price": 7.47, "change_pct": 10.01, "reason": "新疆生产建设兵团农一师旗下；主营产品涉及棉花（包括长绒棉、陆地棉、彩色棉、抗虫棉），皮棉销量1.35万吨、棉种销量5306吨", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 6.45, "first_limit_up": 1787794377, "break_limit_up_times": 1}, {"code": "601869", "name": "长飞光纤", "price": 426.82, "change_pct": 10.0, "reason": "全球光纤光缆行业的领先企业；公司空芯技术产能水平领先，并已在相关项目中标", "plates": ["光通信"], "limit_up_days": 1, "turnover_ratio": 3.63, "first_limit_up": 1787795359, "break_limit_up_times": 1}, {"code": "301399", "name": "英特科技", "price": 21.24, "change_pct": 20.0, "reason": "公司液冷散热器可以应用于数据中心、光伏发电、中央空调等领域的变频器、逆变器的散热冷却；暂未应用于云游戏大数据及人工智能大数据中心", "plates": ["液冷服务器"], "limit_up_days": 1, "turnover_ratio": 31.77, "first_limit_up": 1787796015, "break_limit_up_times": 1}, {"code": "001232", "name": "嘉立创", "price": 162.03, "change_pct": 10.0, "reason": "公司主营印制电路板制造业务，PCB业务为公司第一大收入来源，拥有五大现代化数字生产基地覆盖PCB全制程\n", "plates": ["PCB板"], "limit_up_days": 1, "turnover_ratio": 19.63, "first_limit_up": 1787797806, "break_limit_up_times": 0}, {"code": "600371", "name": "万向德农", "price": 10.49, "change_pct": 9.96, "reason": "公司是国内采用单倍体育种技术领先供应商", "plates": ["大农业"], "limit_up_days": 3, "turnover_ratio": 5.55, "first_limit_up": 1787794205, "break_limit_up_times": 0}, {"code": "300368", "name": "汇金股份", "price": 9.62, "change_pct": 19.95, "reason": "我国银行业金融机具核心供应商与服务商，业务涉及军工配套设备", "plates": ["大金融"], "limit_up_days": 1, "turnover_ratio": 12.34, "first_limit_up": 1787794761, "break_limit_up_times": 1}, {"code": "600479", "name": "千金药业", "price": 12.12, "change_pct": 9.98, "reason": "妇科中药龙头；公司的西药抗病毒类药品主要有拉米夫定片和利巴韦林颗粒等", "plates": ["医药"], "limit_up_days": 2, "turnover_ratio": 25.82, "first_limit_up": 1787794289, "break_limit_up_times": 7}, {"code": "002084", "name": "海鸥住工", "price": 5.27, "change_pct": 10.02, "reason": "公司主营业务聚焦在卫浴及厨房产品整组龙头及部品部件的制造服务与销售，控股股东拟变更为博泰车联", "plates": ["股权转让"], "limit_up_days": 4, "turnover_ratio": 0.81, "first_limit_up": 1787793900, "break_limit_up_times": 0}, {"code": "003040", "name": "楚天龙", "price": 18.73, "change_pct": 9.98, "reason": "国内较早从事数字人民币相关技术研究与产品开发的企业之一", "plates": ["大金融"], "limit_up_days": 5, "turnover_ratio": 20.77, "first_limit_up": 1787794248, "break_limit_up_times": 41}, {"code": "688368", "name": "晶丰明源", "price": 140.28, "change_pct": 20.0, "reason": "公司是国内 LED 照明驱动芯片龙头企业，推出新一代单级高PF恒压控制器BP83323，该产品以第三代碳化硅（SiC）器件集成为核心，采用单级APFC + 反激恒压输出的创新拓扑架构，支持全电压（90-264Vac）输入，可实现高达150W的输出功率，为高性能AC/DC电源设计提供了具备竞争力的解决方案", "plates": ["国产芯片"], "limit_up_days": 1, "turnover_ratio": 4.97, "first_limit_up": 1787812308, "break_limit_up_times": 0}, {"code": "603580", "name": "艾艾精工", "price": 80.52, "change_pct": 10.0, "reason": "公司实控人拟转让29.99%股份，控股股东变更为上海誉升", "plates": ["股权转让"], "limit_up_days": 1, "turnover_ratio": 6.46, "first_limit_up": 1787795733, "break_limit_up_times": 0}, {"code": "605258", "name": "协和电子", "price": 31.9, "change_pct": 10.0, "reason": "国内领先的高频通讯板生产商；公司车载毫米波雷达等产品且已批量供货，与合众新能源、上汽时代、万帮数字能源等新能源领域的客户建立了合作", "plates": ["PCB板"], "limit_up_days": 1, "turnover_ratio": 5.26, "first_limit_up": 1787797998, "break_limit_up_times": 3}, {"code": "603900", "name": "莱绅通灵", "price": 7.14, "change_pct": 10.02, "reason": "公司主营珠宝饰品、工艺美术品等，与蓝精灵 IP 联名，用18K金、天然贝母、珐琅等工艺打造珠宝，借热门 IP 拓展业务 ", "plates": ["黄金"], "limit_up_days": 1, "turnover_ratio": 8.09, "first_limit_up": 1787794799, "break_limit_up_times": 1}, {"code": "603319", "name": "美湖股份", "price": 29.45, "change_pct": 10.01, "reason": "1、公司持有朗道智通 66.13%股权，后者主要产品及业务有工业物流机器人（AGV）；\n2、国内内燃机机油泵龙头，控股子公司东兴昌科技激光雷达电机产品已实现对全球图像级激光雷达领先企业的配套供货，并实车装配于某新能源汽车制造厂商", "plates": ["机器人"], "limit_up_days": 1, "turnover_ratio": 6.3, "first_limit_up": 1787811671, "break_limit_up_times": 0}, {"code": "600641", "name": "先导基电", "price": 34, "change_pct": 10.0, "reason": "公司大股东先导科技集团自有镓、 锗、 铟等稀散金属（产量全球领先） ， 能够提供电子材料（如掺杂材料、 前驱体、 电子特气） 以及工艺测试等多方面支持， 为公司零部件产品研发及国产化验证提供保障", "plates": ["磷化铟"], "limit_up_days": 1, "turnover_ratio": 6.45, "first_limit_up": 1787800190, "break_limit_up_times": 2}, {"code": "600127", "name": "金健米业", "price": 10.78, "change_pct": 10.0, "reason": "中国粮食行业第一股，在国内拥有较高的品牌知名度；公司主要产品有大米、面粉、面条、植物油、牛奶等", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 20.32, "first_limit_up": 1787794516, "break_limit_up_times": 1}];
-const RISK_STOCKS = {"603199": "[立案审查] 九华旅游：九华旅游关于副总经理被立案审查调查并留置的公告", "301117": "[行政处罚事先告知书] 佳缘科技：关于收到《行政处罚事先告知书》的公告", "600080": "[行政处罚事先告知书] ST金花：金花企业（集团）股份有限公司关于公司董事长收到中国证券监督管理委员会陕", "600299": "[行政处罚事先告知书] 安迪苏：安迪苏关于公司副总经理因非本公司事项收到行政处罚事先告知书的公告", "002779": "[行政处罚事先告知书] 中坚科技：关于收到中国证券监督管理委员会浙江监管局行政处罚事先告知书的公告", "300152": "[行政处罚事先告知书] *ST动力：关于公司及相关人员收到河北监管局行政处罚事先告知书的公告", "603773": "[行政处罚事先告知书] 沃格光电：江西沃格光电集团股份有限公司关于控股股东、实际控制人及持股5%以上股东", "002536": "[行政处罚事先告知书] 飞龙股份：关于独立董事因非本公司事项收到《行政处罚事先告知书》的公告", "002108": "[行政处罚事先告知书] 沧州明珠：沧州明珠关于独立董事因非本公司事项收到《行政处罚事先告知书》的公告", "600530": "[行政处罚事先告知书] 交大昂立：关于收到《行政处罚事先告知书》的公告", "600439": "[行政处罚事先告知书] 瑞贝卡：关于收到《行政处罚事先告知书》的公告", "603300": "[行政处罚事先告知书] 海南华铁：浙江海控南科华铁数智科技股份有限公司关于收到《行政处罚事先告知书》的公", "300278": "[行政处罚事先告知书] 华昌达：关于公司董事长因非本公司事项收到《行政处罚事先告知书》的公告", "603717": "[行政处罚事先告知书] 天域生物：关于实际控制人收到中国证券监督管理委员会行政处罚事先告知书的公告", "002528": "[行政处罚事先告知书] *ST英飞：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "000911": "[行政处罚事先告知书] *ST广糖：广西农投糖业集团股份有限公司关于公司及相关当事人收到《行政处罚事先告", "600735": "[行政处罚事先告知书] ST新华锦：新华锦关于收到《行政处罚事先告知书》的公告", "300716": "[行政处罚事先告知书] *ST泉为：关于收到《行政处罚事先告知书》的公告", "002759": "[行政处罚事先告知书] 天际股份：关于收到《行政处罚事先告知书》的公告", "002342": "[行政处罚事先告知书] 巨力索具：关于收到中国证券监督管理委员会河北监管局《行政处罚事先告知书》的公告", "600525": "[行政处罚事先告知书] ST长园：关于收到《行政处罚事先告知书》的公告", "300087": "[行政处罚事先告知书] 荃银高科：关于收到《行政处罚事先告知书》的公告", "688793": "[行政处罚事先告知书] 倍轻松：关于实际控制人收到《行政处罚事先告知书》的公告", "002217": "[行政处罚事先告知书] 合力泰：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "300096": "[行政处罚事先告知书] ST易联众：关于收到《行政处罚事先告知书》的公告", "688189": "[行政处罚事先告知书] 南新制药：关于收到《行政处罚事先告知书》的公告", "300831": "[行政处罚事先告知书] 派瑞股份：关于收到《行政处罚事先告知书》的公告", "002717": "[行政处罚事先告知书] *ST岭南：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "000716": "[行政处罚事先告知书] 黑芝麻：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "603733": "[行政处罚事先告知书] 仙鹤股份：仙鹤股份有限公司关于实际控制人之一收到行政处罚事先告知书的公告", "605199": "[行政处罚事先告知书] ST葫芦娃：葫芦娃关于收到中国证券监督管理委员会海南监管局《行政处罚事先告知书》", "600850": "[行政处罚事先告知书] 电科数字：中电科数字技术股份有限公司关于收到中国证券监督管理委员会上海监管局《行", "300163": "[行政处罚事先告知书] 先锋新材：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "688496": "[行政处罚事先告知书] ST清越：清越科技关于收到中国证监会《行政处罚事先告知书》的公告", "301139": "[行政处罚事先告知书] 元道通信：关于收到《行政处罚事先告知书》的公告", "002193": "[行政处罚事先告知书] 如意集团：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "601718": "[行政处罚事先告知书] 际华集团：际华集团关于收到中国证券监督管理委员会行政处罚事先告知书的公告", "600157": "[行政处罚事先告知书] 永泰能源：永泰能源集团股份有限公司关于公司实际控制人因非本公司事项收到中国证券监", "300201": "[行政处罚事先告知书] 海伦哲：关于第一大股东之控股股东及其实际控制人因非本公司事项收到《行政处罚事先告", "000567": "[行政处罚事先告知书] 海德股份：关于公司及相关人员收到《行政处罚事先告知书》的公告", "920305": "[行政处罚事先告知书] [临时公告]*ST云创:行政处罚事先告知书", "603169": "[行政处罚事先告知书] 兰石重装：兰石重装关于收到中国证券监督管理委员会甘肃监管局《行政处罚事先告知书》", "601212": "[行政处罚事先告知书] 白银有色：白银有色集团股份有限公司关于公司董事长因非本公司事项收到《行政处罚事先", "688270": "[行政处罚事先告知书] 臻镭科技：浙江臻镭科技股份有限公司关于收到《行政处罚事先告知书》的公告", "603377": "[行政处罚事先告知书] ST东时：关于实际控制人收到北京证监局《行政处罚事先告知书》的公告", "300205": "[行政处罚事先告知书] *ST天喻：关于收到中国证券监督管理委员会湖北监管局《行政处罚事先告知书》的公告", "600082": "[行政处罚事先告知书] 海泰发展：天津海泰科技发展股份有限公司关于收到中国证券监督管理委员会天津监管局《", "600599": "[行政处罚事先告知书] *ST熊猫：*ST熊猫关于收到中国证监会湖南监管局《行政处罚事先告知书》的公告", "600759": "[行政处罚事先告知书] 洲际油气：洲际油气股份有限公司关于公司股东收到行政处罚事先告知书的公告", "002598": "[行政处罚事先告知书] 山东章鼓：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "300081": "[行政处罚事先告知书] 恒信东方：关于收到中国证券监督管理委员会北京监管局《行政处罚事先告知书》的公告", "002159": "[行政处罚事先告知书] 三特索道：关于公司及相关责任人收到《行政处罚事先告知书》的公告", "002538": "[行政处罚事先告知书] 司尔特：关于公司及相关当事人收到中国证监会安徽监管局《行政处罚及市场禁入事先告知", "600481": "[行政处罚事先告知书] 双良节能：双良节能系统股份有限公司关于公司及控股股东收到行政处罚事先告知书的公告", "688209": "[行政处罚事先告知书] 英集芯：英集芯关于收到《行政处罚事先告知书》的公告", "300209": "[行政处罚事先告知书] 行云科技：关于股东收到《行政处罚事先告知书》的公告", "603789": "[行政处罚事先告知书] *ST星农：*ST星农关于收到《行政处罚事先告知书》的公告", "300796": "[行政处罚事先告知书] 贝斯美：关于实际控制人收到《行政处罚事先告知书》的公告", "601162": "[行政处罚事先告知书] 天风证券：天风证券股份有限公司关于收到中国证券监督管理委员会福建监管局《行政处罚", "300111": "[行政处罚事先告知书] 向日葵：关于收到《行政处罚事先告知书》的公告", "603398": "[行政处罚事先告知书] *ST沐邦：江西沐邦高科股份有限公司关于公司及相关当事人收到《行政处罚事先告知书", "688575": "[行政处罚事先告知书] 亚辉龙：关于收到行政处罚事先告知书的公告", "600753": "[行政处罚事先告知书] *ST海钦：海钦股份关于收到《行政处罚事先告知书》的公告", "002512": "[行政处罚事先告知书] 达华智能：关于收到中国证券监督管理委员会福建监管局《行政处罚事先告知书》的公告", "688005": "[行政处罚事先告知书] 容百科技：关于收到《行政处罚事先告知书》的公告", "603421": "[行政处罚事先告知书] 鼎信通讯：鼎信通讯关于公司董事兼副总经理收到行政处罚事先告知书的公告", "000821": "[行政处罚事先告知书] 京山轻机：关于收到中国证券监督管理委员会湖北监管局《行政处罚事先告知书》整改情况", "920198": "[行政处罚事先告知书] [临时公告]微创光电:关于公司及相关当事人收到中国证券监督管理委员会湖北监管局行", "688669": "[行政处罚事先告知书] 聚石化学：关于收到《行政处罚事先告知书》的公告", "600107": "[行政处罚事先告知书] ST尔雅：关于公司及相关人员收到《行政处罚事先告知书》的公告", "600338": "[行政处罚事先告知书] 西藏珠峰：关于公司控股股东收到中国证券监督管理委员会行政处罚事先告知书的公告", "002055": "[行政处罚事先告知书] 得润电子：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "920748": "[行政处罚事先告知书] [临时公告]路桥信息:关于公司及相关当事人收到中国证券监督管理委员会厦门监管局行", "300391": "[行政处罚事先告知书] *ST长药：关于公司及相关人员收到《行政处罚事先告知书》的公告", "300730": "[行政处罚事先告知书] 科创信息：关于收到《行政处罚事先告知书》的公告", "300173": "[行政处罚事先告知书] 福能东方：关于收到中国证券监督管理委员会广东监管局《行政处罚事先告知书》的公告", "002424": "[行政处罚事先告知书] 贵州百灵：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "600581": "[行政处罚事先告知书] 八一钢铁：八一钢铁关于公司、控股股东及相关当事人收到中国证券监督管理委员会新疆监", "300594": "[行政处罚事先告知书] 朗进科技：山东朗进科技股份有限公司关于公司及相关当事人收到《行政处罚事先告知书》", "600079": "[行政处罚事先告知书] 人福医药：人福医药关于收到中国证券监督管理委员会湖北监管局《行政处罚事先告知书》", "524097": "[行政处罚事先告知书] 25一创01：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "524313": "[行政处罚事先告知书] 25一创06：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "148847": "[行政处罚事先告知书] 24一创02：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "524098": "[行政处罚事先告知书] 25一创02：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "524171": "[行政处罚事先告知书] 25一创04：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "148471": "[行政处罚事先告知书] 23一创01：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "148575": "[行政处罚事先告知书] 24一创01：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "149612": "[行政处罚事先告知书] 21一创02：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "524486": "[行政处罚事先告知书] 25一创K2：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "002797": "[行政处罚事先告知书] 第一创业：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国证券", "524314": "[行政处罚事先告知书] 25一创K1：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "148014": "[行政处罚事先告知书] 22一创04：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "149767": "[行政处罚事先告知书] 22一创02：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "603822": "[行政处罚事先告知书] 嘉澳环保：关于收到中国证券监督管理委员会浙江监管局《行政处罚事先告知书》的公告", "300460": "[行政处罚事先告知书] 惠伦晶体：关于公司及相关当事人收到《行政处罚事先告知书》的公告"};
+const ALL_STOCKS = [{"code": "603618", "name": "杭电股份", "hot_rank": 1, "hot_rank_chg": 3, "stock_cnt": 5799, "price": "35.92", "change": "2.31", "market_id": "17", "circulate_market_value": "24834212000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600487", "name": "亨通光电", "hot_rank": 2, "hot_rank_chg": -1, "stock_cnt": 5799, "price": "68.70", "change": "-3.65", "market_id": "17", "circulate_market_value": "168565500000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600613", "name": "神奇制药", "hot_rank": 3, "hot_rank_chg": 8, "stock_cnt": 5799, "price": "12.40", "change": "6.80", "market_id": "17", "circulate_market_value": "5943567700.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "中药", "change_pct": -0.03}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "医药商业", "change_pct": -0.08}, {"name": "医药", "change_pct": -0.81}, {"name": "流感", "change_pct": -0.27}]}, {"code": "000636", "name": "风华高科", "hot_rank": 4, "hot_rank_chg": 13, "stock_cnt": 5799, "price": "55.45", "change": "2.48", "market_id": "33", "circulate_market_value": "63628319000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600664", "name": "哈药股份", "hot_rank": 5, "hot_rank_chg": 3, "stock_cnt": 5799, "price": "9.00", "change": "2.86", "market_id": "17", "circulate_market_value": "22666589000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "跨境电商", "change_pct": 0.95}, {"name": "密集调研", "change_pct": -0.01}, {"name": "工业大麻", "change_pct": 0.49}, {"name": "中药", "change_pct": -0.03}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "保健品", "change_pct": -0.4}, {"name": "民营医院", "change_pct": -0.37}, {"name": "医药", "change_pct": -0.81}, {"name": "化学原料药", "change_pct": -0.69}, {"name": "流感", "change_pct": -0.27}, {"name": "振兴东北", "change_pct": 0.55}, {"name": "食品", "change_pct": 0.98}]}, {"code": "002418", "name": "康盛股份", "hot_rank": 6, "hot_rank_chg": 17, "stock_cnt": 5799, "price": "4.90", "change": "-0.20", "market_id": "33", "circulate_market_value": "5568360000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "无人驾驶", "change_pct": -0.4}, {"name": "锂电池", "change_pct": -0.13}, {"name": "石墨烯", "change_pct": 0.76}, {"name": "新能源整车", "change_pct": 0.61}, {"name": "云计算数据中心", "change_pct": -0.4}, {"name": "汽车整车", "change_pct": 0.72}, {"name": "新能源汽车", "change_pct": -0.24}, {"name": "白色家电", "change_pct": 0.33}, {"name": "家电", "change_pct": 0.16}, {"name": "汽车热管理", "change_pct": -0.67}, {"name": "热泵", "change_pct": -0.21}, {"name": "轮边电机", "change_pct": 0.12}, {"name": "超级电容", "change_pct": -0.54}, {"name": "液冷服务器", "change_pct": -1.32}]}, {"code": "002636", "name": "金安国纪", "hot_rank": 7, "hot_rank_chg": 11, "stock_cnt": 5799, "price": "73.18", "change": "5.43", "market_id": "33", "circulate_market_value": "53072812000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600127", "name": "金健米业", "hot_rank": 8, "hot_rank_chg": -1, "stock_cnt": 5799, "price": "11.77", "change": "9.18", "market_id": "17", "circulate_market_value": "7553788500.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "乳业（奶粉）", "change_pct": 1.77}, {"name": "农业种植", "change_pct": 3.5}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "湖南国企改革", "change_pct": 1.41}, {"name": "乡村振兴", "change_pct": 1.53}, {"name": "休闲食品", "change_pct": 1.5}, {"name": "食品", "change_pct": 0.98}, {"name": "食品安全", "change_pct": 0.07}, {"name": "社区团购", "change_pct": 1.87}, {"name": "大农业", "change_pct": 1.81}, {"name": "预制菜", "change_pct": 1.62}, {"name": "人造肉", "change_pct": 1.79}, {"name": "国企改革", "change_pct": 0.79}]}, {"code": "002354", "name": "天娱数科", "hot_rank": 9, "hot_rank_chg": 147, "stock_cnt": 5799, "price": "7.85", "change": "9.94", "market_id": "33", "circulate_market_value": "12771901200.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "AI营销", "xgb_concepts": [{"name": "跨境电商", "change_pct": 0.95}, {"name": "电竞", "change_pct": 0.29}, {"name": "手游", "change_pct": 0.33}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "人工智能", "change_pct": -0.03}, {"name": "游戏", "change_pct": 0.24}, {"name": "独角兽", "change_pct": 0.85}, {"name": "数字经济", "change_pct": 0.38}, {"name": "腾讯概念股", "change_pct": 0.15}, {"name": "快手概念股", "change_pct": 0.59}, {"name": "元宇宙", "change_pct": 0.27}, {"name": "虚拟数字人", "change_pct": 0.27}, {"name": "东数西算/算力", "change_pct": -0.11}, {"name": "web3.0", "change_pct": 0.4}, {"name": "AIGC概念", "change_pct": 0.54}, {"name": "数据要素", "change_pct": 0.38}, {"name": "字节跳动概念股", "change_pct": 0.52}, {"name": "AI营销", "change_pct": 1.21}, {"name": "ChatGPT", "change_pct": 1.06}, {"name": "智能眼镜/MR头显", "change_pct": -0.5}, {"name": "AI大模型/智能体", "change_pct": 0.25}, {"name": "人形机器人", "change_pct": -0.91}, {"name": "短剧/互动影游", "change_pct": 0.25}, {"name": "多模态", "change_pct": 0.13}, {"name": "AI视频", "change_pct": 0.39}, {"name": "IP经济/谷子经济", "change_pct": 0.78}, {"name": "小红书概念股", "change_pct": 0.59}]}, {"code": "600103", "name": "青山纸业", "hot_rank": 10, "hot_rank_chg": 0, "stock_cnt": 5799, "price": "3.85", "change": "0.79", "market_id": "17", "circulate_market_value": "8517466800.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "造纸", "change_pct": 0.82}, {"name": "云计算数据中心", "change_pct": -0.4}, {"name": "光通信", "change_pct": -1.16}, {"name": "林业", "change_pct": 3.39}, {"name": "军民融合", "change_pct": 0.02}, {"name": "军工", "change_pct": 0.11}, {"name": "人造肉", "change_pct": 1.79}]}, {"code": "600378", "name": "昊华科技", "hot_rank": 11, "hot_rank_chg": 14, "stock_cnt": 5799, "price": "53.31", "change": "10.01", "market_id": "17", "circulate_market_value": "57178460000.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "半年报增长"}, {"code": "003040", "name": "楚天龙", "hot_rank": 12, "hot_rank_chg": -6, "stock_cnt": 5799, "price": "18.50", "change": "-1.23", "market_id": "33", "circulate_market_value": "8451729800.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600721", "name": "百花医药", "hot_rank": 13, "hot_rank_chg": -10, "stock_cnt": 5799, "price": "15.44", "change": "-7.43", "market_id": "17", "circulate_market_value": "5937415500.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002396", "name": "星网锐捷", "hot_rank": 14, "hot_rank_chg": 24, "stock_cnt": 5799, "price": "36.69", "change": "10.02", "market_id": "33", "circulate_market_value": "27789560000.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "数据中心交换机"}, {"code": "002491", "name": "通鼎互联", "hot_rank": 15, "hot_rank_chg": -10, "stock_cnt": 5799, "price": "22.23", "change": "-5.96", "market_id": "33", "circulate_market_value": "26152901000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000017", "name": "深中华A", "hot_rank": 16, "hot_rank_chg": 8, "stock_cnt": 5799, "price": "11.45", "change": "9.99", "market_id": "33", "circulate_market_value": "5047411300.00", "change_type": "1", "change_section": "7", "change_days": "7", "change_reason": "黄金珠宝", "xgb_concepts": [{"name": "深圳本地股", "change_pct": 1.37}, {"name": "锂电池", "change_pct": -0.13}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "新能源汽车", "change_pct": -0.24}, {"name": "两轮车", "change_pct": -0.36}, {"name": "珠宝饰品", "change_pct": 2.3}]}, {"code": "688836", "name": "宇树科技", "hot_rank": 17, "hot_rank_chg": -15, "stock_cnt": 5799, "price": "585.00", "change": "-4.88", "market_id": "17", "circulate_market_value": "17601316000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600183", "name": "生益科技", "hot_rank": 18, "hot_rank_chg": -2, "stock_cnt": 5799, "price": "145.65", "change": "3.32", "market_id": "17", "circulate_market_value": "351271220000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600869", "name": "远东股份", "hot_rank": 19, "hot_rank_chg": 9, "stock_cnt": 5799, "price": "18.65", "change": "3.90", "market_id": "17", "circulate_market_value": "41390929000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002165", "name": "红宝丽", "hot_rank": 20, "hot_rank_chg": 156, "stock_cnt": 5799, "price": "8.37", "change": "9.99", "market_id": "33", "circulate_market_value": "6091396400.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "环氧丙烷", "xgb_concepts": [{"name": "冷链", "change_pct": 0.51}, {"name": "装配式建筑", "change_pct": 1.05}, {"name": "风电", "change_pct": -0.44}, {"name": "环氧丙烷", "change_pct": 2.52}, {"name": "乡村振兴", "change_pct": 1.53}, {"name": "建筑节能", "change_pct": 1.19}, {"name": "旧改", "change_pct": 0.95}]}, {"code": "002428", "name": "云南锗业", "hot_rank": 21, "hot_rank_chg": -9, "stock_cnt": 5799, "price": "99.66", "change": "-1.68", "market_id": "33", "circulate_market_value": "65078727000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "301055", "name": "张小泉", "hot_rank": 22, "hot_rank_chg": 309, "stock_cnt": 5799, "price": "30.50", "change": "3.25", "market_id": "33", "circulate_market_value": "4758000000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "001309", "name": "德明利", "hot_rank": 23, "hot_rank_chg": -14, "stock_cnt": 5799, "price": "429.03", "change": "-0.17", "market_id": "33", "circulate_market_value": "70802415000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "601138", "name": "工业富联", "hot_rank": 24, "hot_rank_chg": 2, "stock_cnt": 5799, "price": "64.04", "change": "0.28", "market_id": "17", "circulate_market_value": "1270815670000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600722", "name": "金牛化工", "hot_rank": 25, "hot_rank_chg": 53, "stock_cnt": 5799, "price": "15.27", "change": "10.01", "market_id": "17", "circulate_market_value": "10388481500.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "甲醇提价"}, {"code": "600206", "name": "有研新材", "hot_rank": 26, "hot_rank_chg": -5, "stock_cnt": 5799, "price": "51.65", "change": "-3.73", "market_id": "17", "circulate_market_value": "43724480000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300308", "name": "中际旭创", "hot_rank": 27, "hot_rank_chg": 12, "stock_cnt": 5799, "price": "858.35", "change": "-0.90", "market_id": "33", "circulate_market_value": "952715520000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600522", "name": "中天科技", "hot_rank": 28, "hot_rank_chg": -14, "stock_cnt": 5799, "price": "35.04", "change": "-2.88", "market_id": "17", "circulate_market_value": "119589756000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600186", "name": "莲花控股", "hot_rank": 29, "hot_rank_chg": 28, "stock_cnt": 5799, "price": "11.94", "change": "2.14", "market_id": "17", "circulate_market_value": "21362311000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "调味品", "change_pct": 1.93}, {"name": "纯碱", "change_pct": 2.94}, {"name": "食品", "change_pct": 0.98}, {"name": "土壤修复", "change_pct": 0.61}, {"name": "东数西算/算力", "change_pct": -0.11}, {"name": "OpenClaw概念", "change_pct": 0.03}, {"name": "DeepSeek概念股", "change_pct": 0.51}]}, {"code": "601869", "name": "长飞光纤", "hot_rank": 30, "hot_rank_chg": -17, "stock_cnt": 5799, "price": "422.36", "change": "-1.04", "market_id": "17", "circulate_market_value": "171621050000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002412", "name": "汉森制药", "hot_rank": 31, "hot_rank_chg": -16, "stock_cnt": 5799, "price": "13.13", "change": "-6.35", "market_id": "33", "circulate_market_value": "6536704900.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002407", "name": "多氟多", "hot_rank": 32, "hot_rank_chg": 21, "stock_cnt": 5799, "price": "36.94", "change": "5.18", "market_id": "33", "circulate_market_value": "39929122000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000938", "name": "紫光股份", "hot_rank": 33, "hot_rank_chg": 10, "stock_cnt": 5799, "price": "35.89", "change": "-1.48", "market_id": "33", "circulate_market_value": "102648008000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600176", "name": "中国巨石", "hot_rank": 34, "hot_rank_chg": -5, "stock_cnt": 5799, "price": "43.20", "change": "1.31", "market_id": "17", "circulate_market_value": "171572560000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "601360", "name": "三六零", "hot_rank": 35, "hot_rank_chg": 356, "stock_cnt": 5799, "price": "9.30", "change": "6.65", "market_id": "17", "circulate_market_value": "65095888000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "车联网/车路云", "change_pct": 0.23}, {"name": "国产软件", "change_pct": 0.41}, {"name": "手游", "change_pct": 0.33}, {"name": "人工智能", "change_pct": -0.03}, {"name": "网络安全", "change_pct": 0.27}, {"name": "物联网", "change_pct": -0.27}, {"name": "大数据", "change_pct": 0.19}, {"name": "智慧城市", "change_pct": 0.07}, {"name": "智慧安防", "change_pct": 0.42}, {"name": "国产操作系统", "change_pct": 0.92}, {"name": "东数西算/算力", "change_pct": -0.11}, {"name": "华为海思", "change_pct": -0.14}, {"name": "华为鸿蒙", "change_pct": 0.47}, {"name": "AI营销", "change_pct": 1.21}, {"name": "词元概念/Token", "change_pct": 0.25}, {"name": "华为产业链", "change_pct": -0.13}, {"name": "ChatGPT", "change_pct": 1.06}, {"name": "AI大模型/智能体", "change_pct": 0.25}, {"name": "多模态", "change_pct": 0.13}, {"name": "DeepSeek概念股", "change_pct": 0.51}, {"name": "区块链", "change_pct": 0.26}]}, {"code": "002081", "name": "金螳螂", "hot_rank": 36, "hot_rank_chg": -3, "stock_cnt": 5799, "price": "5.60", "change": "-1.58", "market_id": "33", "circulate_market_value": "14854283000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "强势人气股", "change_pct": 0.41}, {"name": "云计算数据中心", "change_pct": -0.4}, {"name": "装修装饰", "change_pct": 0.95}, {"name": "装配式建筑", "change_pct": 1.05}, {"name": "航天", "change_pct": -0.23}, {"name": "旧改", "change_pct": 0.95}]}, {"code": "002837", "name": "英维克", "hot_rank": 37, "hot_rank_chg": -17, "stock_cnt": 5799, "price": "64.48", "change": "-2.26", "market_id": "33", "circulate_market_value": "73071321000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "688825", "name": "长鑫科技", "hot_rank": 38, "hot_rank_chg": -16, "stock_cnt": 5799, "price": "58.60", "change": "-0.88", "market_id": "17", "circulate_market_value": "263878080000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000725", "name": "京东方A", "hot_rank": 39, "hot_rank_chg": -12, "stock_cnt": 5799, "price": "5.92", "change": "-0.34", "market_id": "33", "circulate_market_value": "209373430000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "折叠屏", "change_pct": -1.17}, {"name": "手机产业链", "change_pct": -0.69}, {"name": "超高清视频", "change_pct": -0.22}, {"name": "苹果产业链", "change_pct": -1.1}, {"name": "电竞", "change_pct": 0.29}, {"name": "半导体", "change_pct": -1.46}, {"name": "人工智能", "change_pct": -0.03}, {"name": "互联网医疗", "change_pct": -0.15}, {"name": "VR&AR", "change_pct": -0.36}, {"name": "OLED", "change_pct": -0.39}, {"name": "京津冀", "change_pct": 0.54}, {"name": "物联网", "change_pct": -0.27}, {"name": "指纹识别", "change_pct": -1.29}, {"name": "汽车零部件", "change_pct": -0.27}, {"name": "白马股", "change_pct": 0.14}, {"name": "智能制造", "change_pct": -0.27}, {"name": "小米概念股", "change_pct": -0.54}, {"name": "国产芯片", "change_pct": -1.01}, {"name": "液晶面板/LCD", "change_pct": -0.52}, {"name": "全息概念", "change_pct": -0.21}, {"name": "理想汽车概念股", "change_pct": -0.75}, {"name": "MicroLED", "change_pct": -0.78}, {"name": "钙钛矿电池", "change_pct": 0.46}, {"name": "智能手表", "change_pct": -1.01}, {"name": "MiniLED", "change_pct": -0.63}, {"name": "传感器", "change_pct": -0.53}, {"name": "大硅片", "change_pct": -2.42}, {"name": "AI PC", "change_pct": -0.73}, {"name": "华为产业链", "change_pct": -0.13}, {"name": "回购", "change_pct": 0.06}, {"name": "光电共封装CPO", "change_pct": -1.34}, {"name": "智能眼镜/MR头显", "change_pct": -0.5}, {"name": "玻璃基板封装", "change_pct": -0.86}]}, {"code": "600172", "name": "黄河旋风", "hot_rank": 40, "hot_rank_chg": -6, "stock_cnt": 5799, "price": "14.42", "change": "-1.30", "market_id": "17", "circulate_market_value": "18519298000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600667", "name": "太极实业", "hot_rank": 41, "hot_rank_chg": -6, "stock_cnt": 5799, "price": "19.53", "change": "-3.03", "market_id": "17", "circulate_market_value": "40847819000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603986", "name": "兆易创新", "hot_rank": 42, "hot_rank_chg": -6, "stock_cnt": 5799, "price": "396.82", "change": "-3.50", "market_id": "17", "circulate_market_value": "266154450000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600479", "name": "千金药业", "hot_rank": 43, "hot_rank_chg": 21, "stock_cnt": 5799, "price": "13.33", "change": "9.98", "market_id": "17", "circulate_market_value": "5578699900.00", "change_type": "1", "change_section": "3", "change_days": "3", "change_reason": "业绩增长"}, {"code": "600162", "name": "香江控股", "hot_rank": 44, "hot_rank_chg": 54, "stock_cnt": 5799, "price": "5.36", "change": "10.06", "market_id": "17", "circulate_market_value": "17518828000.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "中报减亏", "xgb_concepts": [{"name": "房地产", "change_pct": 1.33}, {"name": "养老产业", "change_pct": 0.34}, {"name": "粤港澳大湾区", "change_pct": 1.32}, {"name": "民营医院", "change_pct": -0.37}, {"name": "地摊经济", "change_pct": 1.06}]}, {"code": "603629", "name": "利通电子", "hot_rank": 46, "hot_rank_chg": -15, "stock_cnt": 5799, "price": "119.95", "change": "-4.21", "market_id": "17", "circulate_market_value": "43268772000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002384", "name": "东山精密", "hot_rank": 47, "hot_rank_chg": 7, "stock_cnt": 5799, "price": "195.62", "change": "-2.48", "market_id": "33", "circulate_market_value": "271192260000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603002", "name": "宏昌电子", "hot_rank": 48, "hot_rank_chg": 29, "stock_cnt": 5799, "price": "17.67", "change": "4.49", "market_id": "17", "circulate_market_value": "20039167000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600460", "name": "士兰微", "hot_rank": 49, "hot_rank_chg": -12, "stock_cnt": 5799, "price": "34.17", "change": "-2.04", "market_id": "17", "circulate_market_value": "56861335000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002463", "name": "沪电股份", "hot_rank": 50, "hot_rank_chg": 21, "stock_cnt": 5799, "price": "121.70", "change": "-0.26", "market_id": "33", "circulate_market_value": "234011060000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600584", "name": "长电科技", "hot_rank": 51, "hot_rank_chg": -11, "stock_cnt": 5799, "price": "74.93", "change": "-2.10", "market_id": "17", "circulate_market_value": "134080834000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300476", "name": "胜宏科技", "hot_rank": 52, "hot_rank_chg": -6, "stock_cnt": 5799, "price": "241.60", "change": "-8.15", "market_id": "33", "circulate_market_value": "209031100000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002155", "name": "湖南黄金", "hot_rank": 53, "hot_rank_chg": 37, "stock_cnt": 5799, "price": "28.92", "change": "7.03", "market_id": "33", "circulate_market_value": "45187469000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300058", "name": "蓝色光标", "hot_rank": 54, "hot_rank_chg": 66, "stock_cnt": 5799, "price": "13.37", "change": "-1.33", "market_id": "33", "circulate_market_value": "46499928000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300274", "name": "阳光电源", "hot_rank": 55, "hot_rank_chg": -36, "stock_cnt": 5799, "price": "97.69", "change": "-1.16", "market_id": "33", "circulate_market_value": "155085480000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002131", "name": "利欧股份", "hot_rank": 56, "hot_rank_chg": 60, "stock_cnt": 5799, "price": "4.60", "change": "0.22", "market_id": "33", "circulate_market_value": "26932066000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "高管增持", "change_pct": 0.14}, {"name": "人工智能", "change_pct": -0.03}, {"name": "云计算数据中心", "change_pct": -0.4}, {"name": "水利", "change_pct": 0.49}, {"name": "直播/短视频", "change_pct": 0.39}, {"name": "大数据", "change_pct": 0.19}, {"name": "园林", "change_pct": 0.17}, {"name": "独角兽", "change_pct": 0.85}, {"name": "小米概念股", "change_pct": -0.54}, {"name": "数字经济", "change_pct": 0.38}, {"name": "腾讯概念股", "change_pct": 0.15}, {"name": "理想汽车概念股", "change_pct": -0.75}, {"name": "第三代半导体", "change_pct": -1.69}, {"name": "快手概念股", "change_pct": 0.59}, {"name": "IGBT", "change_pct": -0.59}, {"name": "虚拟数字人", "change_pct": 0.27}, {"name": "AIGC概念", "change_pct": 0.54}, {"name": "字节跳动概念股", "change_pct": 0.52}, {"name": "氮化镓", "change_pct": -1.38}, {"name": "AI营销", "change_pct": 1.21}, {"name": "AI大模型/智能体", "change_pct": 0.25}, {"name": "多模态", "change_pct": 0.13}, {"name": "液冷服务器", "change_pct": -1.32}, {"name": "小红书概念股", "change_pct": 0.59}, {"name": "区块链", "change_pct": 0.26}]}, {"code": "000712", "name": "锦龙股份", "hot_rank": 57, "hot_rank_chg": 3, "stock_cnt": 5799, "price": "11.80", "change": "9.97", "market_id": "33", "circulate_market_value": "10569662700.00", "change_type": "1", "change_section": "3", "change_days": "3", "change_reason": "证券业务", "xgb_concepts": [{"name": "股权转让", "change_pct": 0.11}, {"name": "期货概念", "change_pct": -0.69}, {"name": "券商", "change_pct": -0.0}, {"name": "大金融", "change_pct": -0.46}, {"name": "东数西算/算力", "change_pct": -0.11}]}, {"code": "300642", "name": "透景生命", "hot_rank": 58, "hot_rank_chg": 52, "stock_cnt": 5799, "price": "18.84", "change": "8.90", "market_id": "33", "circulate_market_value": "2594373000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603228", "name": "景旺电子", "hot_rank": 59, "hot_rank_chg": -17, "stock_cnt": 5799, "price": "93.90", "change": "-2.94", "market_id": "17", "circulate_market_value": "92210800000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603011", "name": "合锻智能", "hot_rank": 60, "hot_rank_chg": 20, "stock_cnt": 5799, "price": "27.65", "change": "9.98", "market_id": "17", "circulate_market_value": "13670559000.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "PCB层压机"}, {"code": "003032", "name": "传智教育", "hot_rank": 61, "hot_rank_chg": 53, "stock_cnt": 5799, "price": "10.44", "change": "-0.10", "market_id": "33", "circulate_market_value": "2969988000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "筹码集中", "change_pct": 0.96}, {"name": "ST摘帽", "change_pct": 0.32}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "教育", "change_pct": 0.82}, {"name": "阿里巴巴概念股", "change_pct": 0.32}, {"name": "职业教育", "change_pct": 0.89}, {"name": "在线教育", "change_pct": 0.44}, {"name": "华为鸿蒙", "change_pct": 0.47}, {"name": "华为产业链", "change_pct": -0.13}, {"name": "智谱AI", "change_pct": 0.19}]}, {"code": "300319", "name": "麦捷科技", "hot_rank": 62, "hot_rank_chg": 171, "stock_cnt": 5799, "price": "20.91", "change": "10.11", "market_id": "33", "circulate_market_value": "17800060000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603330", "name": "天洋新材", "hot_rank": 63, "hot_rank_chg": 65, "stock_cnt": 5799, "price": "11.02", "change": "1.38", "market_id": "17", "circulate_market_value": "4768063600.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "股权转让", "change_pct": 0.11}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "光伏", "change_pct": 0.3}, {"name": "无线耳机", "change_pct": -0.38}, {"name": "华为产业链", "change_pct": -0.13}, {"name": "光伏胶膜", "change_pct": 1.47}]}, {"code": "600105", "name": "永鼎股份", "hot_rank": 64, "hot_rank_chg": -12, "stock_cnt": 5799, "price": "39.80", "change": "-2.93", "market_id": "17", "circulate_market_value": "58187393000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000890", "name": "法尔胜", "hot_rank": 65, "hot_rank_chg": 9, "stock_cnt": 5799, "price": "8.60", "change": "-2.05", "market_id": "33", "circulate_market_value": "3607623000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "资产重组", "change_pct": 0.07}, {"name": "股权转让", "change_pct": 0.11}, {"name": "光通信", "change_pct": -1.16}, {"name": "固废处理", "change_pct": 0.42}, {"name": "环保", "change_pct": 0.38}, {"name": "独角兽", "change_pct": 0.85}, {"name": "光纤概念", "change_pct": -1.08}]}, {"code": "002466", "name": "天齐锂业", "hot_rank": 66, "hot_rank_chg": 19, "stock_cnt": 5799, "price": "50.10", "change": "3.88", "market_id": "33", "circulate_market_value": "73940657000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002716", "name": "湖南白银", "hot_rank": 67, "hot_rank_chg": -20, "stock_cnt": 5799, "price": "11.65", "change": "0.43", "market_id": "33", "circulate_market_value": "27056842000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "黄金", "change_pct": 1.2}, {"name": "有色 · 铜", "change_pct": 0.46}, {"name": "有色 · 锑", "change_pct": 3.11}, {"name": "湖南国企改革", "change_pct": 1.41}, {"name": "有色 · 锌", "change_pct": 1.67}, {"name": "有色金属", "change_pct": 0.72}, {"name": "国企改革", "change_pct": 0.79}, {"name": "白银", "change_pct": 2.29}]}, {"code": "002437", "name": "誉衡药业", "hot_rank": 68, "hot_rank_chg": -27, "stock_cnt": 5799, "price": "4.86", "change": "9.96", "market_id": "33", "circulate_market_value": "10219006900.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "创新药", "xgb_concepts": [{"name": "密集调研", "change_pct": -0.01}, {"name": "中药", "change_pct": -0.03}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "维生素", "change_pct": -0.12}, {"name": "基因测序", "change_pct": -1.13}, {"name": "民营医院", "change_pct": -0.37}, {"name": "医药", "change_pct": -0.81}, {"name": "化学原料药", "change_pct": -0.69}, {"name": "PD-1抑制剂", "change_pct": -0.02}]}, {"code": "600371", "name": "万向德农", "hot_rank": 69, "hot_rank_chg": -14, "stock_cnt": 5799, "price": "11.54", "change": "10.01", "market_id": "17", "circulate_market_value": "3376350100.00", "change_type": "1", "change_section": "9", "change_days": "6", "change_reason": "转基因玉米", "xgb_concepts": [{"name": "农业种植", "change_pct": 3.5}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "转基因", "change_pct": 3.26}, {"name": "乡村振兴", "change_pct": 1.53}, {"name": "大农业", "change_pct": 1.81}]}, {"code": "002742", "name": "冀衡医药", "hot_rank": 70, "hot_rank_chg": 22, "stock_cnt": 5799, "price": "6.24", "change": "10.05", "market_id": "33", "circulate_market_value": "3269267800.00", "change_type": "1", "change_section": "4", "change_days": "4", "change_reason": "医药制造", "xgb_concepts": [{"name": "一带一路", "change_pct": 0.65}, {"name": "ST摘帽", "change_pct": 0.32}, {"name": "强势人气股", "change_pct": 0.41}, {"name": "医药", "change_pct": -0.81}, {"name": "化学原料药", "change_pct": -0.69}, {"name": "幽门螺杆菌概念", "change_pct": 0.43}, {"name": "新冠病毒防治", "change_pct": 0.17}, {"name": "减肥药", "change_pct": -1.55}]}, {"code": "603186", "name": "华正新材", "hot_rank": 71, "hot_rank_chg": 33, "stock_cnt": 5799, "price": "183.60", "change": "0.12", "market_id": "17", "circulate_market_value": "28786739000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "001258", "name": "立新能源", "hot_rank": 72, "hot_rank_chg": -24, "stock_cnt": 5799, "price": "13.30", "change": "-3.34", "market_id": "33", "circulate_market_value": "12413177400.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "000592", "name": "平潭发展", "hot_rank": 73, "hot_rank_chg": -15, "stock_cnt": 5799, "price": "7.01", "change": "2.94", "market_id": "33", "circulate_market_value": "13424798000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "福建自贸/海西概念", "change_pct": 1.59}, {"name": "林业", "change_pct": 3.39}, {"name": "碳中和", "change_pct": 0.7}, {"name": "自贸区", "change_pct": 1.13}]}, {"code": "600110", "name": "诺德股份", "hot_rank": 74, "hot_rank_chg": -23, "stock_cnt": 5799, "price": "10.94", "change": "-5.69", "market_id": "17", "circulate_market_value": "18982879000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "特斯拉", "change_pct": -0.37}, {"name": "核电", "change_pct": -0.06}, {"name": "锂电池", "change_pct": -0.13}, {"name": "铜箔/覆铜板", "change_pct": -0.45}, {"name": "PCB板", "change_pct": -1.25}, {"name": "中科院系", "change_pct": -0.07}, {"name": "新能源汽车", "change_pct": -0.24}, {"name": "宁德时代概念股", "change_pct": -0.64}, {"name": "固态电池", "change_pct": 0.01}, {"name": "PET复合铜箔", "change_pct": -1.19}]}, {"code": "600272", "name": "开开实业", "hot_rank": 75, "hot_rank_chg": -25, "stock_cnt": 5799, "price": "20.29", "change": "-6.50", "market_id": "17", "circulate_market_value": "3246400000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "605179", "name": "一鸣食品", "hot_rank": 76, "hot_rank_chg": -32, "stock_cnt": 5799, "price": "32.58", "change": "3.36", "market_id": "17", "circulate_market_value": "13064580000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600095", "name": "湘财股份", "hot_rank": 77, "hot_rank_chg": -4, "stock_cnt": 5799, "price": "9.55", "change": "0.10", "market_id": "17", "circulate_market_value": "27305243000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": [{"name": "资产重组", "change_pct": 0.07}, {"name": "券商", "change_pct": -0.0}, {"name": "金融科技", "change_pct": -0.46}, {"name": "大金融", "change_pct": -0.46}, {"name": "人造肉", "change_pct": 1.79}]}, {"code": "002212", "name": "天融信", "hot_rank": 78, "hot_rank_chg": 535, "stock_cnt": 5799, "price": "6.93", "change": "10.00", "market_id": "33", "circulate_market_value": "8086228500.00", "change_type": "1", "change_section": 1, "change_days": 1, "change_reason": "AI安全", "xgb_concepts": [{"name": "车联网/车路云", "change_pct": 0.23}, {"name": "国产软件", "change_pct": 0.41}, {"name": "一带一路", "change_pct": 0.65}, {"name": "量子通信", "change_pct": 0.63}, {"name": "人工智能", "change_pct": -0.03}, {"name": "网络安全", "change_pct": 0.27}, {"name": "云计算数据中心", "change_pct": -0.4}, {"name": "物联网", "change_pct": -0.27}, {"name": "大数据", "change_pct": 0.19}, {"name": "破净股", "change_pct": 0.85}, {"name": "数字经济", "change_pct": 0.38}, {"name": "国产芯片", "change_pct": -1.01}, {"name": "阿里巴巴概念股", "change_pct": 0.32}, {"name": "腾讯概念股", "change_pct": 0.15}, {"name": "信创", "change_pct": 0.37}, {"name": "华为昇腾", "change_pct": 0.27}, {"name": "跨境支付", "change_pct": -0.55}, {"name": "web3.0", "change_pct": 0.4}, {"name": "数字人民币", "change_pct": -0.31}, {"name": "智慧政务", "change_pct": 0.43}, {"name": "华为鸿蒙", "change_pct": 0.47}, {"name": "华为云·鲲鹏", "change_pct": 0.98}, {"name": "卫星互联网", "change_pct": -0.58}, {"name": "智慧灯杆", "change_pct": 0.3}, {"name": "华为产业链", "change_pct": -0.13}, {"name": "回购", "change_pct": 0.06}, {"name": "AI大模型/智能体", "change_pct": 0.25}, {"name": "智能电网", "change_pct": -0.03}, {"name": "低空经济", "change_pct": -0.05}, {"name": "量子计算", "change_pct": 1.27}, {"name": "财税改革", "change_pct": 1.88}, {"name": "DeepSeek概念股", "change_pct": 0.51}]}, {"code": "603823", "name": "百合花", "hot_rank": 79, "hot_rank_chg": 8, "stock_cnt": 5799, "price": "66.12", "change": "-2.78", "market_id": "17", "circulate_market_value": "27530233000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600396", "name": "华电辽能", "hot_rank": 80, "hot_rank_chg": -13, "stock_cnt": 5799, "price": "14.17", "change": "-3.67", "market_id": "17", "circulate_market_value": "20868256000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603580", "name": "艾艾精工", "hot_rank": 81, "hot_rank_chg": -15, "stock_cnt": 5799, "price": "83.43", "change": "3.61", "market_id": "17", "circulate_market_value": "10902065100.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002436", "name": "兴森科技", "hot_rank": 82, "hot_rank_chg": 35, "stock_cnt": 5799, "price": "35.78", "change": "0.22", "market_id": "33", "circulate_market_value": "54311484000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "301591", "name": "肯特股份", "hot_rank": 83, "hot_rank_chg": -11, "stock_cnt": 5799, "price": "57.50", "change": "14.09", "market_id": "33", "circulate_market_value": "2569948000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "603118", "name": "共进股份", "hot_rank": 84, "hot_rank_chg": -9, "stock_cnt": 5799, "price": "17.73", "change": "-2.69", "market_id": "17", "circulate_market_value": "13958411000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002475", "name": "立讯精密", "hot_rank": 86, "hot_rank_chg": 2, "stock_cnt": 5799, "price": "56.60", "change": "-1.01", "market_id": "33", "circulate_market_value": "414599400000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300456", "name": "赛微电子", "hot_rank": 87, "hot_rank_chg": -24, "stock_cnt": 5799, "price": "40.40", "change": "9.01", "market_id": "33", "circulate_market_value": "24141536000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002886", "name": "沃特股份", "hot_rank": 88, "hot_rank_chg": -32, "stock_cnt": 5799, "price": "26.40", "change": "10.00", "market_id": "33", "circulate_market_value": "5519663500.00", "change_type": "1", "change_section": "2", "change_days": "2", "change_reason": "PTFE薄膜"}, {"code": "002185", "name": "华天科技", "hot_rank": 89, "hot_rank_chg": -20, "stock_cnt": 5799, "price": "16.92", "change": "-1.51", "market_id": "33", "circulate_market_value": "56276369000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600641", "name": "先导基电", "hot_rank": 90, "hot_rank_chg": 33, "stock_cnt": 5799, "price": "34.80", "change": "2.35", "market_id": "17", "circulate_market_value": "32385921000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300285", "name": "国瓷材料", "hot_rank": 91, "hot_rank_chg": -5, "stock_cnt": 5799, "price": "68.90", "change": "-1.59", "market_id": "33", "circulate_market_value": "58776729000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002015", "name": "协鑫能科", "hot_rank": 92, "hot_rank_chg": -22, "stock_cnt": 5799, "price": "16.01", "change": "-4.25", "market_id": "33", "circulate_market_value": "25989427000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300502", "name": "新易盛", "hot_rank": 93, "hot_rank_chg": 4, "stock_cnt": 5799, "price": "399.00", "change": "-2.47", "market_id": "33", "circulate_market_value": "500443020000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002552", "name": "宝鼎科技", "hot_rank": 94, "hot_rank_chg": -18, "stock_cnt": 5799, "price": "53.19", "change": "-5.02", "market_id": "33", "circulate_market_value": "19600690000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "300475", "name": "香农芯创", "hot_rank": 95, "hot_rank_chg": 17, "stock_cnt": 5799, "price": "172.10", "change": "4.09", "market_id": "33", "circulate_market_value": "77186358000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600367", "name": "红星发展", "hot_rank": 96, "hot_rank_chg": -2, "stock_cnt": 5799, "price": "42.10", "change": "3.95", "market_id": "17", "circulate_market_value": "13555071000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002156", "name": "通富微电", "hot_rank": 97, "hot_rank_chg": -18, "stock_cnt": 5799, "price": "63.75", "change": "0.03", "market_id": "33", "circulate_market_value": "96737579000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "600610", "name": "中毅达", "hot_rank": 98, "hot_rank_chg": 74, "stock_cnt": 5799, "price": "9.43", "change": "4.43", "market_id": "17", "circulate_market_value": "6683292800.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": "", "xgb_concepts": []}, {"code": "601208", "name": "东材科技", "hot_rank": 99, "hot_rank_chg": -10, "stock_cnt": 5799, "price": "51.28", "change": "4.44", "market_id": "17", "circulate_market_value": "51802181000.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}, {"code": "002580", "name": "圣阳股份", "hot_rank": 100, "hot_rank_chg": -16, "stock_cnt": 5799, "price": "21.08", "change": "-2.95", "market_id": "33", "circulate_market_value": "9535301900.00", "change_type": "", "change_section": "", "change_days": "", "change_reason": ""}];
+const LIMIT_UP_POOL = [{"code": "002396", "name": "星网锐捷", "price": 36.69, "change_pct": 10.01, "reason": "国内领先的ICT应用方案提供商；控股子公司锐捷网络是国内少数几家具备高端数据中心交换机研发能力的企业，推出了应用CPO技术的数据中心交换机", "plates": ["光通信"], "limit_up_days": 2, "turnover_ratio": 15.16, "first_limit_up": 1787880969, "break_limit_up_times": 16}, {"code": "600378", "name": "昊华科技", "price": 53.31, "change_pct": 10.01, "reason": "公司是国内氟化工龙头，受上游原材料成本上升等因素影响，公司PTFE产品销售价格有所上涨", "plates": ["氟化工"], "limit_up_days": 2, "turnover_ratio": 5.21, "first_limit_up": 1787880300, "break_limit_up_times": 3}, {"code": "600479", "name": "千金药业", "price": 13.33, "change_pct": 9.98, "reason": "妇科中药龙头；公司的西药抗病毒类药品主要有拉米夫定片和利巴韦林颗粒等", "plates": ["医药"], "limit_up_days": 3, "turnover_ratio": 25.62, "first_limit_up": 1787880867, "break_limit_up_times": 15}, {"code": "603086", "name": "先达股份", "price": 6.33, "change_pct": 10.09, "reason": "选择性除草剂细分行业龙头", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 5.18, "first_limit_up": 1787895516, "break_limit_up_times": 0}, {"code": "603778", "name": "国晟科技", "price": 10.36, "change_pct": 9.98, "reason": "全球前三大异质结产品制造商；上半年亏损同比收窄", "plates": ["业绩增长"], "limit_up_days": 1, "turnover_ratio": 7.16, "first_limit_up": 1787881618, "break_limit_up_times": 2}, {"code": "002212", "name": "天融信", "price": 6.93, "change_pct": 10.0, "reason": "1、公司作为腾讯生态合作伙伴，已使用WorkBuddy、CodeBuddy，与腾讯在威胁情报、大模型安全、云安全等多方向展开深度合作；\n2、公司参与的数字货币相关网络安全国家/行业标准主要有《信息安全技术 区块链信息服务安全规范》《公钥密码应用技术体系框架规范》《动态口令密码应用技术规范》《信息安全技术 传输层密码协议（TLCP）》《金融数据安全 数据生命周期安全规范》《金融行业网络安全等级保护测评指南》等", "plates": ["人工智能大模型"], "limit_up_days": 1, "turnover_ratio": 9.41, "first_limit_up": 1787881083, "break_limit_up_times": 0}, {"code": "000567", "name": "海德股份", "price": 7.01, "change_pct": 10.05, "reason": "海南本地股，A股唯一全资AMC标的，取得西藏AMC牌照", "plates": ["大金融"], "limit_up_days": 1, "turnover_ratio": 4.35, "first_limit_up": 1787893812, "break_limit_up_times": 0}, {"code": "601222", "name": "林洋能源", "price": 6.09, "change_pct": 9.93, "reason": "全球智能电网、新能源、储能领域一流的产品和运营服务商", "plates": ["智能电网"], "limit_up_days": 1, "turnover_ratio": 4.84, "first_limit_up": 1787883785, "break_limit_up_times": 0}, {"code": "603011", "name": "合锻智能", "price": 27.65, "change_pct": 9.98, "reason": "1、公司是PCB/CCL层压设备的国产龙头，核心产品是真空热压机/冷压机及自动化生产线；\n2、参股公司合肥汇智专注于粉末注射成形技术（PIM）的研发及应用，其中涉及的光模块业务，目前正在合作的企业有新易盛、联特科技等；\n3、公司高端成形机床已成熟应用于航空航天、军工领域并取得业务收入；\n4、公司与中国核工业二三建设有限公司合作，已承接核聚变真空室构件的研制工作", "plates": ["PCB板"], "limit_up_days": 2, "turnover_ratio": 16.59, "first_limit_up": 1787881961, "break_limit_up_times": 15}, {"code": "002971", "name": "和远气体", "price": 47.08, "change_pct": 10.0, "reason": "公司给长江存储、烽火科技、华星光电等光通信、半导体企业直接或间接供应氢气、氧气、氮气和氩气", "plates": ["国产芯片"], "limit_up_days": 1, "turnover_ratio": 11.43, "first_limit_up": 1787882268, "break_limit_up_times": 0}, {"code": "000925", "name": "众合科技", "price": 9.38, "change_pct": 9.96, "reason": "公司主营城市智慧交通等业务，中报较一季报减亏", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 12.4, "first_limit_up": 1787895660, "break_limit_up_times": 0}, {"code": "002679", "name": "福建金森", "price": 10.67, "change_pct": 10.0, "reason": "公司经营区林地总面积近80万亩", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 5.52, "first_limit_up": 1787884035, "break_limit_up_times": 1}, {"code": "600654", "name": "中安科", "price": 3.63, "change_pct": 10.0, "reason": "公司及全资子公司灵算智云武汉投资有限公司已与宜兴兴阳产业投资有限公司签署协议共建宜兴市人工智能算力中心项目；上半年净利润同比增长1826%", "plates": ["云计算数据中心", "业绩增长"], "limit_up_days": 2, "turnover_ratio": 5.03, "first_limit_up": 1787880300, "break_limit_up_times": 1}, {"code": "000560", "name": "我爱我家", "price": 2.64, "change_pct": 10.0, "reason": "1、国内最早开展全国性房地产经纪连锁业务的企业之一；\n2、公司开发的小爱聊天助手基于自然语言理解、语义识别、实时推荐等多种技术，利用客户与经纪人聊天的实时数据、客户历史画像、公司积累的海量数据和相关知识库，构建了一套辅助经纪人与客户聊天交互的智能服务系统", "plates": ["房地产"], "limit_up_days": 1, "turnover_ratio": 10.62, "first_limit_up": 1787881458, "break_limit_up_times": 0}, {"code": "603045", "name": "福达合金", "price": 62.18, "change_pct": 9.99, "reason": "公司低压电接触材料销售额国内第一，高分断能力焊接触头组件已配套施耐德、西门子、ABB等全球头部客户，北美数据中心低压配套业务在关税压力下逆势增长", "plates": ["云计算数据中心"], "limit_up_days": 1, "turnover_ratio": 4.58, "first_limit_up": 1787880912, "break_limit_up_times": 1}, {"code": "600722", "name": "金牛化工", "price": 15.27, "change_pct": 10.01, "reason": "1、公司主营业务为控股子公司金牛旭阳的甲醇生产和销售，产能为20万吨/年，采用焦炉气制甲醇工艺；\n2、公司签4.36亿元风力发电机组设备采购合同", "plates": ["石油化工"], "limit_up_days": 1, "turnover_ratio": 20.7, "first_limit_up": 1787894021, "break_limit_up_times": 0}, {"code": "603082", "name": "北自科技", "price": 44.61, "change_pct": 10.01, "reason": "公司是全国机器人标准化技术委员会人形机器人标准工作组（SAC/TC591/WG2）成员单位，参与制订人形机器人及其应用领域相关的国家标准及行业标准", "plates": ["机器人"], "limit_up_days": 1, "turnover_ratio": 17.15, "first_limit_up": 1787881967, "break_limit_up_times": 0}, {"code": "002107", "name": "沃华医药", "price": 7.23, "change_pct": 10.05, "reason": "联手宜从容推动参枝苓口服液应用于阿尔茨海默病防治", "plates": ["医药"], "limit_up_days": 1, "turnover_ratio": 5.43, "first_limit_up": 1787882538, "break_limit_up_times": 0}, {"code": "002427", "name": "尤夫股份", "price": 5.19, "change_pct": 9.96, "reason": "1、公司以高性能纤维切入海洋经济领域，核心产品拒海水聚酯工业丝通过DNV、ABS船级社认证，适配船舶、海洋钻井、海上风电系泊缆绳等场景，能抵御海水侵蚀，保障海洋作业安全；\n2、根据测算，卫星每成功减重20公斤，就能节省800万元发射成本，UHMWPE纤维在减重方面极具优势；公司在建UHMWPE项目设计产能为1600吨/年，大股东为陕西国资委", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 6.53, "first_limit_up": 1787894466, "break_limit_up_times": 1}, {"code": "600354", "name": "敦煌种业", "price": 8.21, "change_pct": 10.05, "reason": "国家育繁推一体化企业；上半年净利润同比预增157.1%左右，因“公司持续优化产品营销策略，依托精准市场定位与多渠道推广举措，自有核心优势品种销量稳步攀升”", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 20.6, "first_limit_up": 1787882107, "break_limit_up_times": 2}, {"code": "600714", "name": "金瑞矿业", "price": 19.12, "change_pct": 10.01, "reason": "公司主营锶盐系列产品的生产和销售，可应用于液晶玻璃基板等", "plates": ["玻璃基板封装"], "limit_up_days": 1, "turnover_ratio": 19.26, "first_limit_up": 1787898108, "break_limit_up_times": 0}, {"code": "603900", "name": "莱绅通灵", "price": 7.85, "change_pct": 9.94, "reason": "公司主营珠宝饰品、工艺美术品等，与蓝精灵 IP 联名，用18K金、天然贝母、珐琅等工艺打造珠宝，借热门 IP 拓展业务 ", "plates": ["黄金"], "limit_up_days": 2, "turnover_ratio": 6.51, "first_limit_up": 1787880600, "break_limit_up_times": 0}, {"code": "601003", "name": "柳钢股份", "price": 4.05, "change_pct": 10.05, "reason": "华南、西南地区最大的钢铁联合企业", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 1.55, "first_limit_up": 1787883048, "break_limit_up_times": 0}, {"code": "600162", "name": "香江控股", "price": 5.36, "change_pct": 10.06, "reason": "公司签5年互联网数据中心业务协议，预计总金额7.96亿元", "plates": ["云计算数据中心"], "limit_up_days": 2, "turnover_ratio": 4.69, "first_limit_up": 1787880980, "break_limit_up_times": 9}, {"code": "002942", "name": "新农股份", "price": 20.91, "change_pct": 9.99, "reason": "农药全产业链生产企业；主营化学农药原药、制剂及精细化工中间体，主要产品为噻唑锌、吡唑醚菌酯、毒死蜱、三唑磷等原药及制剂，中间体有乙基氯化物等；噻唑锌为创制农药，毒死蜱原药市场占有率居国内前列", "plates": ["大农业"], "limit_up_days": 3, "turnover_ratio": 18.39, "first_limit_up": 1787880300, "break_limit_up_times": 4}, {"code": "002437", "name": "誉衡药业", "price": 4.86, "change_pct": 9.95, "reason": "子公司蒲公英主要产品安脑丸为中药领域产品", "plates": ["医药"], "limit_up_days": 1, "turnover_ratio": 38.86, "first_limit_up": 1787898852, "break_limit_up_times": 0}, {"code": "002486", "name": "嘉麟杰", "price": 2.95, "change_pct": 10.07, "reason": "国内户外运动功能性面料领域的领先者", "plates": ["大消费"], "limit_up_days": 1, "turnover_ratio": 9.38, "first_limit_up": 1787896818, "break_limit_up_times": 0}, {"code": "603016", "name": "新宏泰", "price": 31.69, "change_pct": 10.0, "reason": "公司主营断路器关键部件、低压断路器及刀熔开关，产品覆盖16A-8000A配电网络，是断路器行业关键部件配套研发、制造、服务能力领先企业之一", "plates": ["智能电网"], "limit_up_days": 1, "turnover_ratio": 2.6, "first_limit_up": 1787881754, "break_limit_up_times": 0}, {"code": "000017", "name": "深中华A", "price": 11.45, "change_pct": 9.99, "reason": "公司主要业务为自行车、锂电池材料和珠宝黄金业务", "plates": ["黄金"], "limit_up_days": 7, "turnover_ratio": 25.08, "first_limit_up": 1787880780, "break_limit_up_times": 24}, {"code": "603269", "name": "海鸥股份", "price": 22.18, "change_pct": 10.02, "reason": "公司冷却塔已应用于数据算力中心", "plates": ["液冷服务器"], "limit_up_days": 2, "turnover_ratio": 3.59, "first_limit_up": 1787880673, "break_limit_up_times": 3}, {"code": "002631", "name": "德尔未来", "price": 10.1, "change_pct": 10.02, "reason": "控股子公司烯成石墨烯有用于柔性屏的石墨烯透明导电薄膜产品布局，上半年业绩同比减亏", "plates": ["业绩增长"], "limit_up_days": 1, "turnover_ratio": 12.12, "first_limit_up": 1787880600, "break_limit_up_times": 9}, {"code": "600551", "name": "时代出版", "price": 7.5, "change_pct": 9.97, "reason": "公司AI智能审校工具已实现所属出版单位全覆盖，并在AI制图、音视频制作、软件开发及文字处理领域深度应用", "plates": ["人工智能大模型"], "limit_up_days": 1, "turnover_ratio": 2.73, "first_limit_up": 1787880650, "break_limit_up_times": 1}, {"code": "603029", "name": "天鹅股份", "price": 18.28, "change_pct": 9.99, "reason": "国内棉业机械龙头，控股股东为山东供销资本公司，实际控制人为山东省供销社", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 10.41, "first_limit_up": 1787886556, "break_limit_up_times": 1}, {"code": "002949", "name": "华阳国际", "price": 14.08, "change_pct": 10.0, "reason": "1、公司是国家高新技术企业、建筑设计行业“国家住宅产业化基地”、首批“装配式建筑产业基地”、首批“全过程工程咨询试点单位”；\n2、公司涉及到低空经济的业务主要是关于航空小镇的相关规划设计", "plates": ["房地产"], "limit_up_days": 1, "turnover_ratio": 17.48, "first_limit_up": 1787883912, "break_limit_up_times": 3}, {"code": "003030", "name": "祖名股份", "price": 24.11, "change_pct": 9.99, "reason": "国内生鲜豆制品领军企业", "plates": ["大消费"], "limit_up_days": 1, "turnover_ratio": 8.02, "first_limit_up": 1787894400, "break_limit_up_times": 0}, {"code": "002742", "name": "冀衡医药", "price": 6.24, "change_pct": 10.05, "reason": "公司摘星脱帽后正式更名，全资子公司辽源百康主要生产化学原料药，涵盖解热镇痛、抗菌、抗过敏、局部麻醉等大类", "plates": ["医药"], "limit_up_days": 4, "turnover_ratio": 41.97, "first_limit_up": 1787880600, "break_limit_up_times": 3}, {"code": "000798", "name": "中水渔业", "price": 10.12, "change_pct": 10.0, "reason": "中国农业发展集团旗下，主营远洋水产品，有金枪饺子、金枪鱼圈等预制食品\n", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 8.74, "first_limit_up": 1787885022, "break_limit_up_times": 1}, {"code": "000912", "name": "泸天化", "price": 4.36, "change_pct": 10.1, "reason": "公司主营业务包括尿素、复合肥等化肥类产品；甲醇装置处于同行业先进水平，子公司绿源醇从事甲醇业务，拥有甲醇产能70万吨/年", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 7.2, "first_limit_up": 1787898366, "break_limit_up_times": 2}, {"code": "600815", "name": "厦工股份", "price": 4.46, "change_pct": 10.12, "reason": "实控人厦门国资委，中国最大的工程机械制造基地之一", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 10.11, "first_limit_up": 1787894414, "break_limit_up_times": 0}, {"code": "000716", "name": "黑芝麻", "price": 5.67, "change_pct": 10.1, "reason": "1、我国糊类食品龙头企业；旗下拥有京和米业，主要生产的香米富硒米，年生产大米能力20万吨；\n2、公司拟对天臣新能源增资5亿，标的主要从事锂电池生产和销售", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 10.37, "first_limit_up": 1787885334, "break_limit_up_times": 1}, {"code": "003005", "name": "竞业达", "price": 15.03, "change_pct": 10.03, "reason": "公司“星空教育大模型”通过国家网信办备案，累计完成文生文、文生图、文生视频等7项深度合成算法备案，形成教育垂类大模型+深度合成算法+应用落地的完整AI服务体系", "plates": ["人工智能大模型"], "limit_up_days": 1, "turnover_ratio": 4.8, "first_limit_up": 1787880969, "break_limit_up_times": 0}, {"code": "600371", "name": "万向德农", "price": 11.54, "change_pct": 10.01, "reason": "公司是国内采用单倍体育种技术领先供应商", "plates": ["大农业"], "limit_up_days": 4, "turnover_ratio": 1.68, "first_limit_up": 1787880300, "break_limit_up_times": 0}, {"code": "000565", "name": "渝三峡Ａ", "price": 6.62, "change_pct": 9.97, "reason": "1、重庆国资委旗下，我国涂料行业龙头；\n2、公司重防腐涂料打破外资垄断，曾为天宫一号、神舟九号、长征二号F火箭等军工航天工程提供配套，获国家航天科工集团授牌", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 5.35, "first_limit_up": 1787899446, "break_limit_up_times": 0}, {"code": "002915", "name": "中欣氟材", "price": 18.87, "change_pct": 10.03, "reason": "国内氟化工精细化学品行业龙头；拥有基础配套原料萤石、氢氟酸、氟制冷剂、含氟精细化学品等在内的完整的氟化工产业链", "plates": ["氟化工"], "limit_up_days": 1, "turnover_ratio": 9.34, "first_limit_up": 1787885802, "break_limit_up_times": 1}, {"code": "002886", "name": "沃特股份", "price": 26.4, "change_pct": 10.0, "reason": "1、公司已有PCB用聚四氟乙烯（PTFE）材料、散热用液晶高分子（LCP）和聚醚醚酮（PEEK）材料、数据连接用LCP和高温尼龙（PPA）材料等方案；\n2、公司的聚芳醚酮产线正在建设中，其中包含PEEK产线", "plates": ["氟化工"], "limit_up_days": 2, "turnover_ratio": 2.03, "first_limit_up": 1787880300, "break_limit_up_times": 0}, {"code": "600227", "name": "赤天化", "price": 4.58, "change_pct": 10.1, "reason": "贵州最大的甲醇生产企业；公司化工业务涵盖尿素、甲醇及复合肥的生产和销售，具备年产52万吨尿素、10万吨复合肥、5万吨车用尿素的生产能力", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 28.89, "first_limit_up": 1787897707, "break_limit_up_times": 2}, {"code": "002952", "name": "亚世光电", "price": 21.79, "change_pct": 9.99, "reason": "公司主营业务为研发、设计、生产和销售定制化液晶显示器及电子纸显示模组等光电显示产品，包括单色液晶显示器、TFT液晶显示器、电容式触模屏模组等，产品广泛应用于工控仪表、医疗仪器、白色家电、汽车显示、液晶光阀等领域，是三星、欧姆龙及GIGASET等众多国际知名企业供应商", "plates": ["玻璃基板封装"], "limit_up_days": 1, "turnover_ratio": 4.38, "first_limit_up": 1787881932, "break_limit_up_times": 0}, {"code": "603396", "name": "金辰股份", "price": 31.9, "change_pct": 10.0, "reason": "公司为全球光伏组件设备龙头，拟投资约10亿元建设半导体装备研发及制造项目，布局TGV玻璃基封装等设备", "plates": ["国产芯片"], "limit_up_days": 1, "turnover_ratio": 11.36, "first_limit_up": 1787893216, "break_limit_up_times": 0}, {"code": "600689", "name": "上海三毛", "price": 12.22, "change_pct": 9.99, "reason": "重庆国资委旗下；公司从事的主要业务为进出口贸易、安防服务以及园区物业租赁管理", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 6.41, "first_limit_up": 1787896341, "break_limit_up_times": 1}, {"code": "002279", "name": "久其软件", "price": 7.05, "change_pct": 9.98, "reason": "国内领先的报表管理软件供应商；公司新一代大模型应用管理平台女娲 GPT 是快速集成、开箱即用的平台，提供大模型纳管与调优、智能体智能编排等能力 ，已落地多个智能化场景 ，覆盖内控、财务等核心业务领域", "plates": ["人工智能大模型"], "limit_up_days": 1, "turnover_ratio": 5.84, "first_limit_up": 1787880777, "break_limit_up_times": 0}, {"code": "002918", "name": "蒙娜丽莎", "price": 11.33, "change_pct": 10.0, "reason": "行业陶瓷大板、岩板龙头，公司及子公司近日收到国家知识产权局和美国专利及商标局颁发的3项《发明专利证书》。专利名称分别为“具有防伪视觉效果的陶瓷板及其制备方法”、“一种具有颜色玉石效果的陶瓷岩板及其制备方法”和“一种具有鎏金溢彩黑金脉纹的瓷质仿古砖及其制备方法”。", "plates": ["房地产"], "limit_up_days": 1, "turnover_ratio": 10.9, "first_limit_up": 1787881848, "break_limit_up_times": 2}, {"code": "600691", "name": "潞化科技", "price": 2.94, "change_pct": 10.11, "reason": "公司拥有甲醇设计产能40万吨，生产厂区主要在山东地区", "plates": ["石油化工"], "limit_up_days": 1, "turnover_ratio": 3.41, "first_limit_up": 1787886083, "break_limit_up_times": 1}, {"code": "002855", "name": "捷荣技术", "price": 14.64, "change_pct": 9.99, "reason": "华为Mate XT 2新一代三折叠官宣2026年9月7日首发，公司的客户代工厂家向华为品牌产品提供公司的产品精密结构件", "plates": ["其他"], "limit_up_days": 4, "turnover_ratio": 2.08, "first_limit_up": 1787880300, "break_limit_up_times": 0}, {"code": "300378", "name": "鼎捷数智", "price": 37.45, "change_pct": 19.99, "reason": "公司是国内工业ERP、MES龙头，完成文生图纸、文档解析、语音TTS模型、大模型多级推理性能并发等底层AI算法优化", "plates": ["人工智能大模型"], "limit_up_days": 1, "turnover_ratio": 5.18, "first_limit_up": 1787880624, "break_limit_up_times": 0}, {"code": "600929", "name": "雪天盐业", "price": 6.04, "change_pct": 10.02, "reason": "公司有丰富的盐穴资源，具备储气储能条件", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 1.76, "first_limit_up": 1787880844, "break_limit_up_times": 2}, {"code": "001288", "name": "运机集团", "price": 28.46, "change_pct": 10.01, "reason": "公司专注于输送机械装备领域，具有减速器相关产品：圆锥圆柱齿轮减速器和ZJ轴装式减速器", "plates": ["机器人"], "limit_up_days": 1, "turnover_ratio": 11.04, "first_limit_up": 1787881374, "break_limit_up_times": 4}, {"code": "000626", "name": "远大控股", "price": 9.41, "change_pct": 10.06, "reason": "公司主要从事能源化工、金属、橡胶、白糖等大宗商品贸易以及终端消费品的外贸综合服务业务，自贸区跨境贸易、资源储备政策利好其对俄蒙贸易规模提升", "plates": ["其他"], "limit_up_days": 1, "turnover_ratio": 5.87, "first_limit_up": 1787893782, "break_limit_up_times": 0}, {"code": "605188", "name": "国光连锁", "price": 13.37, "change_pct": 10.04, "reason": "江西省商贸流通行业首家上市企业，主营连锁超市、百货商场的运营业务", "plates": ["大消费"], "limit_up_days": 1, "turnover_ratio": 2.32, "first_limit_up": 1787886864, "break_limit_up_times": 0}, {"code": "000011", "name": "深物业A", "price": 9.15, "change_pct": 9.98, "reason": "深圳国资委控股的深圳投资控股公司旗下；主营房地产开发、房屋租赁、物业管理，餐饮业务和仓储业务", "plates": ["房地产"], "limit_up_days": 1, "turnover_ratio": 2.3, "first_limit_up": 1787883669, "break_limit_up_times": 0}, {"code": "601086", "name": "国芳集团", "price": 8.34, "change_pct": 10.03, "reason": "公司为甘肃省内最大的连锁零售企业", "plates": ["大消费"], "limit_up_days": 1, "turnover_ratio": 2.7, "first_limit_up": 1787881127, "break_limit_up_times": 0}, {"code": "601700", "name": "风范股份", "price": 8.38, "change_pct": 9.97, "reason": "公司中标约1.29亿元南方电网项目", "plates": ["智能电网"], "limit_up_days": 1, "turnover_ratio": 18.01, "first_limit_up": 1787883546, "break_limit_up_times": 0}, {"code": "001376", "name": "百通能源", "price": 11.58, "change_pct": 9.97, "reason": "公司主营以煤炭为燃料的热电联产业务，此前拟4亿美元在安哥拉布局电解铝业务", "plates": ["智能电网"], "limit_up_days": 1, "turnover_ratio": 10.37, "first_limit_up": 1787884143, "break_limit_up_times": 0}, {"code": "000062", "name": "深圳华强", "price": 24.85, "change_pct": 10.0, "reason": "公司是华为海思全系列产品代理商", "plates": ["国产芯片"], "limit_up_days": 1, "turnover_ratio": 5.83, "first_limit_up": 1787886129, "break_limit_up_times": 0}, {"code": "603171", "name": "税友股份", "price": 44.34, "change_pct": 10.0, "reason": "公司与阿里云在AI智能体应用方面保持长期合作，90%以上基础设施使用阿里云，通义千问大模型应用于财税咨询、爱搜税等AI SaaS场景", "plates": ["人工智能大模型"], "limit_up_days": 1, "turnover_ratio": 3.53, "first_limit_up": 1787882592, "break_limit_up_times": 1}, {"code": "605566", "name": "福莱蒽特", "price": 28.51, "change_pct": 9.99, "reason": "1、公司拟出资300万元与钛深科技共设双曲线智能机器人公司，持股30%，切入机器人皮肤及柔性触觉传感赛道；\n2、控股子公司福莱蒽特新能源产品包括POE、EVA太阳能电池封装胶膜；\n3、公司主营业务为分散染料及其滤饼的研产销，主要产品为分散染料，用于涤纶及其混纺织物的染色", "plates": ["机器人"], "limit_up_days": 1, "turnover_ratio": 3.59, "first_limit_up": 1787893683, "break_limit_up_times": 0}, {"code": "000712", "name": "锦龙股份", "price": 11.8, "change_pct": 9.97, "reason": "公司主要经营业务为证券公司业务，持有中山证券67.78%股权", "plates": ["大金融"], "limit_up_days": 3, "turnover_ratio": 1.69, "first_limit_up": 1787880300, "break_limit_up_times": 0}, {"code": "002578", "name": "闽发铝业", "price": 4.33, "change_pct": 9.9, "reason": "1、公司液冷服务器用铝型材已开始小批量供货，正积极推进相关领域的市场拓展与技术优化，稳步提升产品交付能力；\n2、公司位于福建省南安市，为海西板块的铝型材龙头企业，产品可用于新能源汽车，此前与亿维汽车签署战略合作框架协议；\n3、光伏支架和边框等配套产品是公司的主要工业材产品之一", "plates": ["液冷服务器"], "limit_up_days": 1, "turnover_ratio": 7.33, "first_limit_up": 1787885877, "break_limit_up_times": 0}, {"code": "002229", "name": "鸿博股份", "price": 12.29, "change_pct": 10.03, "reason": "1、全资子公司英博数科是北京·AI创新赋能中心的唯一指定运营方，公司与英伟达在包括智算中心、通用技术创新赋能公共服务平台、AI创新孵化加速器等十大领域进行合作；\n2、当地时间3月7日，OpenClaw 创始人在平台X上分享龙虾基准测试排行榜。MiniMax M2.1，成功率93.6%，位居第二；公司全资子公司英博数科近期与AI多模态大模型公司MiniMax达成协议，英博数科为MiniMax提供一定规模的英伟达智算服务器所有的算力和资源以及配套软件、应用以及技术服务", "plates": ["云计算数据中心"], "limit_up_days": 1, "turnover_ratio": 16.43, "first_limit_up": 1787882628, "break_limit_up_times": 1}, {"code": "688209", "name": "英集芯", "price": 29.54, "change_pct": 19.98, "reason": "公司是一家专注于高性能、高品质数模混合芯片设计公司，主营业务为电源管理芯片、快充协议芯片的研发和销售", "plates": ["国产芯片"], "limit_up_days": 1, "turnover_ratio": 13.93, "first_limit_up": 1787897318, "break_limit_up_times": 17}, {"code": "603559", "name": "中通国脉", "price": 9.58, "change_pct": 9.99, "reason": "公司共同持股成立吉林省华君算力科技有限公司，经营范围包含云计算设备销售等", "plates": ["云计算数据中心"], "limit_up_days": 1, "turnover_ratio": 7.03, "first_limit_up": 1787882477, "break_limit_up_times": 2}, {"code": "002349", "name": "精华制药", "price": 7.89, "change_pct": 10.04, "reason": "公司正柴胡饮颗粒近期被国家中医药管理局中医疫病防治专家委员会纳入《新冠病毒感染者居家中医药干预指南》", "plates": ["医药"], "limit_up_days": 1, "turnover_ratio": 5.19, "first_limit_up": 1787883483, "break_limit_up_times": 0}, {"code": "603608", "name": "天创时尚", "price": 19.7, "change_pct": 9.99, "reason": "公司控股股东安徽先睿为轴承企业慈兴集团全资子公司，核心业务为机器人轴承与商业航天轴承两大板块", "plates": ["机器人"], "limit_up_days": 1, "turnover_ratio": 5.82, "first_limit_up": 1787885438, "break_limit_up_times": 0}, {"code": "688152", "name": "麒麟信安", "price": 38.04, "change_pct": 20.0, "reason": "公司以操作系统为根技术，形成了 “操作系统-云计算-信息安全” 产品体系", "plates": ["人工智能大模型"], "limit_up_days": 1, "turnover_ratio": 7.2, "first_limit_up": 1787881193, "break_limit_up_times": 0}, {"code": "600251", "name": "冠农股份", "price": 11.77, "change_pct": 10.0, "reason": "公司通过参股国投新疆罗布泊钾盐有限责任公司布局钾肥及盐湖提锂业务，其拥有硫酸钾产能160万吨/年、硫酸钾镁肥产能10万吨/年", "plates": ["大农业"], "limit_up_days": 1, "turnover_ratio": 8.44, "first_limit_up": 1787895235, "break_limit_up_times": 3}, {"code": "000059", "name": "华锦股份", "price": 5.57, "change_pct": 10.08, "reason": "公司偏三甲苯产能2.8万吨", "plates": ["石油化工"], "limit_up_days": 1, "turnover_ratio": 6.13, "first_limit_up": 1787880786, "break_limit_up_times": 1}, {"code": "605006", "name": "山东玻纤", "price": 15.54, "change_pct": 9.98, "reason": "公司玻纤产能位居全国第四，玻纤纱为电子级玻璃纤维布的生产的原材料", "plates": ["PCB板"], "limit_up_days": 1, "turnover_ratio": 6.38, "first_limit_up": 1787882516, "break_limit_up_times": 2}, {"code": "002165", "name": "红 宝 丽", "price": 8.37, "change_pct": 9.99, "reason": "公司主要从事环氧丙烷衍生品，一异丙醇胺可用于电子化学品之光刻胶清洗剂，也是近年来公司在国内市场重点拓展的应用领域之一", "plates": ["石油化工"], "limit_up_days": 1, "turnover_ratio": 16.57, "first_limit_up": 1787881362, "break_limit_up_times": 1}, {"code": "603007", "name": "顺景科技", "price": 5.37, "change_pct": 10.04, "reason": "全资子公司苏州顺景持股60%设立苏州思凯灵机器人有限公司，主营机器人及惯性测量单元、压力传感器等核心部件，形成“感知-执行-场景”闭环", "plates": ["机器人"], "limit_up_days": 1, "turnover_ratio": 11.29, "first_limit_up": 1787882038, "break_limit_up_times": 3}, {"code": "002084", "name": "海鸥住工", "price": 5.8, "change_pct": 10.06, "reason": "公司主营业务聚焦在卫浴及厨房产品整组龙头及部品部件的制造服务与销售，控股股东拟变更为博泰车联", "plates": ["股权转让"], "limit_up_days": 5, "turnover_ratio": 1.04, "first_limit_up": 1787880300, "break_limit_up_times": 0}, {"code": "600540", "name": "新赛股份", "price": 5.05, "change_pct": 10.02, "reason": "公司农业主要产品为棉籽、葵花籽、菜籽及其他油料作物，立足于新疆棉花产业，聚焦棉业全产业链", "plates": ["大农业"], "limit_up_days": 2, "turnover_ratio": 0.89, "first_limit_up": 1787880301, "break_limit_up_times": 0}, {"code": "002354", "name": "天娱数科", "price": 7.85, "change_pct": 9.94, "reason": "1、公司拥有智者千问、天星、智慧广告三款企业级大模型，推进具身智能平台建设，完成“人形机器人空间6D动捕长程数据”等5个数据集资产登记，积累超120万条3D数据及10万机器人任务训练数据，为相关场景提供解决方案；\n2、参股公司芯明发布自研3D视觉AI模组R216g，内置空间智能芯片提供3.5 TOPS端侧算力，专为人形机器人、灵巧手及协作臂设计", "plates": ["人工智能大模型"], "limit_up_days": 1, "turnover_ratio": 5.63, "first_limit_up": 1787880600, "break_limit_up_times": 0}];
+const RISK_STOCKS = {"688121": "[立案调查] *ST卓然：关于公司立案调查进展暨退市风险提示公告", "002731": "[立案调查] *ST萃华：关于立案调查进展暨未在规定期限内披露定期报告暨股票可能被终止上市的第", "603922": "[立案调查] ST金鸿顺：金鸿顺关于立案调查进展暨风险提示公告", "603199": "[立案调查] 九华旅游：九华旅游关于副总经理被立案审查调查并留置的公告", "301139": "[立案调查] 元道通信：关于立案调查进展暨风险提示的公告", "688496": "[立案调查] 清越科技：清越科技关于立案调查进展暨风险提示公告", "603008": "[立案调查] 喜临门：喜临门健康睡眠科技股份公司关于立案调查进展暨风险提示公告", "524341": "[立案调查] 25蓉环KV2：东方金诚国际信用评估有限公司关于成都环境投资集团有限公司副董事长", "524488": "[立案调查] 25蓉环YK1：东方金诚国际信用评估有限公司关于成都环境投资集团有限公司副董事长", "920305": "[立案调查] [临时公告]*ST云创:关于公司股票可能被终止上市暨立案调查进展的第六次风险提示", "000638": "[立案调查] *ST万方：关于立案调查进展暨风险提示公告", "524256": "[立案调查] 25蓉环G1：关于成都环境投资集团有限公司副董事长、董事会秘书接受立案调查与留置", "524697": "[立案调查] 26蓉环V1：关于成都环境投资集团有限公司副董事长、董事会秘书接受立案调查与留置", "920370": "[立案调查] [临时公告]新安洁:关于董事长被立案调查和留置的公告", "603169": "[立案调查] 兰石重装：兰石重装关于公司副总经理被留置并立案调查的公告", "300391": "[立案调查] *ST长药：关于立案调查进展暨风险提示公告", "300344": "[立案调查] ST立方：关于立案调查事项进展暨风险提示的公告", "600581": "[立案调查] 八一钢铁：八一钢铁关于中国证券监督管理委员会对控股股东立案调查的公告", "603388": "[立案调查] *ST元成：元成环境股份有限公司关于立案调查进展暨风险提示公告", "300379": "[立案调查] *ST东通：关于立案调查进展暨风险提示公告", "688692": "[立案调查] 达梦数据：关于公司董事兼高级副总经理被立案调查的公告", "000851": "[立案调查] *ST高鸿：关于立案调查进展暨风险提示公告", "300900": "[立案调查] 广联航空：中证鹏元关于关注广联航空工业股份有限公司控股股东、实际控制人、董事长被", "300276": "[立案调查] 三丰智能：关于公司董事被立案调查的公告", "600200": "[立案调查] *ST苏吴：江苏吴中医药发展股份有限公司关于立案调查进展暨风险提示公告", "430090": "[立案调查] [临时公告]同辉信息:关于立案调查进展暨风险提示公告", "835305": "[立案调查] [临时公告]*ST云创:关于立案调查进展暨风险提示公告", "300208": "[立案调查] *ST中程：关于公司被立案调查的进展暨风险提示公告", "002072": "[立案调查] 凯瑞德：关于立案调查事项进展暨风险提示的公告", "839680": "[立案调查] [临时公告]*ST广道:关于立案调查进展暨可能触及重大违法强制退市情形的风险提示", "600190": "[立案调查] ST锦港：锦州港股份有限公司关于立案调查进展暨风险提示的公告", "600462": "[立案调查] *ST九有：关于立案调查进展暨风险提示公告", "301117": "[行政处罚事先告知书] 佳缘科技：关于收到《行政处罚事先告知书》的公告", "600080": "[行政处罚事先告知书] ST金花：金花企业（集团）股份有限公司关于公司董事长收到中国证券监督管理委员会陕", "600299": "[行政处罚事先告知书] 安迪苏：安迪苏关于公司副总经理因非本公司事项收到行政处罚事先告知书的公告", "002779": "[行政处罚事先告知书] 中坚科技：关于收到中国证券监督管理委员会浙江监管局行政处罚事先告知书的公告", "300152": "[行政处罚事先告知书] *ST动力：关于公司及相关人员收到河北监管局行政处罚事先告知书的公告", "603773": "[行政处罚事先告知书] 沃格光电：江西沃格光电集团股份有限公司关于控股股东、实际控制人及持股5%以上股东", "002536": "[行政处罚事先告知书] 飞龙股份：关于独立董事因非本公司事项收到《行政处罚事先告知书》的公告", "002108": "[行政处罚事先告知书] 沧州明珠：沧州明珠关于独立董事因非本公司事项收到《行政处罚事先告知书》的公告", "600530": "[行政处罚事先告知书] 交大昂立：关于收到《行政处罚事先告知书》的公告", "600439": "[行政处罚事先告知书] 瑞贝卡：关于收到《行政处罚事先告知书》的公告", "603300": "[行政处罚事先告知书] 海南华铁：浙江海控南科华铁数智科技股份有限公司关于收到《行政处罚事先告知书》的公", "300278": "[行政处罚事先告知书] 华昌达：关于公司董事长因非本公司事项收到《行政处罚事先告知书》的公告", "603717": "[行政处罚事先告知书] 天域生物：关于实际控制人收到中国证券监督管理委员会行政处罚事先告知书的公告", "002528": "[行政处罚事先告知书] *ST英飞：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "000911": "[行政处罚事先告知书] *ST广糖：广西农投糖业集团股份有限公司关于公司及相关当事人收到《行政处罚事先告", "600735": "[行政处罚事先告知书] ST新华锦：新华锦关于收到《行政处罚事先告知书》的公告", "300716": "[行政处罚事先告知书] *ST泉为：关于收到《行政处罚事先告知书》的公告", "002759": "[行政处罚事先告知书] 天际股份：关于收到《行政处罚事先告知书》的公告", "002342": "[行政处罚事先告知书] 巨力索具：关于收到中国证券监督管理委员会河北监管局《行政处罚事先告知书》的公告", "600525": "[行政处罚事先告知书] ST长园：关于收到《行政处罚事先告知书》的公告", "300087": "[行政处罚事先告知书] 荃银高科：关于收到《行政处罚事先告知书》的公告", "688793": "[行政处罚事先告知书] 倍轻松：关于实际控制人收到《行政处罚事先告知书》的公告", "002217": "[行政处罚事先告知书] 合力泰：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "300096": "[行政处罚事先告知书] ST易联众：关于收到《行政处罚事先告知书》的公告", "688189": "[行政处罚事先告知书] 南新制药：关于收到《行政处罚事先告知书》的公告", "300831": "[行政处罚事先告知书] 派瑞股份：关于收到《行政处罚事先告知书》的公告", "002717": "[行政处罚事先告知书] *ST岭南：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "000716": "[行政处罚事先告知书] 黑芝麻：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "603733": "[行政处罚事先告知书] 仙鹤股份：仙鹤股份有限公司关于实际控制人之一收到行政处罚事先告知书的公告", "605199": "[行政处罚事先告知书] ST葫芦娃：葫芦娃关于收到中国证券监督管理委员会海南监管局《行政处罚事先告知书》", "600850": "[行政处罚事先告知书] 电科数字：中电科数字技术股份有限公司关于收到中国证券监督管理委员会上海监管局《行", "300163": "[行政处罚事先告知书] 先锋新材：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "002193": "[行政处罚事先告知书] 如意集团：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "601718": "[行政处罚事先告知书] 际华集团：际华集团关于收到中国证券监督管理委员会行政处罚事先告知书的公告", "000567": "[行政处罚事先告知书] 海德股份：关于公司及相关人员收到《行政处罚事先告知书》的公告", "600157": "[行政处罚事先告知书] 永泰能源：永泰能源集团股份有限公司关于公司实际控制人因非本公司事项收到中国证券监", "300201": "[行政处罚事先告知书] 海伦哲：关于第一大股东之控股股东及其实际控制人因非本公司事项收到《行政处罚事先告", "601212": "[行政处罚事先告知书] 白银有色：白银有色集团股份有限公司关于公司董事长因非本公司事项收到《行政处罚事先", "688270": "[行政处罚事先告知书] 臻镭科技：浙江臻镭科技股份有限公司关于收到《行政处罚事先告知书》的公告", "603377": "[行政处罚事先告知书] ST东时：关于实际控制人收到北京证监局《行政处罚事先告知书》的公告", "300205": "[行政处罚事先告知书] *ST天喻：关于收到中国证券监督管理委员会湖北监管局《行政处罚事先告知书》的公告", "600082": "[行政处罚事先告知书] 海泰发展：天津海泰科技发展股份有限公司关于收到中国证券监督管理委员会天津监管局《", "600599": "[行政处罚事先告知书] *ST熊猫：*ST熊猫关于收到中国证监会湖南监管局《行政处罚事先告知书》的公告", "600759": "[行政处罚事先告知书] 洲际油气：洲际油气股份有限公司关于公司股东收到行政处罚事先告知书的公告", "002598": "[行政处罚事先告知书] 山东章鼓：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "300081": "[行政处罚事先告知书] 恒信东方：关于收到中国证券监督管理委员会北京监管局《行政处罚事先告知书》的公告", "002159": "[行政处罚事先告知书] 三特索道：关于公司及相关责任人收到《行政处罚事先告知书》的公告", "002538": "[行政处罚事先告知书] 司尔特：关于公司及相关当事人收到中国证监会安徽监管局《行政处罚及市场禁入事先告知", "600481": "[行政处罚事先告知书] 双良节能：双良节能系统股份有限公司关于公司及控股股东收到行政处罚事先告知书的公告", "688209": "[行政处罚事先告知书] 英集芯：英集芯关于收到《行政处罚事先告知书》的公告", "300209": "[行政处罚事先告知书] 行云科技：关于股东收到《行政处罚事先告知书》的公告", "603789": "[行政处罚事先告知书] *ST星农：*ST星农关于收到《行政处罚事先告知书》的公告", "300796": "[行政处罚事先告知书] 贝斯美：关于实际控制人收到《行政处罚事先告知书》的公告", "601162": "[行政处罚事先告知书] 天风证券：天风证券股份有限公司关于收到中国证券监督管理委员会福建监管局《行政处罚", "300111": "[行政处罚事先告知书] 向日葵：关于收到《行政处罚事先告知书》的公告", "688575": "[行政处罚事先告知书] 亚辉龙：关于收到行政处罚事先告知书的公告", "603398": "[行政处罚事先告知书] *ST沐邦：江西沐邦高科股份有限公司关于公司及相关当事人收到《行政处罚事先告知书", "600753": "[行政处罚事先告知书] *ST海钦：海钦股份关于收到《行政处罚事先告知书》的公告", "002512": "[行政处罚事先告知书] 达华智能：关于收到中国证券监督管理委员会福建监管局《行政处罚事先告知书》的公告", "688005": "[行政处罚事先告知书] 容百科技：关于收到《行政处罚事先告知书》的公告", "603421": "[行政处罚事先告知书] 鼎信通讯：鼎信通讯关于公司董事兼副总经理收到行政处罚事先告知书的公告", "000821": "[行政处罚事先告知书] 京山轻机：关于收到中国证券监督管理委员会湖北监管局《行政处罚事先告知书》整改情况", "920198": "[行政处罚事先告知书] [临时公告]微创光电:关于公司及相关当事人收到中国证券监督管理委员会湖北监管局行", "688669": "[行政处罚事先告知书] 聚石化学：关于收到《行政处罚事先告知书》的公告", "600107": "[行政处罚事先告知书] ST尔雅：关于公司及相关人员收到《行政处罚事先告知书》的公告", "600338": "[行政处罚事先告知书] 西藏珠峰：关于公司控股股东收到中国证券监督管理委员会行政处罚事先告知书的公告", "002055": "[行政处罚事先告知书] 得润电子：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "920748": "[行政处罚事先告知书] [临时公告]路桥信息:关于公司及相关当事人收到中国证券监督管理委员会厦门监管局行", "300730": "[行政处罚事先告知书] 科创信息：关于收到《行政处罚事先告知书》的公告", "002424": "[行政处罚事先告知书] 贵州百灵：关于公司及相关当事人收到《行政处罚事先告知书》的公告", "300173": "[行政处罚事先告知书] 福能东方：关于收到中国证券监督管理委员会广东监管局《行政处罚事先告知书》的公告", "300594": "[行政处罚事先告知书] 朗进科技：山东朗进科技股份有限公司关于公司及相关当事人收到《行政处罚事先告知书》", "600079": "[行政处罚事先告知书] 人福医药：人福医药关于收到中国证券监督管理委员会湖北监管局《行政处罚事先告知书》", "524097": "[行政处罚事先告知书] 25一创01：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "524313": "[行政处罚事先告知书] 25一创06：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "148847": "[行政处罚事先告知书] 24一创02：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "524098": "[行政处罚事先告知书] 25一创02：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "524171": "[行政处罚事先告知书] 25一创04：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "148471": "[行政处罚事先告知书] 23一创01：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "148575": "[行政处罚事先告知书] 24一创01：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "149612": "[行政处罚事先告知书] 21一创02：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "524486": "[行政处罚事先告知书] 25一创K2：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "002797": "[行政处罚事先告知书] 第一创业：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国证券", "524314": "[行政处罚事先告知书] 25一创K1：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "148014": "[行政处罚事先告知书] 22一创04：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "149767": "[行政处罚事先告知书] 22一创02：东北证券股份有限公司关于第一创业证券股份有限公司全资子公司收到中国", "603822": "[行政处罚事先告知书] 嘉澳环保：关于收到中国证券监督管理委员会浙江监管局《行政处罚事先告知书》的公告", "300460": "[行政处罚事先告知书] 惠伦晶体：关于公司及相关当事人收到《行政处罚事先告知书》的公告"};
